@@ -9,8 +9,6 @@
   const B = window.B || '';
   const D2R = Math.PI / 180;
   const SNAP_MAX = 1500;   // m — ennél messzebb a jelzett úttól nem illesztünk
-  const SPEED = 4;         // km/h sík terepen
-  const CLIMB = 400;       // m/óra emelkedés (menetidő = km/SPEED + szint/CLIMB)
 
   const hav = (a, b) => {
     const dLat = (b[0] - a[0]) * D2R, dLng = (b[1] - a[1]) * D2R;
@@ -493,12 +491,9 @@ ${pts}
     });
     const p = plans[sel];
     const line = L.polyline(p.line, { color: COLORS[sel], weight: 6, opacity: 0.9 }).addTo(routeLayer);
-    const h = (p.len / 1000) / SPEED + (p.up || 0) / CLIMB;
-    let hh = Math.floor(h), mm = Math.round((h - hh) * 60);
-    if (mm === 60) { hh += 1; mm = 0; }
     $('#pres').innerHTML = `
       <div class="popts">${plans.map((q, i) => `<button data-i="${i}" class="${i === sel ? 'on' : ''}" style="--c:${COLORS[i]}">${'ABC'[i]} · ${KV.km(q.len / 1000)} km<small>↗ ${Math.round(q.up || 0)} m</small></button>`).join('')}</div>
-      <div class="pstat"><b>${KV.km(p.len / 1000)} km</b> · <b>↗ ${Math.round(p.up || 0)} m</b> ↘ ${Math.round(p.down || 0)} m · ≈ ${hh} ó ${mm} p${p.reuse < 100 ? ' · <span class="ok">tiszta kör</span>' : ''}</div>
+      <div class="pstat"><b>${KV.km(p.len / 1000)} km</b> · <b>↗ ${Math.round(p.up || 0)} m</b> ↘ ${Math.round(p.down || 0)} m${p.reuse < 100 ? ' · <span class="ok">tiszta kör</span>' : ''}</div>
       <div class="pprof"><svg id="ppsvg" preserveAspectRatio="none"></svg><div class="ppinfo" id="ppinfo"></div></div>
       ${notes(p)}
       <div class="pmarks">${p.runs.map(r => `<span class="run">${markBadge(r.code)}<small>${KV.km(r.len / 1000)}</small></span>`).join('<i>›</i>')}</div>
