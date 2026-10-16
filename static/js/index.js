@@ -11,7 +11,7 @@
   const KM_INF = 110, ASC_INF = 3100, PRICE_INF = 16000;
   const DEF = { when: 'all', from: '', to: '', kmMin: 0, kmMax: KM_INF, ascMax: ASC_INF, round: 'all', aw: [],
     yearly: false, night: 'all', radius: 0, walkin: false, runok: false, huOnly: false, favOnly: false,
-    showCanceled: false, priceMax: PRICE_INF, q: '', sort: 'date', zsolti: false };
+    showCanceled: false, priceMax: PRICE_INF, q: '', sort: 'date', zsolti: false, quick: '' };
   const EUR = 400; // EUR→HUF durva átváltás az árszűrőhöz
 
   let F = load();
@@ -26,6 +26,34 @@
   function loadMe() {
     try { const m = JSON.parse(localStorage.getItem('kv_me') || 'null'); return m && Date.now() - m.t < 6 * 3600e3 ? m.p : null; } catch { return null; }
   }
+
+  // --- látogatás: mi „ÚJ” / „VÁLTOZOTT” a legutóbbi látogatásod óta ----------
+  // Látogatás = 30 percnél hosszabb szünet utáni megnyitás. Első látogatáskor az elmúlt hét számít.
+  const isoLocal = ms => new Date(ms - new Date(ms).getTimezoneOffset() * 60000).toISOString().slice(0, 16);
+  const VISIT = (() => {
+    const now = Date.now();
+    let prev = Number(localStorage.getItem('kv_prevVisit')) || 0;
+    const cur = Number(localStorage.getItem('kv_curVisit')) || 0;
+    if (!cur) prev = now - 7 * 864e5;
+    else if (now - cur > 30 * 60e3) prev = cur;
+    try { localStorage.setItem('kv_prevVisit', prev); localStorage.setItem('kv_curVisit', now); } catch { /* privát mód */ }
+    return isoLocal(prev);
+  })();
+  let LAUNCH = '';   // az első feltöltés ideje (API) — az akkor felkerültek nem „újak”
+  const isNew = e => !!e.fs && e.fs > LAUNCH && e.fs > VISIT;
+  const isChanged = e => !!e.chg && e.chg > VISIT && !isNew(e);
+  const todayIso = () => isoLocal(Date.now()).slice(0, 10);
+  // a legkorábbi, 7 napon belül záruló előnevezési határidő (ha van)
+  function nextDeadline(e) {
+    if (e.status === 'elmarad') return null;
+    const t = todayIso(), lim = isoLocal(Date.now() + 7 * 864e5).slice(0, 10);
+    let best = null;
+    for (const r of e.routes) {
+      if (r.dl && (r.pre === 'kotelezo' || r.pre === 'ajanlott') && r.dl >= t && r.dl <= lim && (!best || r.dl < best)) best = r.dl;
+    }
+    return best;
+  }
+  const dlTxt = dl => { const n = KV.daysUntil(dl); return n <= 0 ? 'ma zárul' : n === 1 ? 'holnap zárul' : `${KV.dateShort(dl).replace(/\.$/, '')}-ig`; };
 
   // --- Zsolti kompatibilitás mód ---------------------------------------------
   // Zsolti minden második hétvégén dolgozik. Viszonyítási pont: 2026-10-17 (szombat)
@@ -93,10 +121,10 @@
     let range = null;
     if (F.when === 'weekend') range = weekendRange();
     const qn = norm(F.q.trim());
-    const out = [];
-    const todayIso = new Date(Date.now() - new Date().getTimezoneOffset() * 60000).toISOString().slice(0, 10);
+    let out = [];
+    const tIso = new Date(Date.now() - new Date().getTimezoneOffset() * 60000).toISOString().slice(0, 10);
     for (const e of EVENTS) {
-      if ((e.end || e.date) < todayIso) continue; // statikus exportnál a lezajlottak kiszűrése
+      if ((e.end || e.date) < tIso) continue; // statikus exportnál a lezajlottak kiszűrése
       if (e.status === 'elmarad' && !F.showCanceled) continue;
       const end = e.end || e.date;
       if (range && (end < range[0] || e.date > range[1])) continue;
@@ -124,6 +152,10 @@
       }
       out.push({ e, hit, dist });
     }
+    // gyorsszűrők (Újdonságok / Zárul az előnevezés) — a számláló a többi szűrő UTÁNI állapotot mutatja
+    QC = { new: out.filter(x => isNew(x.e) || isChanged(x.e)).length, deadline: out.filter(x => nextDeadline(x.e)).length };
+    if (F.quick === 'new') out = out.filter(x => isNew(x.e) || isChanged(x.e));
+    else if (F.quick === 'deadline') out = out.filter(x => nextDeadline(x.e));
     if (F.sort === 'near' && me) out.sort((a, b) => (a.dist ?? 1e9) - (b.dist ?? 1e9));
     else if (F.sort === 'km') out.sort((a, b) => maxKm(b) - maxKm(a) || a.e.date.localeCompare(b.e.date));
     return out;
@@ -133,7 +165,7 @@
   function activeCount() {
     let n = 0;
     for (const k of Object.keys(DEF)) {
-      if (k === 'sort' || k === 'q' || k === 'from' || k === 'to') continue;
+      if (k === 'sort' || k === 'q' || k === 'from' || k === 'to' || k === 'quick') continue;
       const a = F[k], b = DEF[k];
       if (Array.isArray(a) ? a.length : a !== b) n++;
     }
@@ -148,7 +180,8 @@
   KV.baseLayers(map);
   const cluster = L.markerClusterGroup({
     maxClusterRadius: 42, showCoverageOnHover: false, spiderfyOnMaxZoom: true,
-    iconCreateFunction: c => L.divIcon({ html: `<span>${c.getChildCount()}</span>`, className: 'cl', iconSize: [38, 38] }),
+    // narancs pötty a csoporton, ha van benne „ÚJ” túra (különben nagy nagyításig nem látszana)
+    iconCreateFunction: c => L.divIcon({ html: `<span>${c.getChildCount()}</span>${c.getAllChildMarkers().some(m => m.options.isNew) ? '<u></u>' : ''}`, className: 'cl', iconSize: [38, 38] }),
   });
   map.addLayer(cluster);
   let meMarker = null;
@@ -157,7 +190,7 @@
     const b = KV.dateBox(e.date);
     return L.divIcon({
       className: 'pin-wrap',
-      html: `<div class="pin ${KV.soon(e.date)}${e.status === 'elmarad' ? ' canceled' : ''}"><b>${b.d}</b><i>${b.m}</i>${fav ? '<em>★</em>' : ''}</div>`,
+      html: `<div class="pin ${KV.soon(e.date)}${e.status === 'elmarad' ? ' canceled' : ''}"><b>${b.d}</b><i>${b.m}</i>${fav ? '<em>★</em>' : ''}${isNew(e) ? '<u>ÚJ</u>' : ''}</div>`,
       iconSize: [40, 44], iconAnchor: [20, 44],
     });
   }
@@ -173,7 +206,7 @@
         if (!spots.some(p => KV.haversine(p, [r.lat, r.lng]) < 1.5)) spots.push([r.lat, r.lng]);
       });
       for (const p of spots) {
-        const m = L.marker(p, { icon: pinIcon(e, favs.has(e.slug)), keyboard: false });
+        const m = L.marker(p, { icon: pinIcon(e, favs.has(e.slug)), keyboard: false, isNew: isNew(e) });
         m.on('click', () => openPeek(e, hit, p));
         markers.push(m);
       }
@@ -204,14 +237,20 @@
     const meta = [e.region.slice(0, 2).join(', '), KV.countdown(e)];
     // a távolság a sor ELEJÉRE kerül, hogy hosszú tájnévnél se vágódjon le
     const dHtml = dist != null ? `<span class="me-d" title="légvonalban a helyzetedtől"><svg><use href="#i-pin"/></svg>${KV.distTxt(dist)}</span>` : '';
+    const badge = isNew(e) ? '<span class="tag-new">ÚJ</span> '
+      : isChanged(e) ? '<span class="tag-chg">VÁLTOZOTT</span> ' : '';
+    const dl = nextDeadline(e);
+    const extra = (isChanged(e) && e.chn ? `<div class="chgline">↻ ${KV.esc(e.chn)}</div>` : '')
+      + (dl ? `<div class="dlline">⏳ Előnevezés: ${dlTxt(dl)}</div>` : '');
     const multi = e.end && e.end !== e.date ? `<i class="multi">+${KV.daysUntil(e.end) - KV.daysUntil(e.date)}</i>` : '';
     return `<a class="card${e.status === 'elmarad' ? ' canceled' : ''}${inPeek ? ' in-peek' : ''}" href="${window.B}/e/${e.slug}">
       <div class="dbox ${KV.soon(e.date)}"><b>${b.d}</b><span>${b.m}</span><i>${b.w}</i>${multi}</div>
       <div class="cbody">
-        <h4>${e.status === 'elmarad' ? '<span class="tag-x">ELMARAD</span> ' : ''}${KV.esc(e.name)}</h4>
+        <h4>${e.status === 'elmarad' ? '<span class="tag-x">ELMARAD</span> ' : ''}${badge}${KV.esc(e.name)}</h4>
         <div class="meta">${dHtml}${KV.esc(meta.filter(Boolean).join(' · '))}</div>
         <div class="dists">${dists}<small>km</small></div>
         <div class="awline">${KV.awardIcons([...aw])}<span>${KV.esc(e.aws || '')}</span></div>
+        ${extra}
       </div>
       <button class="star${fav ? ' on' : ''}" data-slug="${e.slug}" aria-label="Csillagozás"><svg><use href="#i-star"/></svg></button>
     </a>`;
@@ -244,6 +283,42 @@
     if (F.favOnly) refresh(); else drawMap(lastRows);
   });
 
+  // --- gyorsgombok (térkép + lista) és ★-határidő riasztások -----------------
+  let QC = { new: 0, deadline: 0 };
+  function drawQuick() {
+    const b = (q, label) => (QC[q] || F.quick === q)
+      ? `<button data-q="${q}" class="${F.quick === q ? 'on' : ''}">${label} <b>${QC[q]}</b></button>` : '';
+    const html = b('new', '✨ Újdonságok') + b('deadline', '⏳ Zárul az előnevezés');
+    for (const id of ['#mapChips', '#listChips']) { const el = $(id); if (el) { el.innerHTML = html; el.hidden = !html; } }
+  }
+  document.addEventListener('click', ev => {
+    const b = ev.target.closest('.quick button[data-q]');
+    if (!b) return;
+    F.quick = F.quick === b.dataset.q ? '' : b.dataset.q;
+    refresh();
+  });
+
+  const dismissed = () => { try { return new Set(JSON.parse(localStorage.getItem('kv_alertDismiss') || '[]')); } catch { return new Set(); } };
+  function drawAlerts() {
+    const el = $('#alerts');
+    if (!el) return;
+    const favs = KV.favs(), dis = dismissed();
+    const items = EVENTS.filter(e => favs.has(e.slug)).map(e => [e, nextDeadline(e)])
+      .filter(([e, dl]) => dl && !dis.has(`${e.slug}@${dl}`)).sort((a, b) => a[1].localeCompare(b[1])).slice(0, 2);
+    el.innerHTML = items.map(([e, dl]) => `<div class="alert"><a href="${window.B}/e/${e.slug}">⏳ <b>${KV.esc(e.name)}</b> — előnevezés: ${dlTxt(dl)}</a>`
+      + `<button data-k="${e.slug}@${dl}" aria-label="Elrejtés">×</button></div>`).join('');
+    el.hidden = !items.length;
+    document.body.style.setProperty('--alerts-h', el.hidden ? '0px' : el.offsetHeight + 'px');
+    setTimeout(() => map.invalidateSize(), 0);
+  }
+  on('#alerts', 'click', ev => {
+    const b = ev.target.closest('button[data-k]');
+    if (!b) return;
+    const s = dismissed(); s.add(b.dataset.k);
+    localStorage.setItem('kv_alertDismiss', JSON.stringify([...s]));
+    drawAlerts();
+  });
+
   // --- frissítés -----------------------------------------------------------
   let lastRows = [];
   function refresh() {
@@ -256,6 +331,8 @@
     $('#fbadge').hidden = !ac; $('#fbadge').textContent = ac;
     drawMap(lastRows);
     drawList(lastRows);
+    drawQuick();
+    drawAlerts();
     syncControls();
     syncLocBanner();
   }
@@ -380,6 +457,9 @@
 
   // --- indulás -------------------------------------------------------------
   fetch(`${window.B}/api/events.json`).then(r => r.json()).then(d => {
+    LAUNCH = d.launch || '';
+    const nd = $('#newsDot');
+    if (nd && d.news_latest && d.news_latest > (localStorage.getItem('kv_newsRead') || '')) nd.hidden = false;
     EVENTS = d.events.map(e => Object.assign(e, {
       _q: norm([e.name, e.region.join(' '), e.tags.join(' '), e.routes.map(r => `${r.n} ${r.sn || ''} ${r.fn || ''}`).join(' ')].join(' ')),
     }));

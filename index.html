@@ -11,7 +11,7 @@
   <link rel="manifest" href="/kituzovadasz/static/manifest.webmanifest">
   <link rel="icon" type="image/svg+xml" href="/kituzovadasz/static/img/icon.svg">
   <link rel="apple-touch-icon" href="/kituzovadasz/static/img/icon-192.png">
-  <link rel="stylesheet" href="/kituzovadasz/a/app.1bedc28361.css">
+  <link rel="stylesheet" href="/kituzovadasz/a/app.efbf3a5269.css">
   <script>window.B = "/kituzovadasz";</script>
   
 <link rel="stylesheet" href="/kituzovadasz/static/vendor/leaflet/leaflet.css">
@@ -26,7 +26,12 @@
     <span>Kitűzővadász</span>
   </a>
   <div class="count" id="count" aria-live="polite">…</div>
+  <a class="news-btn" href="/kituzovadasz/hirek" aria-label="Hírek">
+    <svg viewBox="0 0 24 24"><path d="M3 10v4a1 1 0 0 0 1 1h2l5 4V5L6 9H4a1 1 0 0 0-1 1zM15 8.5a5 5 0 0 1 0 7M18 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <i id="newsDot" hidden></i>
+  </a>
 </header>
+<div class="alerts" id="alerts"></div>
 
 <main>
   <section id="view-map" class="view active" aria-label="Térkép">
@@ -34,6 +39,7 @@
     <button class="fab" id="btnLocate" aria-label="Helyzetem">
       <svg viewBox="0 0 24 24" width="22" height="22"><circle cx="12" cy="12" r="3.5" fill="currentColor"/><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
     </button>
+    <div class="map-chips quick" id="mapChips"></div>
     <div class="peek" id="peek" hidden></div>
   </section>
 
@@ -46,6 +52,7 @@
         <option value="km">Táv szerint</option>
       </select>
     </div>
+    <div class="quick list-quick" id="listChips"></div>
     <div class="loc-banner" id="locBanner" hidden>
       <svg class="lb-pin"><use href="#i-pin"/></svg>
       <div><b>Mennyire van messze?</b><br><small>Engedd a helyadatot, és minden túránál látod a távolságot. A helyzeted nem hagyja el a telefonod.</small></div>
@@ -190,7 +197,7 @@
 <script src="/kituzovadasz/static/vendor/leaflet/leaflet.js"></script>
 <script src="/kituzovadasz/static/vendor/markercluster/leaflet.markercluster.js"></script>
 <script src="/kituzovadasz/a/common.4a7abca79e.js"></script>
-<script src="/kituzovadasz/a/index.eeaaa69ed3.js"></script>
+<script src="/kituzovadasz/a/index.5803533e82.js"></script>
 
 </body>
 </html>
