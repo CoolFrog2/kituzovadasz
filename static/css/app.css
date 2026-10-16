@@ -318,3 +318,47 @@ main.ev, main.doc { max-width: 640px; margin: 0 auto; }
 .map-chips::-webkit-scrollbar { display: none; }
 .map-chips button { flex: 0 0 auto; height: 32px; font-size: 13.5px; }
 
+
+/* --- körtúra-tervező --- */
+body.planner-page { padding-bottom: 0; }
+.topbar .beta { font-size: 11px; background: var(--accent); color: #fff; padding: 1px 6px; border-radius: 6px; margin-left: 4px; vertical-align: 2px; }
+main.planner { position: fixed; inset: calc(var(--top) + var(--safe-t)) 0 0 0; }
+#pmap { position: absolute; inset: 0; background: var(--soft); }
+main.planner .fab { bottom: auto; top: 12px; }
+.ppanel { position: absolute; left: 0; right: 0; bottom: 0; z-index: 600; background: var(--card); border-radius: 16px 16px 0 0;
+  box-shadow: 0 -4px 20px rgba(0,0,0,.18); padding: 12px 14px calc(12px + var(--safe-b)); max-height: 58vh; overflow-y: auto; }
+.phint { margin: 0 0 10px; font-size: 14px; color: var(--muted); }
+.phint.err { color: #b42318; font-weight: 600; }
+.prow { display: flex; gap: 10px; align-items: center; }
+.prow .btn { flex: 1; }
+.btn:disabled { opacity: .45; }
+.pkm { display: flex; align-items: center; gap: 4px; background: var(--soft); border-radius: 12px; padding: 3px; }
+.pkm button { width: 40px; height: 40px; border: 0; border-radius: 10px; background: var(--card); font-size: 22px; font-weight: 700; color: var(--brand-2); }
+.pkm div { min-width: 64px; text-align: center; font-size: 14px; color: var(--muted); }
+.pkm b { font-size: 22px; color: var(--ink); font-variant-numeric: tabular-nums; }
+.ppanel input[type=range] { margin-top: 6px; }
+.popts { display: flex; gap: 6px; margin: 10px 0 8px; }
+.popts button { flex: 1; min-height: 40px; padding: 3px 2px; border-radius: 10px; border: 2px solid var(--c); background: none; font-weight: 700; font-size: 14px; line-height: 1.15; }
+.popts button small { display: block; font-size: 11.5px; font-weight: 600; opacity: .85; }
+.popts button.on { background: var(--c); color: #fff; }
+.pstat { font-size: 15px; }
+.pstat small { color: var(--muted); }
+.pstat .warn { color: #a35d00; font-weight: 600; }
+.pmarks { display: flex; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; align-items: center; gap: 4px; margin: 8px 0; padding-bottom: 2px; }
+.pmarks::-webkit-scrollbar { display: none; }
+.pmarks .run { flex: 0 0 auto; }
+.pmarks i { color: var(--muted); font-style: normal; }
+.pmarks .run { display: inline-flex; align-items: center; gap: 3px; padding: 2px 6px; border-radius: 8px; background: var(--soft); }
+.pmarks small { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.mk { display: inline-grid; place-items: center; min-width: 22px; height: 22px; padding: 0 2px; border-radius: 4px; background: #fff; border: 1px solid #ccc; font-size: 15px; font-weight: 800; line-height: 1; }
+.mk-x { font-size: 10px; color: #333; }
+.mk-q { color: #888; }
+.pact { display: flex; gap: 8px; flex-wrap: wrap; }
+.pstat .ok { color: var(--brand-2); font-weight: 650; }
+.pnotes { margin: 6px 0 2px; padding-left: 18px; font-size: 13.5px; color: #8a5300; }
+.pnotes li { margin: 2px 0; }
+@media (prefers-color-scheme: dark) { .pnotes { color: #f0b45a; } }
+.pprof { margin: 8px 0 4px; }
+#ppsvg { width: 100%; height: 84px; display: block; touch-action: none; color: var(--ink); }
+.ppinfo { font-size: 12.5px; color: var(--muted); text-align: center; font-variant-numeric: tabular-nums; }
+.pattr { margin: 8px 0 0; font-size: 11px; color: var(--muted); text-align: center; }
