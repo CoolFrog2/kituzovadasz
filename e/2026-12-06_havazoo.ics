@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2026-12-06_havazoo@kituzovadasz
+DTSTAMP:20261016T162408Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:HavaZOO
+LOCATION:Szépjuhászné\, Gyermekvasút-állomás
+DESCRIPTION:Állatnevű körtúrák a Szépjuhászné Gyermekvasút-állomásról: a Farkas 20 a Nyéki romokon\, az Apáthy-sziklán\, az Árpád-kilátón és a Farkas-torkon át\, az Oroszlán 13 az Oroszlán-sziklán át jár\, a Hangya 3 rövid kör a jelzett utakon. A Sarokkő Egyesület túrája\, előnevezés és szintidő nélkül\, a célban bőséges büfé.\n\nTávok: 3 km\, 13 km\, 20 km\nDíjazás: Minden távon kitűző és oklevél.\nhttps://coolfrog2.github.io/kituzovadasz/e/2026-12-06_havazoo
+END:VEVENT
+END:VCALENDAR

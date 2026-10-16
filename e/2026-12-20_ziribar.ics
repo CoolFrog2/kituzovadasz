@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2026-12-20_ziribar@kituzovadasz
+DTSTAMP:20261016T162409Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Ziribár
+LOCATION:Pilisszántó\, autóbusz-forduló
+DESCRIPTION:Téli napfordulós túra Pilisszántóról: reggel napfelkelte-várás a Boldogasszony-kápolnánál\, majd közös rajttal 20 km-es kör a Szántói-nyergen\, a Hosszú-hegyen\, a Macska-barlangon és a Szent-kúton át. A Dunántúl Kupa (Pest vármegye) része.\n\nTávok: 20\,6 km\nDíjazás: Évente változó kitűző és oklevél.\nhttps://coolfrog2.github.io/kituzovadasz/e/2026-12-20_ziribar
+END:VEVENT
+END:VCALENDAR

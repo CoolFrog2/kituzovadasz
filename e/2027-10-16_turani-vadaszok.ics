@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2027-10-16_turani-vadaszok@kituzovadasz
+DTSTAMP:20261016T162410Z
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
+SUMMARY:Turáni Vadászok
+LOCATION:Budapest\, Aquincum HÉV-megálló
+DESCRIPTION:A→B túra az óbudai Aquincumtól a Turáni Egyisten Hívők templomán\, az Arany-\, Péter- és Róka-hegyen\, majd a Nagy-Kevélyen és a Jenői-falon át Solymárig. A 40-es innen a Solymári váron\, a Hármashatár-hegyen és a Nyéki vadászkastély romjain át Hűvösvölgyig folytatódik\, útközben katonasírokat is érint.\n\nTávok: 20\,8 km\, 38\,9 km\nDíjazás: Mindkét távon kitűző és oklevél.\nhttps://coolfrog2.github.io/kituzovadasz/e/2027-10-16_turani-vadaszok
+END:VEVENT
+END:VCALENDAR

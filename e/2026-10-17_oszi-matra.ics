@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2026-10-17_oszi-matra@kituzovadasz
+DTSTAMP:20261016T162404Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Őszi Mátra
+LOCATION:Mátraszentimre\, általános iskola
+DESCRIPTION:Mátraszentimréről induló teljesítménytúra három\, eltérő nehézségű körpályával (10\, 15\, 20 km)\, amelyek szabadon kombinálhatók 25–45 km-ig\, és a bejárási irány is választható. Jelzett erdei utakon a Felső-Mátra azon részein\, amelyeket a Mátrabérc és a Téli Mátra nem érint\; vonalkódos időméréssel\, csak online nevezéssel.\n\nTávok: 9\,8 km\, 15 km\, 20 km\, 25 km\, 30 km\, 35 km\, 45 km\nDíjazás: Minden teljesítő oklevelet és célajándékot kap\; az évente változó kitűző csak szintidőn belül jár.\nhttps://coolfrog2.github.io/kituzovadasz/e/2026-10-17_oszi-matra
+END:VEVENT
+END:VCALENDAR

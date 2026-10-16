@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2026-12-20_pilisi-napfordulovaro@kituzovadasz
+DTSTAMP:20261016T162409Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Pilisi Napfordulóváró
+LOCATION:Pilisszántó\, Szikla Színház parkolója
+DESCRIPTION:A Stabil Sport téli napfordulós túrája Pilisszántóról: Maratonka (kb. 10 km\, Som-hegy–Szent-kút–Pilisszentkereszt)\, félmaraton (22 km\, Nagy-Kopasz–Piliscsév) és maraton (42 km\, Klastrompusztán és a Pilis-nyergen át). Útközben nincs frissítés\, ellátást csak az előnevezetteknek garantálnak.\n\nTávok: 9\,6 km\, 22\,2 km\, 42\,4 km\nDíjazás: Minden távon kitűző és emléklap.\nhttps://coolfrog2.github.io/kituzovadasz/e/2026-12-20_pilisi-napfordulovaro
+END:VEVENT
+END:VCALENDAR

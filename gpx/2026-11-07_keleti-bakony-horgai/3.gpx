@@ -1,0 +1,2654 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="outdooractive - http://www.outdooractive.com" xmlns="http://www.topografix.com/GPX/1/1" xmlns:oa="http://www.outdooractive.com/GPX/Extensions/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.outdooractive.com/GPX/Extensions/1 https://www.outdooractive.com/schema/gpx_extensions.xsd">
+  <metadata>
+    <name>SZFVÁR_Csór_30_26</name>
+    <author>
+      <name>László Csontos - Közösség</name>
+    </author>
+    <link href="https://www.outdooractive.com/r/355251900"/>
+    <time>2026-10-15T09:21:10.486Z</time>
+    <extensions>
+      <oa:oaCategory>hikingTourTrail</oa:oaCategory>
+    </extensions>
+  </metadata>
+  <trk>
+    <name>SZFVÁR_Csór_30_26</name>
+    <type>hikingTourTrail</type>
+    <trkseg>
+      <trkpt lat="47.195508" lon="18.400918">
+        <ele>108.8604</ele>
+        <name>47.195508,18.400918</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>16</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.195604" lon="18.401327">
+        <ele>109.80179</ele>
+      </trkpt>
+      <trkpt lat="47.196203" lon="18.400991">
+        <ele>110.01873</ele>
+      </trkpt>
+      <trkpt lat="47.196767" lon="18.400545">
+        <ele>109.71723</ele>
+        <name>Ligetsor, Székesfehérvár, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.197189" lon="18.400212">
+        <ele>110.4204</ele>
+      </trkpt>
+      <trkpt lat="47.197225" lon="18.400305">
+        <ele>109.86362</ele>
+      </trkpt>
+      <trkpt lat="47.197715" lon="18.399911">
+        <ele>112.67185</ele>
+      </trkpt>
+      <trkpt lat="47.197752" lon="18.400006">
+        <ele>113.00071</ele>
+      </trkpt>
+      <trkpt lat="47.198889" lon="18.3991">
+        <ele>108.9785</ele>
+      </trkpt>
+      <trkpt lat="47.199179" lon="18.398851">
+        <ele>110.05211</ele>
+      </trkpt>
+      <trkpt lat="47.199469" lon="18.398603">
+        <ele>112.09556</ele>
+      </trkpt>
+      <trkpt lat="47.199758" lon="18.398354">
+        <ele>112.6711</ele>
+      </trkpt>
+      <trkpt lat="47.200121" lon="18.398065">
+        <ele>109.92202</ele>
+      </trkpt>
+      <trkpt lat="47.20037" lon="18.397828">
+        <ele>109.61263</ele>
+      </trkpt>
+      <trkpt lat="47.200277" lon="18.39762">
+        <ele>110.57001</ele>
+      </trkpt>
+      <trkpt lat="47.200712" lon="18.39725">
+        <ele>110.94723</ele>
+        <name>Szedreskerti lakónegyed [B], Székesfehérvár, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.201595" lon="18.396331">
+        <ele>110.14727</ele>
+      </trkpt>
+      <trkpt lat="47.201709" lon="18.396077">
+        <ele>108.67038</ele>
+      </trkpt>
+      <trkpt lat="47.201935" lon="18.395739">
+        <ele>108.01873</ele>
+      </trkpt>
+      <trkpt lat="47.202162" lon="18.395401">
+        <ele>107.84897</ele>
+      </trkpt>
+      <trkpt lat="47.2026" lon="18.394715">
+        <ele>110.04989</ele>
+      </trkpt>
+      <trkpt lat="47.203715" lon="18.392709">
+        <ele>107.97979</ele>
+      </trkpt>
+      <trkpt lat="47.203923" lon="18.392423">
+        <ele>108.11728</ele>
+      </trkpt>
+      <trkpt lat="47.204521" lon="18.391874">
+        <ele>109.19595</ele>
+      </trkpt>
+      <trkpt lat="47.204627" lon="18.391723">
+        <ele>109.65911</ele>
+      </trkpt>
+      <trkpt lat="47.204829" lon="18.39136">
+        <ele>109.95984</ele>
+      </trkpt>
+      <trkpt lat="47.205031" lon="18.390997">
+        <ele>109.63118</ele>
+      </trkpt>
+      <trkpt lat="47.205218" lon="18.390661">
+        <ele>109.81663</ele>
+        <name>Kereszttöltés út, Székesfehérvár, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.205038" lon="18.390455">
+        <ele>109.3511</ele>
+      </trkpt>
+      <trkpt lat="47.204735" lon="18.390214">
+        <ele>110.25095</ele>
+      </trkpt>
+      <trkpt lat="47.204432" lon="18.389973">
+        <ele>111.04273</ele>
+      </trkpt>
+      <trkpt lat="47.204129" lon="18.389732">
+        <ele>111.01652</ele>
+      </trkpt>
+      <trkpt lat="47.203826" lon="18.389491">
+        <ele>110.14778</ele>
+      </trkpt>
+      <trkpt lat="47.203784" lon="18.389438">
+        <ele>110.03007</ele>
+      </trkpt>
+      <trkpt lat="47.203551" lon="18.389703">
+        <ele>110.83043</ele>
+      </trkpt>
+      <trkpt lat="47.203481" lon="18.389546">
+        <ele>110.07658</ele>
+      </trkpt>
+      <trkpt lat="47.203834" lon="18.388482">
+        <ele>110.05504</ele>
+      </trkpt>
+      <trkpt lat="47.203836" lon="18.388003">
+        <ele>109.16824</ele>
+      </trkpt>
+      <trkpt lat="47.203838" lon="18.387523">
+        <ele>111.21207</ele>
+      </trkpt>
+      <trkpt lat="47.203843" lon="18.386982">
+        <ele>112.22753</ele>
+      </trkpt>
+      <trkpt lat="47.203848" lon="18.386442">
+        <ele>109.37571</ele>
+      </trkpt>
+      <trkpt lat="47.203854" lon="18.386073">
+        <ele>109.22551</ele>
+      </trkpt>
+      <trkpt lat="47.203751" lon="18.38562">
+        <ele>111.90513</ele>
+      </trkpt>
+      <trkpt lat="47.203835" lon="18.384771">
+        <ele>110.14629</ele>
+      </trkpt>
+      <trkpt lat="47.203917" lon="18.384474">
+        <ele>110.03303</ele>
+      </trkpt>
+      <trkpt lat="47.204219" lon="18.383992">
+        <ele>109.25335</ele>
+      </trkpt>
+      <trkpt lat="47.20445" lon="18.383797">
+        <ele>109.7197</ele>
+      </trkpt>
+      <trkpt lat="47.204774" lon="18.383601">
+        <ele>110.07724</ele>
+      </trkpt>
+      <trkpt lat="47.205098" lon="18.383405">
+        <ele>109.92595</ele>
+      </trkpt>
+      <trkpt lat="47.205286" lon="18.383266">
+        <ele>110.07052</ele>
+      </trkpt>
+      <trkpt lat="47.20576" lon="18.382677">
+        <ele>109.10996</ele>
+      </trkpt>
+      <trkpt lat="47.206011" lon="18.382204">
+        <ele>109.29341</ele>
+      </trkpt>
+      <trkpt lat="47.20679" lon="18.380227">
+        <ele>109.36807</ele>
+      </trkpt>
+      <trkpt lat="47.207008" lon="18.379504">
+        <ele>110.07834</ele>
+      </trkpt>
+      <trkpt lat="47.207163" lon="18.378988">
+        <ele>108.76844</ele>
+      </trkpt>
+      <trkpt lat="47.207319" lon="18.378473">
+        <ele>109.32172</ele>
+      </trkpt>
+      <trkpt lat="47.207475" lon="18.377957">
+        <ele>111.02263</ele>
+      </trkpt>
+      <trkpt lat="47.207631" lon="18.377442">
+        <ele>110.49254</ele>
+      </trkpt>
+      <trkpt lat="47.207897" lon="18.376351">
+        <ele>108.32159</ele>
+      </trkpt>
+      <trkpt lat="47.207992" lon="18.375892">
+        <ele>108.95156</ele>
+      </trkpt>
+      <trkpt lat="47.208086" lon="18.375434">
+        <ele>108.96852</ele>
+      </trkpt>
+      <trkpt lat="47.208205" lon="18.374862">
+        <ele>107.83581</ele>
+      </trkpt>
+      <trkpt lat="47.208353" lon="18.374146">
+        <ele>108.071</ele>
+      </trkpt>
+      <trkpt lat="47.208476" lon="18.373554">
+        <ele>110.58274</ele>
+      </trkpt>
+      <trkpt lat="47.208599" lon="18.372962">
+        <ele>109.3475</ele>
+      </trkpt>
+      <trkpt lat="47.208721" lon="18.37237">
+        <ele>107.17052</ele>
+      </trkpt>
+      <trkpt lat="47.208844" lon="18.371778">
+        <ele>109.40589</ele>
+      </trkpt>
+      <trkpt lat="47.208955" lon="18.371292">
+        <ele>110.26607</ele>
+      </trkpt>
+      <trkpt lat="47.209067" lon="18.370806">
+        <ele>109.85393</ele>
+      </trkpt>
+      <trkpt lat="47.209178" lon="18.37032">
+        <ele>108.93481</ele>
+      </trkpt>
+      <trkpt lat="47.209301" lon="18.36978">
+        <ele>110.44672</ele>
+      </trkpt>
+      <trkpt lat="47.209425" lon="18.36924">
+        <ele>109.2712</ele>
+      </trkpt>
+      <trkpt lat="47.209517" lon="18.368823">
+        <ele>109.16889</ele>
+        <name>801, Székesfehérvár, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.209718" lon="18.368788">
+        <ele>109.32391</ele>
+      </trkpt>
+      <trkpt lat="47.210711" lon="18.367582">
+        <ele>112.76078</ele>
+      </trkpt>
+      <trkpt lat="47.210955" lon="18.367267">
+        <ele>111.10107</ele>
+      </trkpt>
+      <trkpt lat="47.21119" lon="18.366957">
+        <ele>110.13696</ele>
+      </trkpt>
+      <trkpt lat="47.211658" lon="18.366335">
+        <ele>110.75012</ele>
+      </trkpt>
+      <trkpt lat="47.211915" lon="18.365965">
+        <ele>110.2344</ele>
+      </trkpt>
+      <trkpt lat="47.212171" lon="18.365595">
+        <ele>110.94041</ele>
+      </trkpt>
+      <trkpt lat="47.212411" lon="18.365264">
+        <ele>111.03601</ele>
+      </trkpt>
+      <trkpt lat="47.212651" lon="18.364934">
+        <ele>110.77425</ele>
+      </trkpt>
+      <trkpt lat="47.212891" lon="18.364603">
+        <ele>109.50013</ele>
+      </trkpt>
+      <trkpt lat="47.213368" lon="18.36402">
+        <ele>113.27303</ele>
+      </trkpt>
+      <trkpt lat="47.213619" lon="18.363711">
+        <ele>113.30139</ele>
+      </trkpt>
+      <trkpt lat="47.213871" lon="18.363402">
+        <ele>113.16682</ele>
+      </trkpt>
+      <trkpt lat="47.214211" lon="18.362972">
+        <ele>114.16368</ele>
+      </trkpt>
+      <trkpt lat="47.214551" lon="18.362542">
+        <ele>115.43394</ele>
+      </trkpt>
+      <trkpt lat="47.214891" lon="18.362113">
+        <ele>116.12346</ele>
+      </trkpt>
+      <trkpt lat="47.215232" lon="18.361683">
+        <ele>116.27854</ele>
+      </trkpt>
+      <trkpt lat="47.215572" lon="18.361253">
+        <ele>112.87129</ele>
+      </trkpt>
+      <trkpt lat="47.215823" lon="18.360916">
+        <ele>111.76462</ele>
+      </trkpt>
+      <trkpt lat="47.216075" lon="18.360579">
+        <ele>111.89265</ele>
+      </trkpt>
+      <trkpt lat="47.216327" lon="18.360242">
+        <ele>112.73293</ele>
+      </trkpt>
+      <trkpt lat="47.216611" lon="18.359871">
+        <ele>112.49848</ele>
+      </trkpt>
+      <trkpt lat="47.216895" lon="18.3595">
+        <ele>112.56167</ele>
+      </trkpt>
+      <trkpt lat="47.217179" lon="18.359129">
+        <ele>115.47461</ele>
+      </trkpt>
+      <trkpt lat="47.217462" lon="18.358758">
+        <ele>114.86264</ele>
+      </trkpt>
+      <trkpt lat="47.217746" lon="18.358387">
+        <ele>114.00866</ele>
+      </trkpt>
+      <trkpt lat="47.217862" lon="18.358212">
+        <ele>114.04519</ele>
+      </trkpt>
+      <trkpt lat="47.218172" lon="18.357827">
+        <ele>115.09406</ele>
+      </trkpt>
+      <trkpt lat="47.218482" lon="18.357441">
+        <ele>114.39003</ele>
+      </trkpt>
+      <trkpt lat="47.218791" lon="18.357055">
+        <ele>114.10174</ele>
+      </trkpt>
+      <trkpt lat="47.219101" lon="18.356669">
+        <ele>113.81214</ele>
+      </trkpt>
+      <trkpt lat="47.219411" lon="18.356283">
+        <ele>113.6839</ele>
+      </trkpt>
+      <trkpt lat="47.21972" lon="18.355897">
+        <ele>113.79029</ele>
+      </trkpt>
+      <trkpt lat="47.219984" lon="18.355553">
+        <ele>114.9428</ele>
+      </trkpt>
+      <trkpt lat="47.220248" lon="18.355209">
+        <ele>115.92015</ele>
+      </trkpt>
+      <trkpt lat="47.220512" lon="18.354865">
+        <ele>115.44063</ele>
+      </trkpt>
+      <trkpt lat="47.220776" lon="18.354522">
+        <ele>116.40815</ele>
+      </trkpt>
+      <trkpt lat="47.221047" lon="18.354121">
+        <ele>118.17028</ele>
+      </trkpt>
+      <trkpt lat="47.221317" lon="18.353721">
+        <ele>116.60427</ele>
+      </trkpt>
+      <trkpt lat="47.221524" lon="18.353926">
+        <ele>118.34545</ele>
+      </trkpt>
+      <trkpt lat="47.221792" lon="18.354342">
+        <ele>120.35844</ele>
+      </trkpt>
+      <trkpt lat="47.22206" lon="18.354757">
+        <ele>118.67536</ele>
+      </trkpt>
+      <trkpt lat="47.222327" lon="18.355173">
+        <ele>118.26695</ele>
+      </trkpt>
+      <trkpt lat="47.222595" lon="18.355588">
+        <ele>120.01675</ele>
+      </trkpt>
+      <trkpt lat="47.222863" lon="18.356004">
+        <ele>119.68497</ele>
+      </trkpt>
+      <trkpt lat="47.223225" lon="18.356649">
+        <ele>116.73954</ele>
+      </trkpt>
+      <trkpt lat="47.223463" lon="18.356412">
+        <ele>116.96312</ele>
+      </trkpt>
+      <trkpt lat="47.223791" lon="18.356092">
+        <ele>116.80502</ele>
+      </trkpt>
+      <trkpt lat="47.224118" lon="18.355772">
+        <ele>117.43437</ele>
+      </trkpt>
+      <trkpt lat="47.224446" lon="18.355451">
+        <ele>118.41816</ele>
+      </trkpt>
+      <trkpt lat="47.224774" lon="18.355131">
+        <ele>118.93664</ele>
+      </trkpt>
+      <trkpt lat="47.225101" lon="18.35481">
+        <ele>115.51219</ele>
+      </trkpt>
+      <trkpt lat="47.225305" lon="18.354521">
+        <ele>113.85334</ele>
+      </trkpt>
+      <trkpt lat="47.225559" lon="18.354347">
+        <ele>113.31</ele>
+      </trkpt>
+      <trkpt lat="47.225832" lon="18.354087">
+        <ele>113.48724</ele>
+      </trkpt>
+      <trkpt lat="47.226105" lon="18.353828">
+        <ele>114.22866</ele>
+      </trkpt>
+      <trkpt lat="47.226378" lon="18.353568">
+        <ele>115.16475</ele>
+      </trkpt>
+      <trkpt lat="47.226792" lon="18.353098">
+        <ele>115.66736</ele>
+      </trkpt>
+      <trkpt lat="47.227185" lon="18.352805">
+        <ele>114.14503</ele>
+      </trkpt>
+      <trkpt lat="47.227506" lon="18.352495">
+        <ele>113.00106</ele>
+      </trkpt>
+      <trkpt lat="47.227828" lon="18.352186">
+        <ele>114.20244</ele>
+      </trkpt>
+      <trkpt lat="47.22815" lon="18.351876">
+        <ele>114.84423</ele>
+      </trkpt>
+      <trkpt lat="47.228471" lon="18.351566">
+        <ele>114.90703</ele>
+      </trkpt>
+      <trkpt lat="47.228793" lon="18.351257">
+        <ele>116.81191</ele>
+      </trkpt>
+      <trkpt lat="47.229115" lon="18.350947">
+        <ele>117.70205</ele>
+      </trkpt>
+      <trkpt lat="47.229481" lon="18.350602">
+        <ele>117.06705</ele>
+      </trkpt>
+      <trkpt lat="47.229847" lon="18.350258">
+        <ele>116.3763</ele>
+      </trkpt>
+      <trkpt lat="47.230213" lon="18.349913">
+        <ele>116.89622</ele>
+      </trkpt>
+      <trkpt lat="47.230579" lon="18.349569">
+        <ele>115.95381</ele>
+      </trkpt>
+      <trkpt lat="47.230945" lon="18.349224">
+        <ele>113.85661</ele>
+      </trkpt>
+      <trkpt lat="47.231523" lon="18.348947">
+        <ele>115.06453</ele>
+      </trkpt>
+      <trkpt lat="47.231921" lon="18.348808">
+        <ele>114.9964</ele>
+      </trkpt>
+      <trkpt lat="47.232319" lon="18.34867">
+        <ele>116.74193</ele>
+      </trkpt>
+      <trkpt lat="47.232717" lon="18.348531">
+        <ele>118.71597</ele>
+      </trkpt>
+      <trkpt lat="47.233116" lon="18.348393">
+        <ele>117.95175</ele>
+      </trkpt>
+      <trkpt lat="47.233514" lon="18.348254">
+        <ele>115.59191</ele>
+      </trkpt>
+      <trkpt lat="47.233912" lon="18.348116">
+        <ele>116.30228</ele>
+      </trkpt>
+      <trkpt lat="47.234357" lon="18.347901">
+        <ele>118.06483</ele>
+      </trkpt>
+      <trkpt lat="47.23454" lon="18.347724">
+        <ele>117.381</ele>
+      </trkpt>
+      <trkpt lat="47.235278" lon="18.346935">
+        <ele>116.98332</ele>
+      </trkpt>
+      <trkpt lat="47.235514" lon="18.346624">
+        <ele>116.79775</ele>
+      </trkpt>
+      <trkpt lat="47.23575" lon="18.346312">
+        <ele>115.86687</ele>
+      </trkpt>
+      <trkpt lat="47.236002" lon="18.345933">
+        <ele>117.59172</ele>
+      </trkpt>
+      <trkpt lat="47.236253" lon="18.345555">
+        <ele>117.6349</ele>
+      </trkpt>
+      <trkpt lat="47.236504" lon="18.345176">
+        <ele>118.74393</ele>
+      </trkpt>
+      <trkpt lat="47.236756" lon="18.344797">
+        <ele>120.47754</ele>
+      </trkpt>
+      <trkpt lat="47.237027" lon="18.344432">
+        <ele>118.38019</ele>
+      </trkpt>
+      <trkpt lat="47.237298" lon="18.344066">
+        <ele>115.90042</ele>
+      </trkpt>
+      <trkpt lat="47.237567" lon="18.343566">
+        <ele>116.0726</ele>
+      </trkpt>
+      <trkpt lat="47.237837" lon="18.343067">
+        <ele>117.2491</ele>
+      </trkpt>
+      <trkpt lat="47.238106" lon="18.342567">
+        <ele>117.28213</ele>
+      </trkpt>
+      <trkpt lat="47.238376" lon="18.342067">
+        <ele>117.16948</ele>
+      </trkpt>
+      <trkpt lat="47.238533" lon="18.341714">
+        <ele>118.92244</ele>
+      </trkpt>
+      <trkpt lat="47.238778" lon="18.341313">
+        <ele>117.95994</ele>
+      </trkpt>
+      <trkpt lat="47.239023" lon="18.340912">
+        <ele>117.91753</ele>
+      </trkpt>
+      <trkpt lat="47.239267" lon="18.340511">
+        <ele>119.51733</ele>
+      </trkpt>
+      <trkpt lat="47.239532" lon="18.340233">
+        <ele>120.16308</ele>
+      </trkpt>
+      <trkpt lat="47.239813" lon="18.339864">
+        <ele>119.74549</ele>
+      </trkpt>
+      <trkpt lat="47.240095" lon="18.339496">
+        <ele>118.92627</ele>
+      </trkpt>
+      <trkpt lat="47.240562" lon="18.338884">
+        <ele>118.9999</ele>
+      </trkpt>
+      <trkpt lat="47.240828" lon="18.338527">
+        <ele>118.99949</ele>
+      </trkpt>
+      <trkpt lat="47.241094" lon="18.338169">
+        <ele>118.99892</ele>
+      </trkpt>
+      <trkpt lat="47.24136" lon="18.337812">
+        <ele>118.96205</ele>
+      </trkpt>
+      <trkpt lat="47.241626" lon="18.337455">
+        <ele>119.89814</ele>
+      </trkpt>
+      <trkpt lat="47.24242" lon="18.336546">
+        <ele>119.99555</ele>
+      </trkpt>
+      <trkpt lat="47.242652" lon="18.336071">
+        <ele>121.27047</ele>
+      </trkpt>
+      <trkpt lat="47.242884" lon="18.335596">
+        <ele>123.04678</ele>
+      </trkpt>
+      <trkpt lat="47.243115" lon="18.335121">
+        <ele>121.83514</ele>
+      </trkpt>
+      <trkpt lat="47.243341" lon="18.334711">
+        <ele>121.00905</ele>
+      </trkpt>
+      <trkpt lat="47.243567" lon="18.334302">
+        <ele>121.5471</ele>
+      </trkpt>
+      <trkpt lat="47.243793" lon="18.333892">
+        <ele>121.92212</ele>
+      </trkpt>
+      <trkpt lat="47.243952" lon="18.333676">
+        <ele>122.94756</ele>
+      </trkpt>
+      <trkpt lat="47.244116" lon="18.33307">
+        <ele>124.10467</ele>
+        <name>Kisboldogasszony-templom, Moha, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.244222" lon="18.332787">
+        <ele>123.87794</ele>
+      </trkpt>
+      <trkpt lat="47.244387" lon="18.332344">
+        <ele>122.59457</ele>
+      </trkpt>
+      <trkpt lat="47.244553" lon="18.3319">
+        <ele>122.64837</ele>
+      </trkpt>
+      <trkpt lat="47.244838" lon="18.331141">
+        <ele>124.02812</ele>
+      </trkpt>
+      <trkpt lat="47.245213" lon="18.33024">
+        <ele>122.18868</ele>
+      </trkpt>
+      <trkpt lat="47.245292" lon="18.329836">
+        <ele>121.53752</ele>
+      </trkpt>
+      <trkpt lat="47.245627" lon="18.329036">
+        <ele>122.17884</ele>
+      </trkpt>
+      <trkpt lat="47.246024" lon="18.328332">
+        <ele>122.63255</ele>
+      </trkpt>
+      <trkpt lat="47.246295" lon="18.32778">
+        <ele>121.89953</ele>
+      </trkpt>
+      <trkpt lat="47.246475" lon="18.327132">
+        <ele>120.53083</ele>
+      </trkpt>
+      <trkpt lat="47.246586" lon="18.326664">
+        <ele>119.63865</ele>
+      </trkpt>
+      <trkpt lat="47.246697" lon="18.326195">
+        <ele>119.51268</ele>
+      </trkpt>
+      <trkpt lat="47.246807" lon="18.325727">
+        <ele>120.97173</ele>
+      </trkpt>
+      <trkpt lat="47.246918" lon="18.325259">
+        <ele>123.13834</ele>
+      </trkpt>
+      <trkpt lat="47.246996" lon="18.324962">
+        <ele>122.90262</ele>
+      </trkpt>
+      <trkpt lat="47.247057" lon="18.324654">
+        <ele>122.77375</ele>
+      </trkpt>
+      <trkpt lat="47.247156" lon="18.324339">
+        <ele>122.57981</ele>
+      </trkpt>
+      <trkpt lat="47.24759" lon="18.323612">
+        <ele>122.42335</ele>
+      </trkpt>
+      <trkpt lat="47.247789" lon="18.323471">
+        <ele>120.98915</ele>
+      </trkpt>
+      <trkpt lat="47.247846" lon="18.323082">
+        <ele>120.75635</ele>
+      </trkpt>
+      <trkpt lat="47.248123" lon="18.321814">
+        <ele>117.70841</ele>
+      </trkpt>
+      <trkpt lat="47.248199" lon="18.321225">
+        <ele>117.64297</ele>
+      </trkpt>
+      <trkpt lat="47.248276" lon="18.320637">
+        <ele>118.96927</ele>
+      </trkpt>
+      <trkpt lat="47.248341" lon="18.320159">
+        <ele>119.98561</ele>
+      </trkpt>
+      <trkpt lat="47.248406" lon="18.31968">
+        <ele>120.93128</ele>
+      </trkpt>
+      <trkpt lat="47.248512" lon="18.31894">
+        <ele>119.34062</ele>
+      </trkpt>
+      <trkpt lat="47.248584" lon="18.31875">
+        <ele>118.58507</ele>
+      </trkpt>
+      <trkpt lat="47.248567" lon="18.318578">
+        <ele>118.03109</ele>
+      </trkpt>
+      <trkpt lat="47.248595" lon="18.318125">
+        <ele>116.91796</ele>
+      </trkpt>
+      <trkpt lat="47.24865" lon="18.317514">
+        <ele>119.05004</ele>
+      </trkpt>
+      <trkpt lat="47.248784" lon="18.316935">
+        <ele>119.5713</ele>
+      </trkpt>
+      <trkpt lat="47.249016" lon="18.316356">
+        <ele>118.47593</ele>
+      </trkpt>
+      <trkpt lat="47.249228" lon="18.315871">
+        <ele>116.75004</ele>
+      </trkpt>
+      <trkpt lat="47.24945" lon="18.315421">
+        <ele>118.89758</ele>
+      </trkpt>
+      <trkpt lat="47.249673" lon="18.31497">
+        <ele>122.06213</ele>
+      </trkpt>
+      <trkpt lat="47.249895" lon="18.31452">
+        <ele>120.53274</ele>
+      </trkpt>
+      <trkpt lat="47.250115" lon="18.314138">
+        <ele>120.55241</ele>
+      </trkpt>
+      <trkpt lat="47.250335" lon="18.313756">
+        <ele>122.80264</ele>
+      </trkpt>
+      <trkpt lat="47.250554" lon="18.313374">
+        <ele>124.02362</ele>
+      </trkpt>
+      <trkpt lat="47.250774" lon="18.312992">
+        <ele>122.39654</ele>
+      </trkpt>
+      <trkpt lat="47.250984" lon="18.312599">
+        <ele>120.71661</ele>
+      </trkpt>
+      <trkpt lat="47.251195" lon="18.312206">
+        <ele>121.33846</ele>
+      </trkpt>
+      <trkpt lat="47.251456" lon="18.311692">
+        <ele>123.73454</ele>
+      </trkpt>
+      <trkpt lat="47.251717" lon="18.311178">
+        <ele>122.701</ele>
+      </trkpt>
+      <trkpt lat="47.25184" lon="18.310969">
+        <ele>121.70272</ele>
+      </trkpt>
+      <trkpt lat="47.252102" lon="18.310599">
+        <ele>120.83244</ele>
+      </trkpt>
+      <trkpt lat="47.252364" lon="18.310228">
+        <ele>118.7754</ele>
+      </trkpt>
+      <trkpt lat="47.252644" lon="18.309765">
+        <ele>119.16645</ele>
+      </trkpt>
+      <trkpt lat="47.252925" lon="18.309302">
+        <ele>121.53159</ele>
+      </trkpt>
+      <trkpt lat="47.253205" lon="18.308925">
+        <ele>122.43021</ele>
+      </trkpt>
+      <trkpt lat="47.253486" lon="18.308549">
+        <ele>123.53863</ele>
+      </trkpt>
+      <trkpt lat="47.254258" lon="18.307682">
+        <ele>123.48357</ele>
+      </trkpt>
+      <trkpt lat="47.254608" lon="18.307368">
+        <ele>125.41171</ele>
+      </trkpt>
+      <trkpt lat="47.254661" lon="18.307257">
+        <ele>125.99364</ele>
+      </trkpt>
+      <trkpt lat="47.254564" lon="18.307087">
+        <ele>127.89102</ele>
+      </trkpt>
+      <trkpt lat="47.254444" lon="18.307086">
+        <ele>128.10216</ele>
+      </trkpt>
+      <trkpt lat="47.253904" lon="18.307739">
+        <ele>122.09847</ele>
+      </trkpt>
+      <trkpt lat="47.253793" lon="18.307798">
+        <ele>122.17817</ele>
+      </trkpt>
+      <trkpt lat="47.25348" lon="18.308027">
+        <ele>123.53039</ele>
+      </trkpt>
+      <trkpt lat="47.253166" lon="18.308256">
+        <ele>124.09106</ele>
+      </trkpt>
+      <trkpt lat="47.252806" lon="18.308594">
+        <ele>123.05845</ele>
+      </trkpt>
+      <trkpt lat="47.252573" lon="18.308658">
+        <ele>122.83655</ele>
+      </trkpt>
+      <trkpt lat="47.252407" lon="18.308532">
+        <ele>123.29747</ele>
+      </trkpt>
+      <trkpt lat="47.252293" lon="18.308276">
+        <ele>123.41875</ele>
+      </trkpt>
+      <trkpt lat="47.252118" lon="18.307816">
+        <ele>123.82241</ele>
+      </trkpt>
+      <trkpt lat="47.251943" lon="18.307356">
+        <ele>127.10306</ele>
+      </trkpt>
+      <trkpt lat="47.251382" lon="18.306276">
+        <ele>131.36433</ele>
+      </trkpt>
+      <trkpt lat="47.251153" lon="18.305916">
+        <ele>133.44967</ele>
+      </trkpt>
+      <trkpt lat="47.250836" lon="18.30621">
+        <ele>133.28588</ele>
+      </trkpt>
+      <trkpt lat="47.250506" lon="18.306259">
+        <ele>132.45506</ele>
+      </trkpt>
+      <trkpt lat="47.250243" lon="18.306378">
+        <ele>132.3362</ele>
+      </trkpt>
+      <trkpt lat="47.249888" lon="18.306446">
+        <ele>133.74954</ele>
+      </trkpt>
+      <trkpt lat="47.249268" lon="18.306428">
+        <ele>132.26007</ele>
+      </trkpt>
+      <trkpt lat="47.249043" lon="18.306844">
+        <ele>130.35363</ele>
+      </trkpt>
+      <trkpt lat="47.248892" lon="18.306858">
+        <ele>130.25009</ele>
+      </trkpt>
+      <trkpt lat="47.248" lon="18.305511">
+        <ele>133.98029</ele>
+      </trkpt>
+      <trkpt lat="47.247432" lon="18.304074">
+        <ele>130.79488</ele>
+      </trkpt>
+      <trkpt lat="47.247144" lon="18.303653">
+        <ele>130.20951</ele>
+      </trkpt>
+      <trkpt lat="47.246864" lon="18.303476">
+        <ele>129.75263</ele>
+      </trkpt>
+      <trkpt lat="47.246289" lon="18.303503">
+        <ele>128.10175</ele>
+      </trkpt>
+      <trkpt lat="47.245638" lon="18.303155">
+        <ele>126.82083</ele>
+      </trkpt>
+      <trkpt lat="47.245368" lon="18.302379">
+        <ele>130.24705</ele>
+      </trkpt>
+      <trkpt lat="47.244897" lon="18.302176">
+        <ele>131.90023</ele>
+      </trkpt>
+      <trkpt lat="47.244562" lon="18.301784">
+        <ele>130.23679</ele>
+      </trkpt>
+      <trkpt lat="47.244227" lon="18.301392">
+        <ele>130.23931</ele>
+      </trkpt>
+      <trkpt lat="47.243892" lon="18.300999">
+        <ele>128.39343</ele>
+      </trkpt>
+      <trkpt lat="47.243557" lon="18.300607">
+        <ele>128.66566</ele>
+      </trkpt>
+      <trkpt lat="47.242957" lon="18.299539">
+        <ele>131.43624</ele>
+      </trkpt>
+      <trkpt lat="47.243306" lon="18.299071">
+        <ele>133.35178</ele>
+      </trkpt>
+      <trkpt lat="47.243324" lon="18.29891">
+        <ele>134.77551</ele>
+      </trkpt>
+      <trkpt lat="47.24331" lon="18.298467">
+        <ele>137.31483</ele>
+      </trkpt>
+      <trkpt lat="47.243059" lon="18.297411">
+        <ele>141.36086</ele>
+      </trkpt>
+      <trkpt lat="47.243137" lon="18.296884">
+        <ele>144.23939</ele>
+      </trkpt>
+      <trkpt lat="47.243442" lon="18.296279">
+        <ele>149.1531</ele>
+      </trkpt>
+      <trkpt lat="47.24325" lon="18.295215">
+        <ele>144.90699</ele>
+        <name>Dózsa György utca, Iszkaszentgyörgy, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.24315" lon="18.294627">
+        <ele>144.49105</ele>
+      </trkpt>
+      <trkpt lat="47.243171" lon="18.294006">
+        <ele>146.47026</ele>
+      </trkpt>
+      <trkpt lat="47.242742" lon="18.293228">
+        <ele>149.98232</ele>
+      </trkpt>
+      <trkpt lat="47.242711" lon="18.293004">
+        <ele>152.20941</ele>
+      </trkpt>
+      <trkpt lat="47.242353" lon="18.29281">
+        <ele>152.15729</ele>
+      </trkpt>
+      <trkpt lat="47.241481" lon="18.292702">
+        <ele>149.90615</ele>
+      </trkpt>
+      <trkpt lat="47.241213" lon="18.292792">
+        <ele>148.93997</ele>
+      </trkpt>
+      <trkpt lat="47.240796" lon="18.293153">
+        <ele>147.54448</ele>
+      </trkpt>
+      <trkpt lat="47.240848" lon="18.292682">
+        <ele>148.26101</ele>
+        <name>8203, Iszkaszentgyörgy, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.240992" lon="18.291615">
+        <ele>153.69419</ele>
+      </trkpt>
+      <trkpt lat="47.240843" lon="18.29053">
+        <ele>153.92587</ele>
+      </trkpt>
+      <trkpt lat="47.240805" lon="18.289758">
+        <ele>150.91239</ele>
+      </trkpt>
+      <trkpt lat="47.240676" lon="18.289407">
+        <ele>149.62536</ele>
+      </trkpt>
+      <trkpt lat="47.240372" lon="18.289772">
+        <ele>149.68302</ele>
+      </trkpt>
+      <trkpt lat="47.240121" lon="18.289635">
+        <ele>148.38669</ele>
+      </trkpt>
+      <trkpt lat="47.239983" lon="18.289712">
+        <ele>147.86921</ele>
+      </trkpt>
+      <trkpt lat="47.239865" lon="18.289682">
+        <ele>146.56869</ele>
+      </trkpt>
+      <trkpt lat="47.239592" lon="18.28935">
+        <ele>146.53397</ele>
+      </trkpt>
+      <trkpt lat="47.239396" lon="18.28954">
+        <ele>145.18743</ele>
+      </trkpt>
+      <trkpt lat="47.239197" lon="18.289079">
+        <ele>149.79755</ele>
+      </trkpt>
+      <trkpt lat="47.239539" lon="18.288251">
+        <ele>152.58681</ele>
+      </trkpt>
+      <trkpt lat="47.239729" lon="18.287917">
+        <ele>152.00724</ele>
+      </trkpt>
+      <trkpt lat="47.23971" lon="18.287549">
+        <ele>151.35021</ele>
+      </trkpt>
+      <trkpt lat="47.239572" lon="18.287186">
+        <ele>153.94627</ele>
+      </trkpt>
+      <trkpt lat="47.23931" lon="18.286847">
+        <ele>162.47536</ele>
+      </trkpt>
+      <trkpt lat="47.239047" lon="18.286509">
+        <ele>169.03979</ele>
+      </trkpt>
+      <trkpt lat="47.238745" lon="18.286209">
+        <ele>175.27211</ele>
+      </trkpt>
+      <trkpt lat="47.238578" lon="18.286138">
+        <ele>177.04767</ele>
+      </trkpt>
+      <trkpt lat="47.238308" lon="18.285789">
+        <ele>180.46955</ele>
+      </trkpt>
+      <trkpt lat="47.237622" lon="18.285682">
+        <ele>186.59227</ele>
+      </trkpt>
+      <trkpt lat="47.236643" lon="18.285021">
+        <ele>193.00457</ele>
+      </trkpt>
+      <trkpt lat="47.236555" lon="18.284915">
+        <ele>193.32106</ele>
+      </trkpt>
+      <trkpt lat="47.236291" lon="18.284589">
+        <ele>194.4525</ele>
+      </trkpt>
+      <trkpt lat="47.236028" lon="18.284263">
+        <ele>195.23009</ele>
+      </trkpt>
+      <trkpt lat="47.23599" lon="18.284202">
+        <ele>195.62264</ele>
+      </trkpt>
+      <trkpt lat="47.235821" lon="18.284002">
+        <ele>196.55744</ele>
+      </trkpt>
+      <trkpt lat="47.235562" lon="18.283609">
+        <ele>199.97609</ele>
+        <name>Piramita, Iszkaszentgyörgy, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.234983" lon="18.28405">
+        <ele>199.37967</ele>
+      </trkpt>
+      <trkpt lat="47.234886" lon="18.284249">
+        <ele>198.14743</ele>
+      </trkpt>
+      <trkpt lat="47.234578" lon="18.284637">
+        <ele>193.55131</ele>
+      </trkpt>
+      <trkpt lat="47.234125" lon="18.285129">
+        <ele>183.9965</ele>
+      </trkpt>
+      <trkpt lat="47.233898" lon="18.285483">
+        <ele>180.56111</ele>
+      </trkpt>
+      <trkpt lat="47.23371" lon="18.285435">
+        <ele>177.31873</ele>
+      </trkpt>
+      <trkpt lat="47.233333" lon="18.285584">
+        <ele>170.93148</ele>
+      </trkpt>
+      <trkpt lat="47.233084" lon="18.285872">
+        <ele>169.04982</ele>
+      </trkpt>
+      <trkpt lat="47.23317" lon="18.285356">
+        <ele>169.47881</ele>
+      </trkpt>
+      <trkpt lat="47.233115" lon="18.284743">
+        <ele>170.39192</ele>
+      </trkpt>
+      <trkpt lat="47.233038" lon="18.284406">
+        <ele>170.95613</ele>
+      </trkpt>
+      <trkpt lat="47.232861" lon="18.28401">
+        <ele>170.27653</ele>
+      </trkpt>
+      <trkpt lat="47.232643" lon="18.283668">
+        <ele>173.83364</ele>
+      </trkpt>
+      <trkpt lat="47.232637" lon="18.283488">
+        <ele>175.79787</ele>
+      </trkpt>
+      <trkpt lat="47.232915" lon="18.283103">
+        <ele>178.5656</ele>
+      </trkpt>
+      <trkpt lat="47.233238" lon="18.282056">
+        <ele>179.43543</ele>
+      </trkpt>
+      <trkpt lat="47.233274" lon="18.281834">
+        <ele>179.22957</ele>
+      </trkpt>
+      <trkpt lat="47.23318" lon="18.281579">
+        <ele>181.13488</ele>
+        <name>Iszkaszentgyörgy, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.233022" lon="18.281294">
+        <ele>183.81492</ele>
+      </trkpt>
+      <trkpt lat="47.233199" lon="18.280225">
+        <ele>188.79826</ele>
+      </trkpt>
+      <trkpt lat="47.233037" lon="18.279301">
+        <ele>196.73617</ele>
+      </trkpt>
+      <trkpt lat="47.233148" lon="18.278505">
+        <ele>202.1424</ele>
+      </trkpt>
+      <trkpt lat="47.233078" lon="18.278192">
+        <ele>203.13065</ele>
+      </trkpt>
+      <trkpt lat="47.232527" lon="18.277842">
+        <ele>210.32318</ele>
+      </trkpt>
+      <trkpt lat="47.23205" lon="18.27749">
+        <ele>218.41734</ele>
+      </trkpt>
+      <trkpt lat="47.231337" lon="18.277127">
+        <ele>222.63419</ele>
+      </trkpt>
+      <trkpt lat="47.230946" lon="18.276751">
+        <ele>227.98599</ele>
+      </trkpt>
+      <trkpt lat="47.230646" lon="18.276531">
+        <ele>230.21754</ele>
+      </trkpt>
+      <trkpt lat="47.230346" lon="18.276311">
+        <ele>232.06696</ele>
+      </trkpt>
+      <trkpt lat="47.230137" lon="18.276023">
+        <ele>233.59775</ele>
+      </trkpt>
+      <trkpt lat="47.230019" lon="18.275658">
+        <ele>233.36759</ele>
+      </trkpt>
+      <trkpt lat="47.229594" lon="18.275456">
+        <ele>234.47921</ele>
+      </trkpt>
+      <trkpt lat="47.229282" lon="18.275405">
+        <ele>236.97066</ele>
+      </trkpt>
+      <trkpt lat="47.228798" lon="18.27544">
+        <ele>241.3976</ele>
+      </trkpt>
+      <trkpt lat="47.228611" lon="18.275323">
+        <ele>242.98886</ele>
+      </trkpt>
+      <trkpt lat="47.228324" lon="18.274869">
+        <ele>247.18196</ele>
+      </trkpt>
+      <trkpt lat="47.228129" lon="18.274433">
+        <ele>249.3249</ele>
+      </trkpt>
+      <trkpt lat="47.22742" lon="18.273893">
+        <ele>254.60376</ele>
+      </trkpt>
+      <trkpt lat="47.227263" lon="18.273694">
+        <ele>255.79854</ele>
+      </trkpt>
+      <trkpt lat="47.227111" lon="18.273413">
+        <ele>256.09145</ele>
+      </trkpt>
+      <trkpt lat="47.226989" lon="18.272957">
+        <ele>255.52237</ele>
+      </trkpt>
+      <trkpt lat="47.226789" lon="18.272629">
+        <ele>254.94742</ele>
+      </trkpt>
+      <trkpt lat="47.22638" lon="18.272093">
+        <ele>251.05486</ele>
+      </trkpt>
+      <trkpt lat="47.226144" lon="18.271632">
+        <ele>247.81838</ele>
+      </trkpt>
+      <trkpt lat="47.226074" lon="18.271328">
+        <ele>246.73048</ele>
+      </trkpt>
+      <trkpt lat="47.225926" lon="18.269702">
+        <ele>239.27391</ele>
+      </trkpt>
+      <trkpt lat="47.225617" lon="18.269074">
+        <ele>237.50766</ele>
+      </trkpt>
+      <trkpt lat="47.224636" lon="18.267616">
+        <ele>238.37916</ele>
+      </trkpt>
+      <trkpt lat="47.224408" lon="18.267074">
+        <ele>234.91284</ele>
+      </trkpt>
+      <trkpt lat="47.22418" lon="18.266531">
+        <ele>231.41216</ele>
+      </trkpt>
+      <trkpt lat="47.22402" lon="18.266169">
+        <ele>229.64474</ele>
+      </trkpt>
+      <trkpt lat="47.223961" lon="18.265825">
+        <ele>228.04759</ele>
+      </trkpt>
+      <trkpt lat="47.224017" lon="18.265611">
+        <ele>227.4091</ele>
+      </trkpt>
+      <trkpt lat="47.224731" lon="18.264774">
+        <ele>233.99256</ele>
+      </trkpt>
+      <trkpt lat="47.224516" lon="18.264266">
+        <ele>235.54391</ele>
+      </trkpt>
+      <trkpt lat="47.223742" lon="18.263144">
+        <ele>236.91135</ele>
+        <name>Keleti-Bakony Natura2000 terület, Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.223964" lon="18.262769">
+        <ele>240.64278</ele>
+        <name>Keleti-Bakony Natura2000 terület, Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.224296" lon="18.26238">
+        <ele>246.06204</ele>
+      </trkpt>
+      <trkpt lat="47.224826" lon="18.261506">
+        <ele>252.15202</ele>
+      </trkpt>
+      <trkpt lat="47.225078" lon="18.260825">
+        <ele>251.11285</ele>
+      </trkpt>
+      <trkpt lat="47.225049" lon="18.260407">
+        <ele>252.27932</ele>
+      </trkpt>
+      <trkpt lat="47.224704" lon="18.259686">
+        <ele>247.38933</ele>
+      </trkpt>
+      <trkpt lat="47.224701" lon="18.259303">
+        <ele>242.12953</ele>
+      </trkpt>
+      <trkpt lat="47.224567" lon="18.259146">
+        <ele>236.28117</ele>
+      </trkpt>
+      <trkpt lat="47.224453" lon="18.258755">
+        <ele>223.55445</ele>
+      </trkpt>
+      <trkpt lat="47.224307" lon="18.25789">
+        <ele>214.61413</ele>
+      </trkpt>
+      <trkpt lat="47.224557" lon="18.257603">
+        <ele>217.36004</ele>
+      </trkpt>
+      <trkpt lat="47.224807" lon="18.257317">
+        <ele>219.89229</ele>
+      </trkpt>
+      <trkpt lat="47.224968" lon="18.25715">
+        <ele>220.86333</ele>
+      </trkpt>
+      <trkpt lat="47.225853" lon="18.256653">
+        <ele>223.99055</ele>
+      </trkpt>
+      <trkpt lat="47.226082" lon="18.256434">
+        <ele>224.71646</ele>
+      </trkpt>
+      <trkpt lat="47.226081" lon="18.255624">
+        <ele>235.19909</ele>
+      </trkpt>
+      <trkpt lat="47.225987" lon="18.255521">
+        <ele>237.22713</ele>
+        <name>Keleti-Bakony Natura2000 terület, Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.225763" lon="18.25552">
+        <ele>239.09706</ele>
+      </trkpt>
+      <trkpt lat="47.225487" lon="18.255668">
+        <ele>240.34578</ele>
+      </trkpt>
+      <trkpt lat="47.224817" lon="18.256252">
+        <ele>230.83</ele>
+      </trkpt>
+      <trkpt lat="47.224182" lon="18.256236">
+        <ele>231.10171</ele>
+      </trkpt>
+      <trkpt lat="47.223852" lon="18.256444">
+        <ele>229.50917</ele>
+        <name>Keleti-Bakony Natura2000 terület, Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.223071" lon="18.256972">
+        <ele>227.96491</ele>
+      </trkpt>
+      <trkpt lat="47.222579" lon="18.2571">
+        <ele>225.01469</ele>
+      </trkpt>
+      <trkpt lat="47.222425" lon="18.257088">
+        <ele>223.96002</ele>
+      </trkpt>
+      <trkpt lat="47.222091" lon="18.256944">
+        <ele>221.46076</ele>
+      </trkpt>
+      <trkpt lat="47.221781" lon="18.25681">
+        <ele>219.83526</ele>
+      </trkpt>
+      <trkpt lat="47.221471" lon="18.256676">
+        <ele>217.4931</ele>
+      </trkpt>
+      <trkpt lat="47.221161" lon="18.256543">
+        <ele>216.93045</ele>
+      </trkpt>
+      <trkpt lat="47.220911" lon="18.256425">
+        <ele>217.10921</ele>
+      </trkpt>
+      <trkpt lat="47.220697" lon="18.256194">
+        <ele>216.90118</ele>
+      </trkpt>
+      <trkpt lat="47.220362" lon="18.256393">
+        <ele>211.90156</ele>
+      </trkpt>
+      <trkpt lat="47.220028" lon="18.256591">
+        <ele>207.57903</ele>
+      </trkpt>
+      <trkpt lat="47.219694" lon="18.25679">
+        <ele>203.69259</ele>
+      </trkpt>
+      <trkpt lat="47.219526" lon="18.256355">
+        <ele>202.82071</ele>
+      </trkpt>
+      <trkpt lat="47.219358" lon="18.255921">
+        <ele>201.19378</ele>
+      </trkpt>
+      <trkpt lat="47.219189" lon="18.255486">
+        <ele>201.21648</ele>
+      </trkpt>
+      <trkpt lat="47.219021" lon="18.255051">
+        <ele>200.19893</ele>
+      </trkpt>
+      <trkpt lat="47.218836" lon="18.254612">
+        <ele>200.10594</ele>
+      </trkpt>
+      <trkpt lat="47.21865" lon="18.254173">
+        <ele>200.20548</ele>
+      </trkpt>
+      <trkpt lat="47.218503" lon="18.254199">
+        <ele>199.4196</ele>
+      </trkpt>
+      <trkpt lat="47.218196" lon="18.254052">
+        <ele>199.07655</ele>
+      </trkpt>
+      <trkpt lat="47.218121" lon="18.254096">
+        <ele>198.60538</ele>
+      </trkpt>
+      <trkpt lat="47.217897" lon="18.254451">
+        <ele>196.92235</ele>
+      </trkpt>
+      <trkpt lat="47.217673" lon="18.254806">
+        <ele>196.06442</ele>
+      </trkpt>
+      <trkpt lat="47.217362" lon="18.255207">
+        <ele>194.5604</ele>
+      </trkpt>
+      <trkpt lat="47.21705" lon="18.255608">
+        <ele>191.56789</ele>
+      </trkpt>
+      <trkpt lat="47.216836" lon="18.255686">
+        <ele>192.11387</ele>
+      </trkpt>
+      <trkpt lat="47.216254" lon="18.256526">
+        <ele>188.14943</ele>
+      </trkpt>
+      <trkpt lat="47.215643" lon="18.256952">
+        <ele>190.80451</ele>
+      </trkpt>
+      <trkpt lat="47.214995" lon="18.256823">
+        <ele>191.35536</ele>
+      </trkpt>
+      <trkpt lat="47.214245" lon="18.256994">
+        <ele>182.57326</ele>
+      </trkpt>
+      <trkpt lat="47.214188" lon="18.256815">
+        <ele>180.73675</ele>
+      </trkpt>
+      <trkpt lat="47.214218" lon="18.256454">
+        <ele>180.72033</ele>
+      </trkpt>
+      <trkpt lat="47.214128" lon="18.256388">
+        <ele>179.58471</ele>
+      </trkpt>
+      <trkpt lat="47.213634" lon="18.256913">
+        <ele>175.12893</ele>
+      </trkpt>
+      <trkpt lat="47.213128" lon="18.257079">
+        <ele>169.96196</ele>
+      </trkpt>
+      <trkpt lat="47.212701" lon="18.257117">
+        <ele>164.6447</ele>
+      </trkpt>
+      <trkpt lat="47.212275" lon="18.257154">
+        <ele>161.27648</ele>
+      </trkpt>
+      <trkpt lat="47.211747" lon="18.257279">
+        <ele>156.23202</ele>
+      </trkpt>
+      <trkpt lat="47.211037" lon="18.257041">
+        <ele>148.57846</ele>
+      </trkpt>
+      <trkpt lat="47.210534" lon="18.256986">
+        <ele>143.15087</ele>
+        <name>Mátyás király köz, Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.210538" lon="18.257042">
+        <ele>143.75108</ele>
+      </trkpt>
+      <trkpt lat="47.209798" lon="18.257159">
+        <ele>139.10608</ele>
+      </trkpt>
+      <trkpt lat="47.209262" lon="18.2573">
+        <ele>139.19091</ele>
+      </trkpt>
+      <trkpt lat="47.208935" lon="18.257384">
+        <ele>137.04535</ele>
+      </trkpt>
+      <trkpt lat="47.208608" lon="18.257467">
+        <ele>136.52476</ele>
+      </trkpt>
+      <trkpt lat="47.208589" lon="18.25747">
+        <ele>136.4159</ele>
+        <name>47.208589,18.257470</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>17</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.207608" lon="18.257749">
+        <ele>130.01237</ele>
+      </trkpt>
+      <trkpt lat="47.207446" lon="18.257831">
+        <ele>128.89265</ele>
+      </trkpt>
+      <trkpt lat="47.207139" lon="18.258007">
+        <ele>127.1079</ele>
+      </trkpt>
+      <trkpt lat="47.206377" lon="18.258258">
+        <ele>125.03062</ele>
+      </trkpt>
+      <trkpt lat="47.206894" lon="18.25821">
+        <ele>125.7099</ele>
+        <name>Hadi utca, Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.207024" lon="18.258268">
+        <ele>126.60704</ele>
+      </trkpt>
+      <trkpt lat="47.20733" lon="18.258698">
+        <ele>133.06141</ele>
+      </trkpt>
+      <trkpt lat="47.207583" lon="18.258825">
+        <ele>140.29647</ele>
+      </trkpt>
+      <trkpt lat="47.207736" lon="18.25901">
+        <ele>144.04911</ele>
+      </trkpt>
+      <trkpt lat="47.20795" lon="18.259161">
+        <ele>149.8332</ele>
+      </trkpt>
+      <trkpt lat="47.208235" lon="18.25946">
+        <ele>155.64146</ele>
+      </trkpt>
+      <trkpt lat="47.208521" lon="18.259759">
+        <ele>162.61269</ele>
+      </trkpt>
+      <trkpt lat="47.208624" lon="18.260033">
+        <ele>165.40622</ele>
+      </trkpt>
+      <trkpt lat="47.209018" lon="18.260329">
+        <ele>172.37551</ele>
+      </trkpt>
+      <trkpt lat="47.209493" lon="18.260818">
+        <ele>178.08504</ele>
+      </trkpt>
+      <trkpt lat="47.209599" lon="18.260799">
+        <ele>178.37221</ele>
+        <name>Keleti-Bakony Natura2000 terület, Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.209976" lon="18.260735">
+        <ele>180.85484</ele>
+      </trkpt>
+      <trkpt lat="47.210748" lon="18.260436">
+        <ele>174.61062</ele>
+      </trkpt>
+      <trkpt lat="47.211096" lon="18.26018">
+        <ele>172.63803</ele>
+      </trkpt>
+      <trkpt lat="47.211276" lon="18.260168">
+        <ele>172.34341</ele>
+      </trkpt>
+      <trkpt lat="47.211613" lon="18.260305">
+        <ele>174.86707</ele>
+      </trkpt>
+      <trkpt lat="47.211996" lon="18.260172">
+        <ele>174.38613</ele>
+      </trkpt>
+      <trkpt lat="47.212819" lon="18.25978">
+        <ele>174.76943</ele>
+      </trkpt>
+      <trkpt lat="47.212993" lon="18.25962">
+        <ele>176.56342</ele>
+      </trkpt>
+      <trkpt lat="47.21315" lon="18.259018">
+        <ele>176.73827</ele>
+      </trkpt>
+      <trkpt lat="47.213162" lon="18.258023">
+        <ele>174.40792</ele>
+      </trkpt>
+      <trkpt lat="47.213256" lon="18.257405">
+        <ele>173.68536</ele>
+      </trkpt>
+      <trkpt lat="47.213455" lon="18.257175">
+        <ele>174.64927</ele>
+      </trkpt>
+      <trkpt lat="47.213479" lon="18.257003">
+        <ele>173.90522</ele>
+      </trkpt>
+      <trkpt lat="47.213813" lon="18.256771">
+        <ele>176.38971</ele>
+      </trkpt>
+      <trkpt lat="47.214057" lon="18.256396">
+        <ele>179.08286</ele>
+      </trkpt>
+      <trkpt lat="47.214218" lon="18.256454">
+        <ele>180.72033</ele>
+      </trkpt>
+      <trkpt lat="47.214188" lon="18.256815">
+        <ele>180.73675</ele>
+      </trkpt>
+      <trkpt lat="47.214245" lon="18.256994">
+        <ele>182.57326</ele>
+      </trkpt>
+      <trkpt lat="47.214995" lon="18.256823">
+        <ele>191.35536</ele>
+      </trkpt>
+      <trkpt lat="47.215399" lon="18.256946">
+        <ele>191.04737</ele>
+      </trkpt>
+      <trkpt lat="47.215853" lon="18.256929">
+        <ele>189.8712</ele>
+      </trkpt>
+      <trkpt lat="47.216403" lon="18.256673">
+        <ele>186.91454</ele>
+      </trkpt>
+      <trkpt lat="47.216526" lon="18.256912">
+        <ele>185.62209</ele>
+        <name>Keleti-Bakony Natura2000 terület, Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.216686" lon="18.257577">
+        <ele>184.00111</ele>
+      </trkpt>
+      <trkpt lat="47.216931" lon="18.25833">
+        <ele>182.98422</ele>
+      </trkpt>
+      <trkpt lat="47.216966" lon="18.259223">
+        <ele>181.85798</ele>
+      </trkpt>
+      <trkpt lat="47.216816" lon="18.259627">
+        <ele>179.48753</ele>
+      </trkpt>
+      <trkpt lat="47.216597" lon="18.260099">
+        <ele>177.40247</ele>
+      </trkpt>
+      <trkpt lat="47.216378" lon="18.26057">
+        <ele>175.94654</ele>
+      </trkpt>
+      <trkpt lat="47.216023" lon="18.260937">
+        <ele>173.48042</ele>
+      </trkpt>
+      <trkpt lat="47.215977" lon="18.261106">
+        <ele>172.30319</ele>
+      </trkpt>
+      <trkpt lat="47.216001" lon="18.261585">
+        <ele>170.8023</ele>
+      </trkpt>
+      <trkpt lat="47.216239" lon="18.262398">
+        <ele>168.02437</ele>
+      </trkpt>
+      <trkpt lat="47.216054" lon="18.262954">
+        <ele>165.0701</ele>
+      </trkpt>
+      <trkpt lat="47.215994" lon="18.263442">
+        <ele>164.22543</ele>
+      </trkpt>
+      <trkpt lat="47.215729" lon="18.263851">
+        <ele>162.43201</ele>
+      </trkpt>
+      <trkpt lat="47.215509" lon="18.264127">
+        <ele>159.78719</ele>
+      </trkpt>
+      <trkpt lat="47.215533" lon="18.264524">
+        <ele>158.80888</ele>
+      </trkpt>
+      <trkpt lat="47.215738" lon="18.264607">
+        <ele>159.93016</ele>
+        <name>Keleti-Bakony Natura2000 terület, Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.216397" lon="18.264627">
+        <ele>163.06479</ele>
+      </trkpt>
+      <trkpt lat="47.21736" lon="18.265243">
+        <ele>168.90047</ele>
+      </trkpt>
+      <trkpt lat="47.217969" lon="18.265806">
+        <ele>175.27499</ele>
+      </trkpt>
+      <trkpt lat="47.218123" lon="18.265827">
+        <ele>176.39899</ele>
+      </trkpt>
+      <trkpt lat="47.218425" lon="18.265811">
+        <ele>179.44385</ele>
+      </trkpt>
+      <trkpt lat="47.218727" lon="18.265795">
+        <ele>184.73265</ele>
+      </trkpt>
+      <trkpt lat="47.219029" lon="18.265779">
+        <ele>189.02375</ele>
+      </trkpt>
+      <trkpt lat="47.219403" lon="18.265634">
+        <ele>193.49042</ele>
+      </trkpt>
+      <trkpt lat="47.219778" lon="18.265489">
+        <ele>196.35181</ele>
+      </trkpt>
+      <trkpt lat="47.219918" lon="18.265479">
+        <ele>197.24002</ele>
+      </trkpt>
+      <trkpt lat="47.220227" lon="18.265318">
+        <ele>198.61167</ele>
+      </trkpt>
+      <trkpt lat="47.220746" lon="18.265404">
+        <ele>203.65103</ele>
+      </trkpt>
+      <trkpt lat="47.220932" lon="18.265203">
+        <ele>205.49082</ele>
+      </trkpt>
+      <trkpt lat="47.221202" lon="18.265031">
+        <ele>208.52198</ele>
+      </trkpt>
+      <trkpt lat="47.221522" lon="18.264749">
+        <ele>210.06072</ele>
+      </trkpt>
+      <trkpt lat="47.221843" lon="18.264467">
+        <ele>212.85174</ele>
+      </trkpt>
+      <trkpt lat="47.222164" lon="18.264185">
+        <ele>219.23386</ele>
+      </trkpt>
+      <trkpt lat="47.222514" lon="18.263844">
+        <ele>223.14296</ele>
+      </trkpt>
+      <trkpt lat="47.222864" lon="18.263504">
+        <ele>226.26596</ele>
+      </trkpt>
+      <trkpt lat="47.223159" lon="18.263153">
+        <ele>231.52636</ele>
+      </trkpt>
+      <trkpt lat="47.223454" lon="18.262803">
+        <ele>235.78505</ele>
+      </trkpt>
+      <trkpt lat="47.223732" lon="18.263183">
+        <ele>236.50895</ele>
+      </trkpt>
+      <trkpt lat="47.223964" lon="18.262769">
+        <ele>240.64278</ele>
+        <name>Keleti-Bakony Natura2000 terület, Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.224296" lon="18.26238">
+        <ele>246.06204</ele>
+      </trkpt>
+      <trkpt lat="47.224826" lon="18.261506">
+        <ele>252.15202</ele>
+      </trkpt>
+      <trkpt lat="47.225078" lon="18.260825">
+        <ele>251.11285</ele>
+      </trkpt>
+      <trkpt lat="47.225049" lon="18.260407">
+        <ele>252.27932</ele>
+      </trkpt>
+      <trkpt lat="47.224704" lon="18.259686">
+        <ele>247.38933</ele>
+      </trkpt>
+      <trkpt lat="47.224701" lon="18.259303">
+        <ele>242.12953</ele>
+      </trkpt>
+      <trkpt lat="47.224567" lon="18.259146">
+        <ele>236.28117</ele>
+      </trkpt>
+      <trkpt lat="47.224453" lon="18.258755">
+        <ele>223.55445</ele>
+      </trkpt>
+      <trkpt lat="47.224307" lon="18.25789">
+        <ele>214.61413</ele>
+      </trkpt>
+      <trkpt lat="47.224557" lon="18.257603">
+        <ele>217.36004</ele>
+      </trkpt>
+      <trkpt lat="47.224807" lon="18.257317">
+        <ele>219.89229</ele>
+      </trkpt>
+      <trkpt lat="47.224968" lon="18.25715">
+        <ele>220.86333</ele>
+      </trkpt>
+      <trkpt lat="47.225853" lon="18.256653">
+        <ele>223.99055</ele>
+      </trkpt>
+      <trkpt lat="47.226082" lon="18.256434">
+        <ele>224.71646</ele>
+      </trkpt>
+      <trkpt lat="47.226081" lon="18.255624">
+        <ele>235.19909</ele>
+      </trkpt>
+      <trkpt lat="47.225992" lon="18.255522">
+        <ele>237.18128</ele>
+      </trkpt>
+      <trkpt lat="47.225763" lon="18.25552">
+        <ele>239.09706</ele>
+      </trkpt>
+      <trkpt lat="47.225487" lon="18.255668">
+        <ele>240.34578</ele>
+      </trkpt>
+      <trkpt lat="47.224817" lon="18.256252">
+        <ele>230.83</ele>
+      </trkpt>
+      <trkpt lat="47.224182" lon="18.256236">
+        <ele>231.10171</ele>
+      </trkpt>
+      <trkpt lat="47.223071" lon="18.256972">
+        <ele>227.96491</ele>
+      </trkpt>
+      <trkpt lat="47.222579" lon="18.2571">
+        <ele>225.01469</ele>
+      </trkpt>
+      <trkpt lat="47.222425" lon="18.257088">
+        <ele>223.96002</ele>
+      </trkpt>
+      <trkpt lat="47.222091" lon="18.256944">
+        <ele>221.46076</ele>
+      </trkpt>
+      <trkpt lat="47.221781" lon="18.25681">
+        <ele>219.83526</ele>
+      </trkpt>
+      <trkpt lat="47.221471" lon="18.256676">
+        <ele>217.4931</ele>
+      </trkpt>
+      <trkpt lat="47.221161" lon="18.256543">
+        <ele>216.93045</ele>
+      </trkpt>
+      <trkpt lat="47.220911" lon="18.256425">
+        <ele>217.10921</ele>
+      </trkpt>
+      <trkpt lat="47.220697" lon="18.256194">
+        <ele>216.90118</ele>
+      </trkpt>
+      <trkpt lat="47.220362" lon="18.256393">
+        <ele>211.90156</ele>
+      </trkpt>
+      <trkpt lat="47.220028" lon="18.256591">
+        <ele>207.57903</ele>
+      </trkpt>
+      <trkpt lat="47.219694" lon="18.25679">
+        <ele>203.69259</ele>
+      </trkpt>
+      <trkpt lat="47.219526" lon="18.256355">
+        <ele>202.82071</ele>
+      </trkpt>
+      <trkpt lat="47.219358" lon="18.255921">
+        <ele>201.19378</ele>
+      </trkpt>
+      <trkpt lat="47.219189" lon="18.255486">
+        <ele>201.21648</ele>
+      </trkpt>
+      <trkpt lat="47.219021" lon="18.255051">
+        <ele>200.19893</ele>
+      </trkpt>
+      <trkpt lat="47.218836" lon="18.254612">
+        <ele>200.10594</ele>
+      </trkpt>
+      <trkpt lat="47.21865" lon="18.254173">
+        <ele>200.20548</ele>
+      </trkpt>
+      <trkpt lat="47.218503" lon="18.254199">
+        <ele>199.4196</ele>
+      </trkpt>
+      <trkpt lat="47.218196" lon="18.254052">
+        <ele>199.07655</ele>
+      </trkpt>
+      <trkpt lat="47.218121" lon="18.254096">
+        <ele>198.60538</ele>
+      </trkpt>
+      <trkpt lat="47.217897" lon="18.254451">
+        <ele>196.92235</ele>
+      </trkpt>
+      <trkpt lat="47.217673" lon="18.254806">
+        <ele>196.06442</ele>
+      </trkpt>
+      <trkpt lat="47.217362" lon="18.255207">
+        <ele>194.5604</ele>
+      </trkpt>
+      <trkpt lat="47.21705" lon="18.255608">
+        <ele>191.56789</ele>
+      </trkpt>
+      <trkpt lat="47.216836" lon="18.255686">
+        <ele>192.11387</ele>
+      </trkpt>
+      <trkpt lat="47.216254" lon="18.256526">
+        <ele>188.14943</ele>
+      </trkpt>
+      <trkpt lat="47.215643" lon="18.256952">
+        <ele>190.80451</ele>
+      </trkpt>
+      <trkpt lat="47.214995" lon="18.256823">
+        <ele>191.35536</ele>
+      </trkpt>
+      <trkpt lat="47.214245" lon="18.256994">
+        <ele>182.57326</ele>
+      </trkpt>
+      <trkpt lat="47.214188" lon="18.256815">
+        <ele>180.73675</ele>
+      </trkpt>
+      <trkpt lat="47.214218" lon="18.256454">
+        <ele>180.72033</ele>
+      </trkpt>
+      <trkpt lat="47.214057" lon="18.256396">
+        <ele>179.08286</ele>
+      </trkpt>
+      <trkpt lat="47.214252" lon="18.256062">
+        <ele>181.39271</ele>
+      </trkpt>
+      <trkpt lat="47.214435" lon="18.255523">
+        <ele>184.85068</ele>
+        <name>Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.214906" lon="18.254594">
+        <ele>194.4615</ele>
+      </trkpt>
+      <trkpt lat="47.215126" lon="18.254298">
+        <ele>198.19978</ele>
+      </trkpt>
+      <trkpt lat="47.215496" lon="18.253981">
+        <ele>203.07784</ele>
+      </trkpt>
+      <trkpt lat="47.215683" lon="18.253745">
+        <ele>205.80081</ele>
+      </trkpt>
+      <trkpt lat="47.216107" lon="18.252254">
+        <ele>211.95029</ele>
+      </trkpt>
+      <trkpt lat="47.216325" lon="18.251862">
+        <ele>215.42013</ele>
+      </trkpt>
+      <trkpt lat="47.21656" lon="18.251473">
+        <ele>219.29242</ele>
+      </trkpt>
+      <trkpt lat="47.216795" lon="18.251085">
+        <ele>219.58846</ele>
+      </trkpt>
+      <trkpt lat="47.217036" lon="18.250655">
+        <ele>220.5739</ele>
+      </trkpt>
+      <trkpt lat="47.217137" lon="18.250386">
+        <ele>221.86082</ele>
+      </trkpt>
+      <trkpt lat="47.217221" lon="18.249447">
+        <ele>224.98578</ele>
+      </trkpt>
+      <trkpt lat="47.217335" lon="18.249189">
+        <ele>227.23507</ele>
+      </trkpt>
+      <trkpt lat="47.217601" lon="18.249">
+        <ele>230.0675</ele>
+        <name>Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.217684" lon="18.248464">
+        <ele>233.34953</ele>
+      </trkpt>
+      <trkpt lat="47.217522" lon="18.248201">
+        <ele>235.88646</ele>
+      </trkpt>
+      <trkpt lat="47.216912" lon="18.248256">
+        <ele>232.98259</ele>
+      </trkpt>
+      <trkpt lat="47.216882" lon="18.247722">
+        <ele>233.06873</ele>
+      </trkpt>
+      <trkpt lat="47.216968" lon="18.246987">
+        <ele>233.39024</ele>
+      </trkpt>
+      <trkpt lat="47.216534" lon="18.246847">
+        <ele>227.01024</ele>
+      </trkpt>
+      <trkpt lat="47.216435" lon="18.246661">
+        <ele>225.54956</ele>
+      </trkpt>
+      <trkpt lat="47.216494" lon="18.246443">
+        <ele>226.42805</ele>
+      </trkpt>
+      <trkpt lat="47.216661" lon="18.246245">
+        <ele>228.47664</ele>
+      </trkpt>
+      <trkpt lat="47.216573" lon="18.245935">
+        <ele>226.55523</ele>
+      </trkpt>
+      <trkpt lat="47.216265" lon="18.24585">
+        <ele>223.87679</ele>
+      </trkpt>
+      <trkpt lat="47.216074" lon="18.245586">
+        <ele>224.00741</ele>
+      </trkpt>
+      <trkpt lat="47.215862" lon="18.245591">
+        <ele>225.74092</ele>
+      </trkpt>
+      <trkpt lat="47.215738" lon="18.245476">
+        <ele>226.51008</ele>
+      </trkpt>
+      <trkpt lat="47.21574" lon="18.245333">
+        <ele>226.25549</ele>
+      </trkpt>
+      <trkpt lat="47.215478" lon="18.245164">
+        <ele>224.99754</ele>
+      </trkpt>
+      <trkpt lat="47.215278" lon="18.245147">
+        <ele>223.7813</ele>
+      </trkpt>
+      <trkpt lat="47.215301" lon="18.244666">
+        <ele>217.2576</ele>
+      </trkpt>
+      <trkpt lat="47.215355" lon="18.244691">
+        <ele>218.52893</ele>
+      </trkpt>
+      <trkpt lat="47.215302" lon="18.244485">
+        <ele>213.22703</ele>
+      </trkpt>
+      <trkpt lat="47.215435" lon="18.24434">
+        <ele>211.56275</ele>
+      </trkpt>
+      <trkpt lat="47.215414" lon="18.244147">
+        <ele>206.43161</ele>
+      </trkpt>
+      <trkpt lat="47.215485" lon="18.243971">
+        <ele>202.02856</ele>
+        <name>Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.215414" lon="18.244147">
+        <ele>206.43161</ele>
+      </trkpt>
+      <trkpt lat="47.215435" lon="18.24434">
+        <ele>211.56275</ele>
+      </trkpt>
+      <trkpt lat="47.215302" lon="18.244485">
+        <ele>213.22703</ele>
+      </trkpt>
+      <trkpt lat="47.215355" lon="18.244691">
+        <ele>218.52893</ele>
+      </trkpt>
+      <trkpt lat="47.215894" lon="18.245091">
+        <ele>225.31101</ele>
+      </trkpt>
+      <trkpt lat="47.216456" lon="18.2449">
+        <ele>219.67399</ele>
+        <name>Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.216644" lon="18.244967">
+        <ele>220.46966</ele>
+        <name>Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.216888" lon="18.245195">
+        <ele>223.63941</ele>
+      </trkpt>
+      <trkpt lat="47.217098" lon="18.245242">
+        <ele>225.4546</ele>
+        <name>Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.217376" lon="18.245177">
+        <ele>227.42697</ele>
+      </trkpt>
+      <trkpt lat="47.217655" lon="18.245272">
+        <ele>229.79296</ele>
+        <name>Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.218018" lon="18.245458">
+        <ele>235.65293</ele>
+      </trkpt>
+      <trkpt lat="47.218155" lon="18.245441">
+        <ele>236.54848</ele>
+        <name>Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.218546" lon="18.245457">
+        <ele>231.93214</ele>
+        <name>Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.218449" lon="18.244993">
+        <ele>226.89559</ele>
+        <name>Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.218553" lon="18.245489">
+        <ele>232.32022</ele>
+      </trkpt>
+      <trkpt lat="47.21877" lon="18.245951">
+        <ele>235.00166</ele>
+      </trkpt>
+      <trkpt lat="47.219032" lon="18.246144">
+        <ele>233.37848</ele>
+      </trkpt>
+      <trkpt lat="47.219171" lon="18.246058">
+        <ele>230.04621</ele>
+      </trkpt>
+      <trkpt lat="47.219921" lon="18.246029">
+        <ele>226.79654</ele>
+        <name>Keleti-Bakony Natura2000 terület, Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.220625" lon="18.245543">
+        <ele>231.89896</ele>
+      </trkpt>
+      <trkpt lat="47.220645" lon="18.245326">
+        <ele>229.19783</ele>
+      </trkpt>
+      <trkpt lat="47.220899" lon="18.245087">
+        <ele>230.07213</ele>
+      </trkpt>
+      <trkpt lat="47.221196" lon="18.245039">
+        <ele>233.1767</ele>
+      </trkpt>
+      <trkpt lat="47.221297" lon="18.24477">
+        <ele>230.37669</ele>
+        <name>Keleti-Bakony Natura2000 terület, Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.221149" lon="18.244697">
+        <ele>228.07164</ele>
+      </trkpt>
+      <trkpt lat="47.221009" lon="18.244375">
+        <ele>225.48715</ele>
+        <name>Szenes-horog, Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.220711" lon="18.243628">
+        <ele>231.65015</ele>
+        <name>Keleti-Bakony Natura2000 terület, Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.220074" lon="18.243959">
+        <ele>230.45605</ele>
+      </trkpt>
+      <trkpt lat="47.219705" lon="18.244035">
+        <ele>227.28005</ele>
+        <name>Keleti-Bakony Natura2000 terület, Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.219622" lon="18.243584">
+        <ele>228.12698</ele>
+      </trkpt>
+      <trkpt lat="47.219466" lon="18.243242">
+        <ele>226.96151</ele>
+      </trkpt>
+      <trkpt lat="47.21895" lon="18.243058">
+        <ele>224.02536</ele>
+      </trkpt>
+      <trkpt lat="47.218904" lon="18.242876">
+        <ele>225.49817</ele>
+      </trkpt>
+      <trkpt lat="47.218239" lon="18.242995">
+        <ele>223.12196</ele>
+      </trkpt>
+      <trkpt lat="47.218007" lon="18.243212">
+        <ele>219.43163</ele>
+      </trkpt>
+      <trkpt lat="47.217616" lon="18.243161">
+        <ele>213.04903</ele>
+      </trkpt>
+      <trkpt lat="47.217352" lon="18.243006">
+        <ele>209.39943</ele>
+      </trkpt>
+      <trkpt lat="47.216862" lon="18.243175">
+        <ele>203.71</ele>
+      </trkpt>
+      <trkpt lat="47.216696" lon="18.243341">
+        <ele>201.19748</ele>
+        <name>Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.216477" lon="18.243396">
+        <ele>198.44887</ele>
+      </trkpt>
+      <trkpt lat="47.216315" lon="18.243589">
+        <ele>195.43577</ele>
+      </trkpt>
+      <trkpt lat="47.216146" lon="18.243656">
+        <ele>194.28945</ele>
+      </trkpt>
+      <trkpt lat="47.216016" lon="18.243552">
+        <ele>193.30471</ele>
+      </trkpt>
+      <trkpt lat="47.215969" lon="18.243731">
+        <ele>194.22147</ele>
+        <name>Szenes-horog, Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.215745" lon="18.243344">
+        <ele>191.85108</ele>
+      </trkpt>
+      <trkpt lat="47.215554" lon="18.243213">
+        <ele>192.04154</ele>
+      </trkpt>
+      <trkpt lat="47.215076" lon="18.243403">
+        <ele>188.03116</ele>
+      </trkpt>
+      <trkpt lat="47.214482" lon="18.243804">
+        <ele>183.06586</ele>
+      </trkpt>
+      <trkpt lat="47.214206" lon="18.244074">
+        <ele>181.9127</ele>
+      </trkpt>
+      <trkpt lat="47.213701" lon="18.244969">
+        <ele>181.44488</ele>
+      </trkpt>
+      <trkpt lat="47.213445" lon="18.245272">
+        <ele>178.06032</ele>
+      </trkpt>
+      <trkpt lat="47.213189" lon="18.245575">
+        <ele>175.3096</ele>
+      </trkpt>
+      <trkpt lat="47.212929" lon="18.245855">
+        <ele>171.01847</ele>
+      </trkpt>
+      <trkpt lat="47.212753" lon="18.245998">
+        <ele>167.57173</ele>
+      </trkpt>
+      <trkpt lat="47.212582" lon="18.24596">
+        <ele>165.64889</ele>
+      </trkpt>
+      <trkpt lat="47.212262" lon="18.246177">
+        <ele>163.1316</ele>
+      </trkpt>
+      <trkpt lat="47.212213" lon="18.246121">
+        <ele>162.91401</ele>
+        <name>47.212213,18.246121</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>17</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.211873" lon="18.246499">
+        <ele>159.61701</ele>
+      </trkpt>
+      <trkpt lat="47.211654" lon="18.246896">
+        <ele>159.82488</ele>
+      </trkpt>
+      <trkpt lat="47.211501" lon="18.247411">
+        <ele>158.98421</ele>
+      </trkpt>
+      <trkpt lat="47.211581" lon="18.247798">
+        <ele>158.43638</ele>
+      </trkpt>
+      <trkpt lat="47.210845" lon="18.248624">
+        <ele>152.01906</ele>
+      </trkpt>
+      <trkpt lat="47.21067" lon="18.248892">
+        <ele>150.96334</ele>
+      </trkpt>
+      <trkpt lat="47.210459" lon="18.249117">
+        <ele>150.1915</ele>
+      </trkpt>
+      <trkpt lat="47.210182" lon="18.249471">
+        <ele>148.91739</ele>
+        <name>47.210182,18.249471</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>17</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.209897" lon="18.249911">
+        <ele>146.81784</ele>
+      </trkpt>
+      <trkpt lat="47.209686" lon="18.250169">
+        <ele>145.83605</ele>
+      </trkpt>
+      <trkpt lat="47.209478" lon="18.250484">
+        <ele>145.1742</ele>
+        <name>Dózsa György utca, Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.209299" lon="18.250787">
+        <ele>144.16051</ele>
+      </trkpt>
+      <trkpt lat="47.208991" lon="18.251013">
+        <ele>143.17925</ele>
+      </trkpt>
+      <trkpt lat="47.208682" lon="18.251239">
+        <ele>141.13803</ele>
+      </trkpt>
+      <trkpt lat="47.208182" lon="18.251607">
+        <ele>140.54153</ele>
+        <name>Dózsa György utca, Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.207641" lon="18.252041">
+        <ele>137.99541</ele>
+      </trkpt>
+      <trkpt lat="47.207277" lon="18.252303">
+        <ele>135.86007</ele>
+      </trkpt>
+      <trkpt lat="47.206912" lon="18.252565">
+        <ele>134.77142</ele>
+      </trkpt>
+      <trkpt lat="47.206805" lon="18.25264">
+        <ele>134.53053</ele>
+      </trkpt>
+      <trkpt lat="47.20668" lon="18.252757">
+        <ele>134.07542</ele>
+      </trkpt>
+      <trkpt lat="47.206018" lon="18.253731">
+        <ele>130.99433</ele>
+        <name>Dózsa György utca, Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:locType>inputWayPoint</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>7</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.205899" lon="18.253944">
+        <ele>131.01621</ele>
+      </trkpt>
+      <trkpt lat="47.205695" lon="18.254407">
+        <ele>129.60536</ele>
+      </trkpt>
+      <trkpt lat="47.205492" lon="18.254869">
+        <ele>127.2096</ele>
+      </trkpt>
+      <trkpt lat="47.205389" lon="18.255109">
+        <ele>126.11463</ele>
+      </trkpt>
+      <trkpt lat="47.20519" lon="18.255609">
+        <ele>125.74099</ele>
+      </trkpt>
+      <trkpt lat="47.205009" lon="18.256062">
+        <ele>125.0344</ele>
+        <name>Fő utca, Csór, Székesfehérvári járás</name>
+        <sym>waypointFlagComb</sym>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>15</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.204505" lon="18.254798">
+        <ele>127.1</ele>
+        <name>Ady Endre utca, Csór, Székesfehérvári járás</name>
+        <extensions>
+          <oa:locType>routingNode</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>15</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.204597" lon="18.255017">
+        <ele>127.1</ele>
+      </trkpt>
+      <trkpt lat="47.204817" lon="18.255581">
+        <ele>124.2</ele>
+      </trkpt>
+      <trkpt lat="47.204899" lon="18.255823">
+        <ele>124.6</ele>
+      </trkpt>
+      <trkpt lat="47.204967" lon="18.256033">
+        <ele>124.9</ele>
+      </trkpt>
+      <trkpt lat="47.20493" lon="18.256185">
+        <ele>124.8</ele>
+      </trkpt>
+      <trkpt lat="47.2049" lon="18.256351">
+        <ele>124.7</ele>
+      </trkpt>
+      <trkpt lat="47.204869" lon="18.256569">
+        <ele>123.8</ele>
+      </trkpt>
+      <trkpt lat="47.204642" lon="18.256749">
+        <ele>123.1</ele>
+      </trkpt>
+      <trkpt lat="47.204415" lon="18.256928">
+        <ele>123.1</ele>
+      </trkpt>
+      <trkpt lat="47.204459" lon="18.257006">
+        <ele>122.8</ele>
+      </trkpt>
+      <trkpt lat="47.204582" lon="18.257221">
+        <ele>122.1</ele>
+      </trkpt>
+      <trkpt lat="47.204783" lon="18.257568">
+        <ele>121.8</ele>
+      </trkpt>
+      <trkpt lat="47.20479" lon="18.257583">
+        <ele>121.8</ele>
+      </trkpt>
+      <trkpt lat="47.204879" lon="18.257799">
+        <ele>120.8</ele>
+      </trkpt>
+      <trkpt lat="47.204949" lon="18.25796">
+        <ele>120.9</ele>
+      </trkpt>
+      <trkpt lat="47.20502" lon="18.25804">
+        <ele>121.0</ele>
+      </trkpt>
+      <trkpt lat="47.205097" lon="18.258048">
+        <ele>121.3</ele>
+      </trkpt>
+      <trkpt lat="47.205375" lon="18.258557">
+        <ele>120.7</ele>
+      </trkpt>
+      <trkpt lat="47.205386" lon="18.25894">
+        <ele>120.2</ele>
+      </trkpt>
+      <trkpt lat="47.205468" lon="18.258921">
+        <ele>120.6</ele>
+      </trkpt>
+      <trkpt lat="47.205538" lon="18.258889">
+        <ele>120.9</ele>
+      </trkpt>
+      <trkpt lat="47.205745" lon="18.25876">
+        <ele>121.8</ele>
+      </trkpt>
+      <trkpt lat="47.205869" lon="18.2587">
+        <ele>122.1</ele>
+      </trkpt>
+      <trkpt lat="47.20593" lon="18.25867">
+        <ele>122.3</ele>
+      </trkpt>
+      <trkpt lat="47.206059" lon="18.258627">
+        <ele>122.8</ele>
+      </trkpt>
+      <trkpt lat="47.206113" lon="18.258604">
+        <ele>123.0</ele>
+      </trkpt>
+      <trkpt lat="47.206317" lon="18.258491">
+        <ele>124.1</ele>
+      </trkpt>
+      <trkpt lat="47.206476" lon="18.258394">
+        <ele>125.0</ele>
+      </trkpt>
+      <trkpt lat="47.206633" lon="18.258295">
+        <ele>125.0</ele>
+      </trkpt>
+      <trkpt lat="47.206832" lon="18.258182">
+        <ele>125.4</ele>
+      </trkpt>
+      <trkpt lat="47.207024" lon="18.258268">
+        <ele>126.6</ele>
+      </trkpt>
+      <trkpt lat="47.207084" lon="18.258415">
+        <ele>127.4</ele>
+      </trkpt>
+      <trkpt lat="47.207153" lon="18.258449">
+        <ele>128.3</ele>
+      </trkpt>
+      <trkpt lat="47.20733" lon="18.258698">
+        <ele>133.0</ele>
+      </trkpt>
+      <trkpt lat="47.207456" lon="18.258791">
+        <ele>137.3</ele>
+      </trkpt>
+      <trkpt lat="47.207583" lon="18.258825">
+        <ele>140.3</ele>
+      </trkpt>
+      <trkpt lat="47.207736" lon="18.25901">
+        <ele>144.0</ele>
+      </trkpt>
+      <trkpt lat="47.20795" lon="18.259161">
+        <ele>149.8</ele>
+      </trkpt>
+      <trkpt lat="47.208235" lon="18.25946">
+        <ele>155.6</ele>
+      </trkpt>
+      <trkpt lat="47.208521" lon="18.259759">
+        <ele>162.6</ele>
+      </trkpt>
+      <trkpt lat="47.208624" lon="18.260033">
+        <ele>165.4</ele>
+      </trkpt>
+      <trkpt lat="47.209018" lon="18.260329">
+        <ele>172.4</ele>
+      </trkpt>
+      <trkpt lat="47.209255" lon="18.260573">
+        <ele>175.4</ele>
+      </trkpt>
+      <trkpt lat="47.209493" lon="18.260818">
+        <ele>178.1</ele>
+      </trkpt>
+      <trkpt lat="47.209735" lon="18.260776">
+        <ele>179.0</ele>
+      </trkpt>
+      <trkpt lat="47.209976" lon="18.260735">
+        <ele>180.9</ele>
+      </trkpt>
+      <trkpt lat="47.210197" lon="18.260617">
+        <ele>181.3</ele>
+      </trkpt>
+      <trkpt lat="47.210383" lon="18.260582">
+        <ele>179.8</ele>
+      </trkpt>
+      <trkpt lat="47.210748" lon="18.260436">
+        <ele>174.6</ele>
+      </trkpt>
+      <trkpt lat="47.211096" lon="18.26018">
+        <ele>172.6</ele>
+      </trkpt>
+      <trkpt lat="47.211276" lon="18.260168">
+        <ele>172.3</ele>
+      </trkpt>
+      <trkpt lat="47.211482" lon="18.260298">
+        <ele>173.7</ele>
+      </trkpt>
+      <trkpt lat="47.211613" lon="18.260305">
+        <ele>174.9</ele>
+      </trkpt>
+      <trkpt lat="47.211996" lon="18.260172">
+        <ele>174.4</ele>
+      </trkpt>
+      <trkpt lat="47.212145" lon="18.260076">
+        <ele>173.4</ele>
+      </trkpt>
+      <trkpt lat="47.21243" lon="18.259958">
+        <ele>172.6</ele>
+      </trkpt>
+      <trkpt lat="47.212819" lon="18.25978">
+        <ele>174.8</ele>
+      </trkpt>
+      <trkpt lat="47.212993" lon="18.25962">
+        <ele>176.6</ele>
+      </trkpt>
+      <trkpt lat="47.213052" lon="18.259486">
+        <ele>177.1</ele>
+      </trkpt>
+      <trkpt lat="47.213078" lon="18.259254">
+        <ele>176.6</ele>
+      </trkpt>
+      <trkpt lat="47.21315" lon="18.259018">
+        <ele>176.7</ele>
+      </trkpt>
+      <trkpt lat="47.213146" lon="18.258799">
+        <ele>176.1</ele>
+        <name>Keleti-Bakony Natura2000 terület, Csór, Székesfehérvári járás</name>
+        <extensions>
+          <oa:locType>routingNode</oa:locType>
+          <oa:Extension>
+            <oa:mapZoom>15</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

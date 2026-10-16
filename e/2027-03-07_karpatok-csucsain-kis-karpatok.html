@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1f5130">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="description" content="Jövőbeli teljesítménytúrák térképen — kitűző, érem, jelvény, oklevél. Szűrhető táv, szint, körtúra szerint.">
+  <title>Kárpátok Csúcsain: Kis-Kárpátok — márc. 7. · Kitűzővadász</title>
+  <link rel="manifest" href="/kituzovadasz/static/manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="/kituzovadasz/static/img/icon.svg">
+  <link rel="apple-touch-icon" href="/kituzovadasz/static/img/icon-192.png">
+  <link rel="stylesheet" href="/kituzovadasz/static/css/app.css?v=1792167843">
+  <script>window.B = "/kituzovadasz";</script>
+  
+<meta property="og:title" content="Kárpátok Csúcsain: Kis-Kárpátok — 2027. március 7., vasárnap">
+<meta property="og:description" content="A magyar szervezésű „Kárpátok Csúcsain” túrasorozat nyitótúrája Szlovákiában: körök Szomolányról (Smolenice) a Kis-Kárpátok északi részére, a várkastély és a Záruby érintésével. A 20-as és a 45-ös a Fekete-kőig, a 45-ös a Detrekői várromig is elmegy, 2100 m feletti szinttel.">
+<link rel="stylesheet" href="/kituzovadasz/static/vendor/leaflet/leaflet.css">
+
+</head>
+<body class="page">
+
+
+<header class="topbar sub">
+  <a class="back" href="/kituzovadasz/" onclick="if(document.referrer.startsWith(location.origin)){history.back();return false}" aria-label="Vissza"><svg><use href="#i-back"/></svg></a>
+  <div class="t">márc. 7. · Kis-Kárpátok</div>
+  <button class="star" id="favBtn" data-slug="2027-03-07_karpatok-csucsain-kis-karpatok" aria-label="Csillagozás"><svg><use href="#i-star"/></svg></button>
+</header>
+
+<main class="ev">
+  <section class="ev-head">
+    
+    <h1>Kárpátok Csúcsain: Kis-Kárpátok</h1>
+    <p class="when"><b>2027. március 7., vasárnap</b>
+      <span class="cd" id="cd" data-date="2027-03-07" data-end="">5 hónap múlva</span></p>
+    <div class="aw-big">
+      <span class="aw aw-jelveny"><svg><use href="#i-jelveny"/></svg>Jelvény</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      <span class="pill">évente változó</span>
+    </div>
+    <p class="aws">Minden távon évente változó jelvény és oklevél/emléklap.</p>
+    <p class="summary">A magyar szervezésű „Kárpátok Csúcsain” túrasorozat nyitótúrája Szlovákiában: körök Szomolányról (Smolenice) a Kis-Kárpátok északi részére, a várkastély és a Záruby érintésével. A 20-as és a 45-ös a Fekete-kőig, a 45-ös a Detrekői várromig is elmegy, 2100 m feletti szinttel.</p>
+    <div class="tags"><span>kör</span><span>téli</span></div>
+  </section>
+
+  <section class="ev-map">
+    <div id="emap"></div>
+    <div id="profile" class="profile" hidden>
+      <div class="ptabs" id="ptabs"></div>
+      <svg id="psvg" preserveAspectRatio="none"></svg>
+      <div class="pinfo" id="pinfo"></div>
+    </div>
+  </section>
+
+  <section class="ev-actions">
+    
+    <a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=48.509668,17.432343" target="_blank" rel="noopener">Útvonal a rajthoz</a>
+    
+    
+    <a class="btn-line" href="/kituzovadasz/e/2027-03-07_karpatok-csucsain-kis-karpatok.ics">Naptárba</a>
+    <button class="btn-line" id="shareBtn">Megosztás</button>
+  </section>
+
+  <section class="routes">
+    <h2>Távok <small>3</small></h2>
+    
+    <div class="common">
+      <h3>Minden távra érvényes</h3>
+      <dl>
+        <dt>Rajt</dt><dd>Szomolány (Smolenice)<br><small>919 04 Smolenice, Pod Molpírom</small><br><small>(a cél is itt)</small></dd>
+        
+        <dt>Célzárás</dt><dd>19:00</dd>
+        <dt>Előnevezés</dt><dd>Előnevezés kötelező <small>(határidő: márc. 7.)</small></dd>
+        <dt>Díjazás</dt><dd>Évente változó jelvény.</dd>
+        <dt>Frissítés</dt><dd>A rajtban édesség.</dd>
+        <dt>Vigyél</dt><dd>írószer, lámpa</dd>
+        
+      </dl>
+    </div>
+    
+    
+    <article class="route" id="t0" data-i="0">
+      <header>
+        <div class="rk">10<small>km</small></div>
+        <div class="rh">
+          <h3>Kis-Kárpátok 10</h3>
+          <div class="rmeta">
+            <span>↗ 640 m</span>
+            <span>körtúra</span>
+            <span>⏱ 4 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-jelveny"><svg><use href="#i-jelveny"/></svg>Jelvény</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        
+        
+        <dt>Indulás</dt><dd>08:00</dd>
+        
+        <dt>Nevezés</dt><dd>2 500 Ft</dd>
+        
+        
+        
+        
+        <dt>Megjegyzés</dt><dd>Útvonal: szomolányi várkastély – Holló-kő (Havranica) – Záruby – Molpír-hegyi kelta erődítés – Szomolány.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="0">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2027-03-07_karpatok-csucsain-kis-karpatok/0.gpx" download="2027-03-07_karpatok-csucsain-kis-karpatok_0.gpx">GPX letöltés</a></div>
+    </article>
+    
+    <article class="route" id="t1" data-i="1">
+      <header>
+        <div class="rk">22<small>km</small></div>
+        <div class="rh">
+          <h3>Kis-Kárpátok 20</h3>
+          <div class="rmeta">
+            <span>↗ 1 190 m</span>
+            <span>körtúra</span>
+            <span>⏱ 8 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-jelveny"><svg><use href="#i-jelveny"/></svg>Jelvény</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        
+        
+        <dt>Indulás</dt><dd>08:00</dd>
+        
+        <dt>Nevezés</dt><dd>2 500 Ft</dd>
+        
+        
+        
+        
+        <dt>Megjegyzés</dt><dd>Útvonal: szomolányi várkastély – Záruby – Éleskő vára (Ostrý Kameň) – Brezinky menedékház romjai – Fekete-kő (Čierna skala) – Jahodník – Driny-barlang – Szomolány.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="1">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2027-03-07_karpatok-csucsain-kis-karpatok/1.gpx" download="2027-03-07_karpatok-csucsain-kis-karpatok_1.gpx">GPX letöltés</a></div>
+    </article>
+    
+    <article class="route" id="t2" data-i="2">
+      <header>
+        <div class="rk">45,8<small>km</small></div>
+        <div class="rh">
+          <h3>Kis-Kárpátok 45</h3>
+          <div class="rmeta">
+            <span>↗ 2 120 m</span>
+            <span>körtúra</span>
+            <span>⏱ 11 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-jelveny"><svg><use href="#i-jelveny"/></svg>Jelvény</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        
+        
+        <dt>Indulás</dt><dd>08:00</dd>
+        
+        <dt>Nevezés</dt><dd>2 500 Ft</dd>
+        
+        
+        
+        
+        <dt>Megjegyzés</dt><dd>Útvonal: Záruby – Éleskő vára – Krslenica – Detrekőszentmiklós (Plavecký Mikuláš) – Detrekői vár romjai – Detrekőváralja (Plavecké Podhradie) – Vápenná – Fekete-kő – Driny-barlang – Szomolány.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="2">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2027-03-07_karpatok-csucsain-kis-karpatok/2.gpx" download="2027-03-07_karpatok-csucsain-kis-karpatok_2.gpx">GPX letöltés</a></div>
+    </article>
+    
+  </section>
+
+  
+
+  <section class="block org">
+    <h2>Szervező</h2>
+    <p><b>Területi Honvédelmi Klub</b></p>
+    <ul class="links">
+      
+      
+      
+      <li><a href="https://tturak.hu/hikeOccasion/8464/details" target="_blank" rel="noopener">tturak.hu adatlap</a></li>
+      
+      <li><a href="tel:+36709424410">+36709424410</a></li>
+      <li><a href="mailto:bakonyturistaja@googlemail.com">bakonyturistaja@googlemail.com</a></li>
+    </ul>
+  </section>
+
+  <section class="block curator">
+    <p>Utoljára ellenőrizve: <b>okt. 16.</b> ·
+      megbízhatóság: <b>magas</b></p>
+    <p><small>Szervezői honlap nincs; minden adat a tturak leírásából és paramétereiből. A tturak név „Kárpátok Csúcsain I. (Kis-Kárpátok)” – az „I.” a sorozaton belüli sorszám, ezt a series + név fedi. A tturak túra-sorozat („Kőről kőre a Cserhátban”) nem illik; a GPX-ek egy 2020-as „Kőről kőre a Kis-Kárpátokban” kiírásból valók. A nevezési díj forintban van megadva. Az előnevezés kötelező (Google-űrlap a tturak oldalon).</small></p>
+    <p><small>Az adatokat egy MI-kurátor gyűjti a szervezői kiírásokból. Indulás előtt mindig nézd meg a hivatalos kiírást!</small></p>
+  </section>
+</main>
+
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-kituzo" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="currentColor"/></symbol>
+    <symbol id="i-jelveny" viewBox="0 0 24 24"><path d="M12 2.5 20 6v6c0 4.6-3.3 8.3-8 9.5C7.3 20.3 4 16.6 4 12V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m12 7.5 1.4 2.9 3.1.4-2.3 2.2.6 3.1L12 14.6l-2.8 1.5.6-3.1-2.3-2.2 3.1-.4z" fill="currentColor"/></symbol>
+    <symbol id="i-erem" viewBox="0 0 24 24"><path d="M7 2h4l2 6H9zM13 2h4l-2 6h-4z" fill="currentColor" opacity=".55"/><circle cx="12" cy="15" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="15" r="3" fill="currentColor"/></symbol>
+    <symbol id="i-oklevel" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-egyeb" viewBox="0 0 24 24"><rect x="3.5" y="9" width="17" height="11.5" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M2.5 9h19M12 9v11.5M12 9c-1.5-4-6-4.5-6-1.8C6 9 12 9 12 9zm0 0c1.5-4 6-4.5 6-1.8C18 9 12 9 12 9z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2.8 2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3L2.9 9.5l6.3-.9z" fill="currentColor"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M15 5 8 12l7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </defs>
+</svg>
+
+<script>
+window.EV = {"finishes": [null, null, null], "name": "K\u00e1rp\u00e1tok Cs\u00facsain: Kis-K\u00e1rp\u00e1tok", "routes": ["Kis-K\u00e1rp\u00e1tok 10", "Kis-K\u00e1rp\u00e1tok 20", "Kis-K\u00e1rp\u00e1tok 45"], "slug": "2027-03-07_karpatok-csucsain-kis-karpatok", "starts": [{"address": "919 04 Smolenice, Pod Molp\u00edrom", "lat": 48.509668, "lng": 17.432343, "name": "Szomol\u00e1ny (Smolenice)"}, {"address": "919 04 Smolenice, Pod Molp\u00edrom", "lat": 48.509668, "lng": 17.432343, "name": "Szomol\u00e1ny (Smolenice)"}, {"address": "919 04 Smolenice, Pod Molp\u00edrom", "lat": 48.509668, "lng": 17.432343, "name": "Szomol\u00e1ny (Smolenice)"}], "tracks": [0, 1, 2]};
+</script>
+<script src="/kituzovadasz/static/vendor/leaflet/leaflet.js"></script>
+<script src="/kituzovadasz/static/js/common.js?v=1792167843"></script>
+<script src="/kituzovadasz/static/js/event.js?v=1792167843"></script>
+
+</body>
+</html>

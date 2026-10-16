@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2026-11-11_balatoni-romok@kituzovadasz
+DTSTAMP:20261016T162407Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Balatoni romok
+LOCATION:Balatonudvari\, vasútállomás
+DESCRIPTION:Vezetett\, 17 km-es hétköznapi kör Balatonudvari vasútállomásáról az örvényesi és a vászolyi templomromokhoz\, a Nagyvár-tető kősáncán át. A Balatoni romok túramozgalom része\; a Nagyvár-tetőn a Várak a Balaton-felvidéken mozgalom kódja is megtalálható.\n\nTávok: 17\,4 km\nDíjazás: Kitűző és oklevél.\nhttps://coolfrog2.github.io/kituzovadasz/e/2026-11-11_balatoni-romok
+END:VEVENT
+END:VCALENDAR

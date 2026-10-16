@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2026-10-31_naplas@kituzovadasz
+DTSTAMP:20261016T162406Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Naplás Teljesítménytúra
+LOCATION:Cinkotai Tájház
+DESCRIPTION:A Gödöllői-dombságon át Budapest-Cinkotára\, a Naplás-tó melletti Tájházba tartó túrák: a hosszabbak Szilasligetről vagy a gödöllői Arborétumtól indulnak\, a 10 és 6 km-es családi kör Cinkotáról. A nevezők ingyen megnézhetik a gödöllői Arbo Parkot és a nagytarcsai Falumúzeumot.\n\nTávok: 6\,4 km\, 9\,3 km\, 23\,4 km\, 27\,8 km\, 42\,1 km\nDíjazás: Minden távon kitűző\, évente változó jelvény és oklevél (a tturak szerint).\nhttps://coolfrog2.github.io/kituzovadasz/e/2026-10-31_naplas
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2026-10-31_halloween-party@kituzovadasz
+DTSTAMP:20261016T162406Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Halloween Party
+LOCATION:Szépjuhászné\, Gyermekvasút-állomás
+DESCRIPTION:A Sarokkő Egyesület Halloween-napi körtúrái a Szépjuhászné Gyermekvasút-állomásról\, 3-tól 19\,5 km-ig\, jelzett turistautakon (Makkosmária\, Hűvösvölgy\, Nagyrét). Nappal és késő délután is lehet indulni\; a szervezők jelmezes részvételt kérnek.\n\nTávok: 3 km\, 7 km\, 12 km\, 19\,5 km\nDíjazás: Minden távon kitűző és oklevél.\nhttps://coolfrog2.github.io/kituzovadasz/e/2026-10-31_halloween-party
+END:VEVENT
+END:VCALENDAR

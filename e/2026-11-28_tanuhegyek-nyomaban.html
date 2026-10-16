@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1f5130">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="description" content="Jövőbeli teljesítménytúrák térképen — kitűző, érem, jelvény, oklevél. Szűrhető táv, szint, körtúra szerint.">
+  <title>Tanúhegyek nyomában — nov. 28. · Kitűzővadász</title>
+  <link rel="manifest" href="/kituzovadasz/static/manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="/kituzovadasz/static/img/icon.svg">
+  <link rel="apple-touch-icon" href="/kituzovadasz/static/img/icon-192.png">
+  <link rel="stylesheet" href="/kituzovadasz/static/css/app.css?v=1792167843">
+  <script>window.B = "/kituzovadasz";</script>
+  
+<meta property="og:title" content="Tanúhegyek nyomában — 2026. november 28., szombat">
+<meta property="og:description" content="A Tapolcai-medence tanúhegyeit (Badacsony, Szigliget, Szent György-hegy, Csobánc, Tóti-hegy, Gulács) felfűző badacsonytomaji teljesítménytúra. A 40-es mind a hatot bejárja, a két 20-as fél-fél útvonal a Szent György-hegyi kulcsosháznál cserélődve, a 10-es csak a Badacsonyt kerüli. Csak előnevezéssel, gyalog és futva is teljesíthető.">
+<link rel="stylesheet" href="/kituzovadasz/static/vendor/leaflet/leaflet.css">
+
+</head>
+<body class="page">
+
+
+<header class="topbar sub">
+  <a class="back" href="/kituzovadasz/" onclick="if(document.referrer.startsWith(location.origin)){history.back();return false}" aria-label="Vissza"><svg><use href="#i-back"/></svg></a>
+  <div class="t">nov. 28. · Balaton-felvidék, Tapolcai-medence</div>
+  <button class="star" id="favBtn" data-slug="2026-11-28_tanuhegyek-nyomaban" aria-label="Csillagozás"><svg><use href="#i-star"/></svg></button>
+</header>
+
+<main class="ev">
+  <section class="ev-head">
+    
+    <h1>Tanúhegyek nyomában</h1>
+    <p class="when"><b>2026. november 28., szombat</b>
+      <span class="cd" id="cd" data-date="2026-11-28" data-end="">6 hét múlva</span></p>
+    <div class="aw-big">
+      <span class="aw aw-jelveny"><svg><use href="#i-jelveny"/></svg>Jelvény</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      <span class="pill">évente változó</span>
+    </div>
+    <p class="aws">Minden távon jelvény és oklevél.</p>
+    <p class="summary">A Tapolcai-medence tanúhegyeit (Badacsony, Szigliget, Szent György-hegy, Csobánc, Tóti-hegy, Gulács) felfűző badacsonytomaji teljesítménytúra. A 40-es mind a hatot bejárja, a két 20-as fél-fél útvonal a Szent György-hegyi kulcsosháznál cserélődve, a 10-es csak a Badacsonyt kerüli. Csak előnevezéssel, gyalog és futva is teljesíthető.</p>
+    <div class="tags"><span>téli</span><span>futóknak is</span></div>
+  </section>
+
+  <section class="ev-map">
+    <div id="emap"></div>
+    <div id="profile" class="profile" hidden>
+      <div class="ptabs" id="ptabs"></div>
+      <svg id="psvg" preserveAspectRatio="none"></svg>
+      <div class="pinfo" id="pinfo"></div>
+    </div>
+  </section>
+
+  <section class="ev-actions">
+    
+    <a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=46.804871,17.515282" target="_blank" rel="noopener">Útvonal a rajthoz</a>
+    
+    <a class="btn-line" href="https://tanuhegyeknyomaban.hu/nevezes/" target="_blank" rel="noopener">Előnevezés</a>
+    <a class="btn-line" href="/kituzovadasz/e/2026-11-28_tanuhegyek-nyomaban.ics">Naptárba</a>
+    <button class="btn-line" id="shareBtn">Megosztás</button>
+  </section>
+
+  <section class="routes">
+    <h2>Távok <small>4</small></h2>
+    
+    <div class="common">
+      <h3>Minden távra érvényes</h3>
+      <dl>
+        
+        
+        
+        <dt>Előnevezés</dt><dd>Előnevezés kötelező <small>(határidő: nov. 23.)</small></dd>
+        
+        
+        <dt>Vigyél</dt><dd>saját pohár</dd>
+        
+      </dl>
+    </div>
+    
+    
+    <article class="route" id="t0" data-i="0">
+      <header>
+        <div class="rk">10,8<small>km</small></div>
+        <div class="rh">
+          <h3>Tanúhegyek 10</h3>
+          <div class="rmeta">
+            <span>↗ 540 m</span>
+            <span>körtúra</span>
+            <span>⏱ 6 óra</span>
+            
+            <span>futva is</span>
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-jelveny"><svg><use href="#i-jelveny"/></svg>Jelvény</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      <p class="rnote">A tturak szerint évente változó jelvény.</p>
+      <dl>
+        <dt>Rajt</dt><dd>Badacsonytomaj, Tatay Sándor Általános Iskola<br><small>8258 Badacsonytomaj, Kert utca 8.</small></dd>
+        
+        <dt>Indulás</dt><dd>07:30–10:30</dd>
+        <dt>Célzárás</dt><dd>16:30</dd>
+        <dt>Nevezés</dt><dd>3 000 Ft<br><small>10 év alatti gyerekeknek ingyenes; helyszíni nevezés nincs.</small></dd>
+        
+        <dt>Ellenőrzőpont</dt><dd>2 db</dd>
+        <dt>Frissítés</dt><dd>Útközben hideg ital (saját pohárba), gyümölcs, zsíros vagy lekváros kenyér, édesség és forralt bor; a célban meleg étel.</dd>
+        
+        <dt>Megjegyzés</dt><dd>Badacsony (Kisfaludy-kilátó) és Rodostó-ház. A szervező itinere szerint 10,8 km; a tturak 10 km-t ír.</dd>
+      </dl>
+      
+    </article>
+    
+    <article class="route" id="t1" data-i="1">
+      <header>
+        <div class="rk">19,6<small>km</small></div>
+        <div class="rh">
+          <h3>Tanúhegyek 20A</h3>
+          <div class="rmeta">
+            <span>↗ 850 m</span>
+            <span>A → B</span>
+            <span>⏱ 7 óra</span>
+            
+            <span>futva is</span>
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-jelveny"><svg><use href="#i-jelveny"/></svg>Jelvény</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        <dt>Rajt</dt><dd>Badacsonytomaj, Tatay Sándor Általános Iskola<br><small>8258 Badacsonytomaj, Kert utca 8.</small></dd>
+        <dt>Cél</dt><dd>Szent György-hegy, Kaán Károly kulcsosház<br><small>8265 Hegymagas, Mennyország krt.</small></dd>
+        <dt>Indulás</dt><dd>07:00–10:00</dd>
+        <dt>Célzárás</dt><dd>17:00</dd>
+        <dt>Nevezés</dt><dd>4 000 Ft<br><small>10 év alatti gyerekeknek ingyenes; helyszíni nevezés nincs.</small></dd>
+        
+        <dt>Ellenőrzőpont</dt><dd>3 db</dd>
+        <dt>Frissítés</dt><dd>Útközben (Szigliget) hideg ital (saját pohárba), gyümölcs, zsíros vagy lekváros kenyér, édesség és forralt bor; a célban meleg étel.</dd>
+        
+        <dt>Megjegyzés</dt><dd>Badacsony, Szigliget vára, Szent György-hegy; a célból transzfer vissza Badacsonytomajba.</dd>
+      </dl>
+      
+    </article>
+    
+    <article class="route" id="t2" data-i="2">
+      <header>
+        <div class="rk">22,7<small>km</small></div>
+        <div class="rh">
+          <h3>Tanúhegyek 20B</h3>
+          <div class="rmeta">
+            <span>↗ 750 m</span>
+            <span>A → B</span>
+            <span>⏱ 7 óra</span>
+            
+            <span>futva is</span>
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-jelveny"><svg><use href="#i-jelveny"/></svg>Jelvény</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      <p class="rnote">A tturak szerint évente változó jelvény.</p>
+      <dl>
+        <dt>Rajt</dt><dd>Szent György-hegy, Kaán Károly kulcsosház<br><small>8265 Hegymagas, Mennyország krt.</small></dd>
+        <dt>Cél</dt><dd>Badacsonytomaj, Tatay Sándor Általános Iskola<br><small>8258 Badacsonytomaj, Kert utca 8.</small></dd>
+        <dt>Indulás</dt><dd>09:00–11:00</dd>
+        <dt>Célzárás</dt><dd>18:30</dd>
+        <dt>Nevezés</dt><dd>4 000 Ft<br><small>10 év alatti gyerekeknek ingyenes; helyszíni nevezés nincs.</small></dd>
+        
+        <dt>Ellenőrzőpont</dt><dd>3 db</dd>
+        <dt>Frissítés</dt><dd>Útközben (Káptalantóti) hideg ital (saját pohárba), gyümölcs, zsíros vagy lekváros kenyér, édesség és forralt bor; a célban meleg étel.</dd>
+        
+        <dt>Megjegyzés</dt><dd>Csobánc, Tóti-hegy, Gulács; a rajtba transzfer Badacsonytomajból.</dd>
+      </dl>
+      
+    </article>
+    
+    <article class="route" id="t3" data-i="3">
+      <header>
+        <div class="rk">42,3<small>km</small></div>
+        <div class="rh">
+          <h3>Tanúhegyek 40</h3>
+          <div class="rmeta">
+            <span>↗ 1 600 m</span>
+            <span>körtúra</span>
+            <span>⏱ 13 óra</span>
+            
+            <span>futva is</span>
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-jelveny"><svg><use href="#i-jelveny"/></svg>Jelvény</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        <dt>Rajt</dt><dd>Badacsonytomaj, Tatay Sándor Általános Iskola<br><small>8258 Badacsonytomaj, Kert utca 8.</small></dd>
+        
+        <dt>Indulás</dt><dd>07:00–08:00</dd>
+        <dt>Célzárás</dt><dd>21:00</dd>
+        <dt>Nevezés</dt><dd>4 000 Ft<br><small>10 év alatti gyerekeknek ingyenes; helyszíni nevezés nincs.</small></dd>
+        
+        <dt>Ellenőrzőpont</dt><dd>7 db</dd>
+        <dt>Frissítés</dt><dd>Útközben (Szigliget, kulcsosház, Káptalantóti) hideg ital (saját pohárba), gyümölcs, zsíros vagy lekváros kenyér, édesség és forralt bor; a célban meleg étel.</dd>
+        
+        <dt>Megjegyzés</dt><dd>Mind a hat tanúhegy: Badacsony, Szigliget, Szent György-hegy, Csobánc, Tóti-hegy, Gulács.</dd>
+      </dl>
+      
+    </article>
+    
+  </section>
+
+  
+  <section class="block"><h2>Megközelítés</h2><p>A túra előtti éjszakára tornatermi szállás (matrac) kérhető az iskolában, az önkormányzat díjszabása szerint. A Szent György-hegyi kulcsosházhoz (20B rajt) és onnan (20A cél) a szervezők átszállítják a túrázókat Badacsonytomajból, illetve Badacsonytomajba.</p></section>
+  
+
+  <section class="block org">
+    <h2>Szervező</h2>
+    <p><b>Szent Jakab Zarándok Egyesület és Magyarországi Kárpát Egyesület</b></p>
+    <ul class="links">
+      <li><a href="https://www.tanuhegyeknyomaban.hu/" target="_blank" rel="noopener">Kiírás / honlap</a></li>
+      <li><a href="https://www.facebook.com/tanuhegyeknyomaban" target="_blank" rel="noopener">Facebook-esemény</a></li>
+      <li><a href="https://tanuhegyeknyomaban.hu/nevezes/" target="_blank" rel="noopener">Előnevezési oldal</a></li>
+      <li><a href="https://tturak.hu/hikeOccasion/8003/details" target="_blank" rel="noopener">tturak.hu adatlap</a></li>
+      <li><a href="http://www.szent-jakab.hu/" target="_blank" rel="noopener">Szervező honlapja</a></li>
+      <li><a href="tel:+36209622082">+36209622082</a></li>
+      <li><a href="mailto:info@tanuhegyeknyomaban.hu">info@tanuhegyeknyomaban.hu</a></li>
+    </ul>
+  </section>
+
+  <section class="block curator">
+    <p>Utoljára ellenőrizve: <b>okt. 16.</b> ·
+      megbízhatóság: <b>közepes</b></p>
+    <p><small>Díjazás: a tturak a 40/20A-n jelvényt, a 20B/10-en kitűzőt + évente változó jelvényt jelöl; a szervező honlapja minden távra „jelvény és oklevél”-et ír → jelvény + oklevél mindenhol, award_yearly a tturak jelölése alapján. A honlap még a 2025-ös kiírást mutatja (november 25-i határidő), ezért a 2026-os határidő (11-23) és a rajtidők a tturakból. A 10-es hossza a honlap itinere szerint 10,8 km (tturak: 10). A honlapon van GPX, de a tturak nem csatol, ezért nem töltöttük le.</small></p>
+    <p><small>Az adatokat egy MI-kurátor gyűjti a szervezői kiírásokból. Indulás előtt mindig nézd meg a hivatalos kiírást!</small></p>
+  </section>
+</main>
+
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-kituzo" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="currentColor"/></symbol>
+    <symbol id="i-jelveny" viewBox="0 0 24 24"><path d="M12 2.5 20 6v6c0 4.6-3.3 8.3-8 9.5C7.3 20.3 4 16.6 4 12V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m12 7.5 1.4 2.9 3.1.4-2.3 2.2.6 3.1L12 14.6l-2.8 1.5.6-3.1-2.3-2.2 3.1-.4z" fill="currentColor"/></symbol>
+    <symbol id="i-erem" viewBox="0 0 24 24"><path d="M7 2h4l2 6H9zM13 2h4l-2 6h-4z" fill="currentColor" opacity=".55"/><circle cx="12" cy="15" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="15" r="3" fill="currentColor"/></symbol>
+    <symbol id="i-oklevel" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-egyeb" viewBox="0 0 24 24"><rect x="3.5" y="9" width="17" height="11.5" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M2.5 9h19M12 9v11.5M12 9c-1.5-4-6-4.5-6-1.8C6 9 12 9 12 9zm0 0c1.5-4 6-4.5 6-1.8C18 9 12 9 12 9z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2.8 2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3L2.9 9.5l6.3-.9z" fill="currentColor"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M15 5 8 12l7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </defs>
+</svg>
+
+<script>
+window.EV = {"finishes": [null, {"address": "8265 Hegymagas, Mennyorsz\u00e1g krt.", "lat": 46.847134, "lng": 17.45139, "name": "Szent Gy\u00f6rgy-hegy, Ka\u00e1n K\u00e1roly kulcsosh\u00e1z"}, {"address": "8258 Badacsonytomaj, Kert utca 8.", "lat": 46.804871, "lng": 17.515282, "name": "Badacsonytomaj, Tatay S\u00e1ndor \u00c1ltal\u00e1nos Iskola"}, null], "name": "Tan\u00fahegyek nyom\u00e1ban", "routes": ["Tan\u00fahegyek 10", "Tan\u00fahegyek 20A", "Tan\u00fahegyek 20B", "Tan\u00fahegyek 40"], "slug": "2026-11-28_tanuhegyek-nyomaban", "starts": [{"address": "8258 Badacsonytomaj, Kert utca 8.", "lat": 46.804871, "lng": 17.515282, "name": "Badacsonytomaj, Tatay S\u00e1ndor \u00c1ltal\u00e1nos Iskola"}, {"address": "8258 Badacsonytomaj, Kert utca 8.", "lat": 46.804871, "lng": 17.515282, "name": "Badacsonytomaj, Tatay S\u00e1ndor \u00c1ltal\u00e1nos Iskola"}, {"address": "8265 Hegymagas, Mennyorsz\u00e1g krt.", "lat": 46.847028, "lng": 17.451683, "name": "Szent Gy\u00f6rgy-hegy, Ka\u00e1n K\u00e1roly kulcsosh\u00e1z"}, {"address": "8258 Badacsonytomaj, Kert utca 8.", "lat": 46.804871, "lng": 17.515282, "name": "Badacsonytomaj, Tatay S\u00e1ndor \u00c1ltal\u00e1nos Iskola"}], "tracks": []};
+</script>
+<script src="/kituzovadasz/static/vendor/leaflet/leaflet.js"></script>
+<script src="/kituzovadasz/static/js/common.js?v=1792167843"></script>
+<script src="/kituzovadasz/static/js/event.js?v=1792167843"></script>
+
+</body>
+</html>

@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1f5130">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="description" content="Jövőbeli teljesítménytúrák térképen — kitűző, érem, jelvény, oklevél. Szűrhető táv, szint, körtúra szerint.">
+  <title>A Szent László Hadosztály nyomában — dec. 27. · Kitűzővadász</title>
+  <link rel="manifest" href="/kituzovadasz/static/manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="/kituzovadasz/static/img/icon.svg">
+  <link rel="apple-touch-icon" href="/kituzovadasz/static/img/icon-192.png">
+  <link rel="stylesheet" href="/kituzovadasz/static/css/app.css?v=1792167843">
+  <script>window.B = "/kituzovadasz";</script>
+  
+<meta property="og:title" content="A Szent László Hadosztály nyomában — 2026. december 27., vasárnap">
+<meta property="og:description" content="Emléktúra Szobról az Ipolyon át a szlovákiai Helembára, a Szent László Hadosztály emlékművéhez (9 órakor koszorúzás a templomkertben); a hosszabb távok Kovácspatak, a Király-hegy és Leléd felé, a Burda dombjain át kanyarodnak vissza Ipolydamásdon keresztül. A teljesítménytúra és a hagyományőrzőkkel tartott ingyenes vezetett túra szabadon kombinálható.">
+<link rel="stylesheet" href="/kituzovadasz/static/vendor/leaflet/leaflet.css">
+
+</head>
+<body class="page">
+
+
+<header class="topbar sub">
+  <a class="back" href="/kituzovadasz/" onclick="if(document.referrer.startsWith(location.origin)){history.back();return false}" aria-label="Vissza"><svg><use href="#i-back"/></svg></a>
+  <div class="t">dec. 27. · Börzsöny, Felvidék</div>
+  <button class="star" id="favBtn" data-slug="2026-12-27_szent-laszlo-hadosztaly-nyomaban" aria-label="Csillagozás"><svg><use href="#i-star"/></svg></button>
+</header>
+
+<main class="ev">
+  <section class="ev-head">
+    
+    <h1>A Szent László Hadosztály nyomában</h1>
+    <p class="when"><b>2026. december 27., vasárnap</b>
+      <span class="cd" id="cd" data-date="2026-12-27" data-end="">2 hónap múlva</span></p>
+    <div class="aw-big">
+      <span class="aw aw-jelveny"><svg><use href="#i-jelveny"/></svg>Jelvény</span><span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      
+    </div>
+    <p class="aws">A 10, 25 és 30 km-es távon jelvény és oklevél; az ingyenes vezetett túrán kitűző.</p>
+    <p class="summary">Emléktúra Szobról az Ipolyon át a szlovákiai Helembára, a Szent László Hadosztály emlékművéhez (9 órakor koszorúzás a templomkertben); a hosszabb távok Kovácspatak, a Király-hegy és Leléd felé, a Burda dombjain át kanyarodnak vissza Ipolydamásdon keresztül. A teljesítménytúra és a hagyományőrzőkkel tartott ingyenes vezetett túra szabadon kombinálható.</p>
+    <div class="tags"><span>emléktúra</span><span>kör</span><span>téli</span><span>vezetett</span></div>
+  </section>
+
+  <section class="ev-map">
+    <div id="emap"></div>
+    <div id="profile" class="profile" hidden>
+      <div class="ptabs" id="ptabs"></div>
+      <svg id="psvg" preserveAspectRatio="none"></svg>
+      <div class="pinfo" id="pinfo"></div>
+    </div>
+  </section>
+
+  <section class="ev-actions">
+    
+    <a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=47.821197,18.863218" target="_blank" rel="noopener">Útvonal a rajthoz</a>
+    
+    
+    <a class="btn-line" href="/kituzovadasz/e/2026-12-27_szent-laszlo-hadosztaly-nyomaban.ics">Naptárba</a>
+    <button class="btn-line" id="shareBtn">Megosztás</button>
+  </section>
+
+  <section class="routes">
+    <h2>Távok <small>4</small></h2>
+    
+    <div class="common">
+      <h3>Minden távra érvényes</h3>
+      <dl>
+        
+        
+        
+        <dt>Előnevezés</dt><dd>Előnevezés kötelező <small>(határidő: dec. 23.)</small></dd>
+        
+        <dt>Frissítés</dt><dd>Édesség a rajtban; útközben kocsma és bolt.</dd>
+        <dt>Vigyél</dt><dd>írószer</dd>
+        
+      </dl>
+    </div>
+    
+    
+    <article class="route" id="t0" data-i="0">
+      <header>
+        <div class="rk">10,6<small>km</small></div>
+        <div class="rh">
+          <h3>Szent László 10</h3>
+          <div class="rmeta">
+            <span>↗ 70 m</span>
+            <span>körtúra</span>
+            <span>⏱ 4 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-jelveny"><svg><use href="#i-jelveny"/></svg>Jelvény</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        <dt>Rajt</dt><dd>Szob, P+R parkoló<br><small>2628 Szob, Ipolysági utca 20.</small></dd>
+        
+        <dt>Indulás</dt><dd>07:00–08:30</dd>
+        <dt>Célzárás</dt><dd>16:00</dd>
+        <dt>Nevezés</dt><dd>2 500 Ft</dd>
+        
+        
+        
+        
+        <dt>Megjegyzés</dt><dd>Helembán a Szent László Hadosztály emlékművét érinti, onnan az Ipoly-hídon és Ipolydamásdon át tér vissza. A GPX 10,0 km.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="0">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2026-12-27_szent-laszlo-hadosztaly-nyomaban/0.gpx" download="2026-12-27_szent-laszlo-hadosztaly-nyomaban_0.gpx">GPX letöltés</a></div>
+    </article>
+    
+    <article class="route" id="t1" data-i="1">
+      <header>
+        <div class="rk">11,8<small>km</small></div>
+        <div class="rh">
+          <h3>Vezetett emléktúra</h3>
+          <div class="rmeta">
+            <span>↗ 250 m</span>
+            <span>körtúra</span>
+            <span>⏱ 5 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span>
+      </div>
+      <p class="rnote">Ingyenes részvételért kitűző; befizetett nevezési díjjal jelvény és oklevél.</p>
+      <dl>
+        <dt>Rajt</dt><dd>Helemba (Chľaba), Szent Imre-templom<br><small>943 66 Chľaba (Helemba), Szlovákia</small></dd>
+        
+        <dt>Indulás</dt><dd>09:00–09:30</dd>
+        <dt>Célzárás</dt><dd>14:00</dd>
+        <dt>Nevezés</dt><dd>ingyenes<br><small>Ingyenes. Ha a résztvevő Szobon befizeti a teljesítménytúra nevezési díját, a vezetett táv beszámít a teljesítménytúrába, és jelvényt és oklevelet kap.</small></dd>
+        
+        
+        
+        
+        <dt>Megjegyzés</dt><dd>A 9:00-s helembai koszorúzás után indul a hagyományőrzőkkel a Nyerges-kilátón és a Királyszéken át; a templomkertbe tér vissza. A rajt Szlovákiában van.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="1">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2026-12-27_szent-laszlo-hadosztaly-nyomaban/1.gpx" download="2026-12-27_szent-laszlo-hadosztaly-nyomaban_1.gpx">GPX letöltés</a></div>
+    </article>
+    
+    <article class="route" id="t2" data-i="2">
+      <header>
+        <div class="rk">25,3<small>km</small></div>
+        <div class="rh">
+          <h3>Szent László 25</h3>
+          <div class="rmeta">
+            <span>↗ 520 m</span>
+            <span>körtúra</span>
+            <span>⏱ 7 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-jelveny"><svg><use href="#i-jelveny"/></svg>Jelvény</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        <dt>Rajt</dt><dd>Szob, P+R parkoló<br><small>2628 Szob, Ipolysági utca 20.</small></dd>
+        
+        <dt>Indulás</dt><dd>07:15–08:15</dd>
+        <dt>Célzárás</dt><dd>16:00</dd>
+        <dt>Nevezés</dt><dd>2 500 Ft</dd>
+        
+        
+        
+        
+        <dt>Megjegyzés</dt><dd>Kovácspatakon, a földalatti olajfinomítón, a Sziklákon és a Király-hegyen át. A GPX 24,8 km.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="2">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2026-12-27_szent-laszlo-hadosztaly-nyomaban/2.gpx" download="2026-12-27_szent-laszlo-hadosztaly-nyomaban_2.gpx">GPX letöltés</a></div>
+    </article>
+    
+    <article class="route" id="t3" data-i="3">
+      <header>
+        <div class="rk">29,4<small>km</small></div>
+        <div class="rh">
+          <h3>Szent László 30</h3>
+          <div class="rmeta">
+            <span>↗ 577 m</span>
+            <span>körtúra</span>
+            <span>⏱ 7 óra 45 perc</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-jelveny"><svg><use href="#i-jelveny"/></svg>Jelvény</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        <dt>Rajt</dt><dd>Szob, P+R parkoló<br><small>2628 Szob, Ipolysági utca 20.</small></dd>
+        
+        <dt>Indulás</dt><dd>07:15–08:15</dd>
+        <dt>Célzárás</dt><dd>16:00</dd>
+        <dt>Nevezés</dt><dd>2 500 Ft</dd>
+        
+        
+        
+        
+        <dt>Megjegyzés</dt><dd>A 25-ös útvonala Bajta és Leléd felé meghosszabbítva, az Ipoly-parton vissza Helembára. A GPX 28,5 km.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="3">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2026-12-27_szent-laszlo-hadosztaly-nyomaban/3.gpx" download="2026-12-27_szent-laszlo-hadosztaly-nyomaban_3.gpx">GPX letöltés</a></div>
+    </article>
+    
+  </section>
+
+  
+
+  <section class="block org">
+    <h2>Szervező</h2>
+    <p><b>Területi Honvédelmi Klub</b></p>
+    <ul class="links">
+      
+      
+      
+      <li><a href="https://tturak.hu/hikeOccasion/7879/details" target="_blank" rel="noopener">tturak.hu adatlap</a></li>
+      
+      <li><a href="tel:+36709424410">+36709424410</a></li>
+      <li><a href="mailto:bakonyturistaja@googlemail.com">bakonyturistaja@googlemail.com</a></li>
+    </ul>
+  </section>
+
+  <section class="block curator">
+    <p>Utoljára ellenőrizve: <b>okt. 16.</b> ·
+      megbízhatóság: <b>magas</b></p>
+    <p><small>A vezetett táv rajtja Helembán (Szlovákia) van; az esemény fő rajtja Szobon, ezért country=HU. A tturak túrasorozat-neve (50/35/17, előnevezés 12.17-ig) régi; a 2026-os távok 10/25/30 + vezetett. Előnevezés Google-űrlapon (link a tturak oldalon), a vezetett túrára is kötelező.</small></p>
+    <p><small>Az adatokat egy MI-kurátor gyűjti a szervezői kiírásokból. Indulás előtt mindig nézd meg a hivatalos kiírást!</small></p>
+  </section>
+</main>
+
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-kituzo" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="currentColor"/></symbol>
+    <symbol id="i-jelveny" viewBox="0 0 24 24"><path d="M12 2.5 20 6v6c0 4.6-3.3 8.3-8 9.5C7.3 20.3 4 16.6 4 12V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m12 7.5 1.4 2.9 3.1.4-2.3 2.2.6 3.1L12 14.6l-2.8 1.5.6-3.1-2.3-2.2 3.1-.4z" fill="currentColor"/></symbol>
+    <symbol id="i-erem" viewBox="0 0 24 24"><path d="M7 2h4l2 6H9zM13 2h4l-2 6h-4z" fill="currentColor" opacity=".55"/><circle cx="12" cy="15" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="15" r="3" fill="currentColor"/></symbol>
+    <symbol id="i-oklevel" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-egyeb" viewBox="0 0 24 24"><rect x="3.5" y="9" width="17" height="11.5" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M2.5 9h19M12 9v11.5M12 9c-1.5-4-6-4.5-6-1.8C6 9 12 9 12 9zm0 0c1.5-4 6-4.5 6-1.8C18 9 12 9 12 9z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2.8 2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3L2.9 9.5l6.3-.9z" fill="currentColor"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M15 5 8 12l7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </defs>
+</svg>
+
+<script>
+window.EV = {"finishes": [null, null, null, null], "name": "A Szent L\u00e1szl\u00f3 Hadoszt\u00e1ly nyom\u00e1ban", "routes": ["Szent L\u00e1szl\u00f3 10", "Vezetett eml\u00e9kt\u00fara", "Szent L\u00e1szl\u00f3 25", "Szent L\u00e1szl\u00f3 30"], "slug": "2026-12-27_szent-laszlo-hadosztaly-nyomaban", "starts": [{"address": "2628 Szob, Ipolys\u00e1gi utca 20.", "lat": 47.821197, "lng": 18.863218, "name": "Szob, P+R parkol\u00f3"}, {"address": "943 66 Ch\u013eaba (Helemba), Szlov\u00e1kia", "lat": 47.83161, "lng": 18.828449, "name": "Helemba (Ch\u013eaba), Szent Imre-templom"}, {"address": "2628 Szob, Ipolys\u00e1gi utca 20.", "lat": 47.821197, "lng": 18.863218, "name": "Szob, P+R parkol\u00f3"}, {"address": "2628 Szob, Ipolys\u00e1gi utca 20.", "lat": 47.821197, "lng": 18.863218, "name": "Szob, P+R parkol\u00f3"}], "tracks": [0, 1, 2, 3]};
+</script>
+<script src="/kituzovadasz/static/vendor/leaflet/leaflet.js"></script>
+<script src="/kituzovadasz/static/js/common.js?v=1792167843"></script>
+<script src="/kituzovadasz/static/js/event.js?v=1792167843"></script>
+
+</body>
+</html>

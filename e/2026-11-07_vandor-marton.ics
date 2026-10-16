@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2026-11-07_vandor-marton@kituzovadasz
+DTSTAMP:20261016T162407Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Vándor Márton
+LOCATION:Szombathely\, Szent Márton tér
+DESCRIPTION:A Vasi Vándorok körtúrái Szombathely-Oladról: a parkerdő és az Oladi kilátó (10 km)\, a Perenye felé vezető kör (20 km)\, illetve a kettő együtt (30 km)\; mellette 5 km-es városi séta a Szent Márton térről. Futókat és kutyásokat is várnak.\n\nTávok: 4\,8 km\, 10\,9 km\, 21\,1 km\, 32\,1 km\nDíjazás: Minden távon kitűző és oklevél.\nhttps://coolfrog2.github.io/kituzovadasz/e/2026-11-07_vandor-marton
+END:VEVENT
+END:VCALENDAR

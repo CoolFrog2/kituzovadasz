@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2026-11-29_iron-curtain@kituzovadasz
+DTSTAMP:20261016T162408Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Iron Curtain
+LOCATION:Kőszeg\, Csónakázó-tó
+DESCRIPTION:Kőszegről induló\, nagyrészt sík körtúra\, amely kétszer keresztezi az egykori vasfüggöny vonalát: Répcekethely (Mannersdorf an der Rabnitz) és Borsmonostor (Klostermarienberg) után Ólmodon át tér vissza. A 40-es Horvátzsidány\, Kiszsidány és a Csepregi horgásztó felé is kitér. A Pannónia Maraton Kupa és a Dunántúl Kupa része.\n\nTávok: 20\,7 km\, 38\,2 km\nDíjazás: Mindkét távon oklevél és a teljesítések számától függő kitűző.\nhttps://coolfrog2.github.io/kituzovadasz/e/2026-11-29_iron-curtain
+END:VEVENT
+END:VCALENDAR

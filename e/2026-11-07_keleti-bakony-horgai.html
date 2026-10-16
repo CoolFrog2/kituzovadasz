@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1f5130">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="description" content="Jövőbeli teljesítménytúrák térképen — kitűző, érem, jelvény, oklevél. Szűrhető táv, szint, körtúra szerint.">
+  <title>Keleti-Bakony Horgai — nov. 7. · Kitűzővadász</title>
+  <link rel="manifest" href="/kituzovadasz/static/manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="/kituzovadasz/static/img/icon.svg">
+  <link rel="apple-touch-icon" href="/kituzovadasz/static/img/icon-192.png">
+  <link rel="stylesheet" href="/kituzovadasz/static/css/app.css?v=1792167843">
+  <script>window.B = "/kituzovadasz";</script>
+  
+<meta property="og:title" content="Keleti-Bakony Horgai — 2026. november 7., szombat">
+<meta property="og:description" content="Székesfehérvárról Mohán és Iszkaszentgyörgyön át a Keleti-Bakony peremének horgaiba (Száraz-horog, Szenes-horog) vezető A→B túrák Csór célig, plusz egy rövid székesfehérvár–mohai táv és egy csóri kör. Az útvonal katonai lő- és gyakorlóteret érint, a kijelölt útról letérni tilos.">
+<link rel="stylesheet" href="/kituzovadasz/static/vendor/leaflet/leaflet.css">
+
+</head>
+<body class="page">
+
+
+<header class="topbar sub">
+  <a class="back" href="/kituzovadasz/" onclick="if(document.referrer.startsWith(location.origin)){history.back();return false}" aria-label="Vissza"><svg><use href="#i-back"/></svg></a>
+  <div class="t">nov. 7. · Keleti-Bakony</div>
+  <button class="star" id="favBtn" data-slug="2026-11-07_keleti-bakony-horgai" aria-label="Csillagozás"><svg><use href="#i-star"/></svg></button>
+</header>
+
+<main class="ev">
+  <section class="ev-head">
+    
+    <h1>Keleti-Bakony Horgai</h1>
+    <p class="when"><b>2026. november 7., szombat</b>
+      <span class="cd" id="cd" data-date="2026-11-07" data-end="">3 hét múlva</span></p>
+    <div class="aw-big">
+      <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      
+    </div>
+    <p class="aws">Minden távon kitűző és oklevél.</p>
+    <p class="summary">Székesfehérvárról Mohán és Iszkaszentgyörgyön át a Keleti-Bakony peremének horgaiba (Száraz-horog, Szenes-horog) vezető A→B túrák Csór célig, plusz egy rövid székesfehérvár–mohai táv és egy csóri kör. Az útvonal katonai lő- és gyakorlóteret érint, a kijelölt útról letérni tilos.</p>
+    
+  </section>
+
+  <section class="ev-map">
+    <div id="emap"></div>
+    <div id="profile" class="profile" hidden>
+      <div class="ptabs" id="ptabs"></div>
+      <svg id="psvg" preserveAspectRatio="none"></svg>
+      <div class="pinfo" id="pinfo"></div>
+    </div>
+  </section>
+
+  <section class="ev-actions">
+    
+    <a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=47.1958,18.400895" target="_blank" rel="noopener">Útvonal a rajthoz</a>
+    
+    <a class="btn-line" href="https://docs.google.com/forms/d/e/1FAIpQLSdNX4mCwqaN5A373RaIF2ss5WRy5AjNM2c3t2zKIRlKxPa9sA/viewform" target="_blank" rel="noopener">Előnevezés</a>
+    <a class="btn-line" href="/kituzovadasz/e/2026-11-07_keleti-bakony-horgai.ics">Naptárba</a>
+    <button class="btn-line" id="shareBtn">Megosztás</button>
+  </section>
+
+  <section class="routes">
+    <h2>Távok <small>4</small></h2>
+    
+    <div class="common">
+      <h3>Minden távra érvényes</h3>
+      <dl>
+        
+        
+        
+        <dt>Előnevezés</dt><dd>Előnevezés ajánlott <small>(határidő: nov. 4.)</small></dd>
+        
+        
+        <dt>Vigyél</dt><dd>írószer, saját pohár</dd>
+        
+      </dl>
+    </div>
+    
+    
+    <article class="route" id="t0" data-i="0">
+      <header>
+        <div class="rk">8,5<small>km</small></div>
+        <div class="rh">
+          <h3>10 km (Székesfehérvár–Moha)</h3>
+          <div class="rmeta">
+            <span>↗ 16 m</span>
+            <span>A → B</span>
+            <span>⏱ 3 óra 30 perc</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        <dt>Rajt</dt><dd>Székesfehérvár, Ligetsor, Joe borozója (Garzonház)<br><small>8000 Székesfehérvár, Mészöly Géza utca 1.</small></dd>
+        <dt>Cél</dt><dd>Moha, Egészségház<br><small>8042 Moha, Fő utca 58.</small></dd>
+        <dt>Indulás</dt><dd>06:30–08:30</dd>
+        <dt>Célzárás</dt><dd>12:00</dd>
+        <dt>Nevezés</dt><dd>1 500 Ft</dd>
+        
+        
+        <dt>Frissítés</dt><dd>A célban meleg ital, zsíros kenyér és édesség.</dd>
+        
+        <dt>Megjegyzés</dt><dd>A tturak „10” néven listázza, a valós táv 8,5 km. Gólya-dűlőn át Mohára.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="0">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2026-11-07_keleti-bakony-horgai/0.gpx" download="2026-11-07_keleti-bakony-horgai_0.gpx">GPX letöltés</a></div>
+    </article>
+    
+    <article class="route" id="t1" data-i="1">
+      <header>
+        <div class="rk">12,9<small>km</small></div>
+        <div class="rh">
+          <h3>Csór 13</h3>
+          <div class="rmeta">
+            <span>↗ 265 m</span>
+            <span>körtúra</span>
+            <span>⏱ 4 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        <dt>Rajt</dt><dd>Csór, Művelődési Ház<br><small>8041 Csór, Ady Endre utca 35.</small></dd>
+        
+        <dt>Indulás</dt><dd>09:00–11:00</dd>
+        <dt>Célzárás</dt><dd>15:00</dd>
+        <dt>Nevezés</dt><dd>2 500 Ft</dd>
+        
+        <dt>Ellenőrzőpont</dt><dd>6 db</dd>
+        <dt>Frissítés</dt><dd>Útközben édesség, a célban meleg ital és zsíros kenyér.</dd>
+        
+        <dt>Megjegyzés</dt><dd>Kilátó-hegy, Szárazhorog, Szenes-horog kilátópontjai, Meredélyfő. Katonai lőtéren halad: a jelölt útról letérni tilos, fel nem robbant lőszerhez nyúlni életveszélyes. A GPX kb. 10,8 km.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="1">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2026-11-07_keleti-bakony-horgai/1.gpx" download="2026-11-07_keleti-bakony-horgai_1.gpx">GPX letöltés</a></div>
+    </article>
+    
+    <article class="route" id="t2" data-i="2">
+      <header>
+        <div class="rk">21,2<small>km</small></div>
+        <div class="rh">
+          <h3>20 km</h3>
+          <div class="rmeta">
+            <span>↗ 216 m</span>
+            <span>A → B</span>
+            <span>⏱ 6 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        <dt>Rajt</dt><dd>Székesfehérvár, Ligetsor, Joe borozója (Garzonház)<br><small>8000 Székesfehérvár, Mészöly Géza utca 1.</small></dd>
+        <dt>Cél</dt><dd>Csór, Művelődési Ház<br><small>8041 Csór, Ady Endre utca 35.</small></dd>
+        <dt>Indulás</dt><dd>06:30–08:30</dd>
+        <dt>Célzárás</dt><dd>15:00</dd>
+        <dt>Nevezés</dt><dd>3 000 Ft</dd>
+        
+        <dt>Ellenőrzőpont</dt><dd>5 db</dd>
+        <dt>Frissítés</dt><dd>Útközben meleg ital és édesség, a célban meleg ital és zsíros kenyér.</dd>
+        
+        <dt>Megjegyzés</dt><dd>Moha, Iszkaszentgyörgy (kilátó), Száraz-horog, Kilátó-hegy. Katonai lőtéren halad: a jelölt útról letérni tilos.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="2">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2026-11-07_keleti-bakony-horgai/2.gpx" download="2026-11-07_keleti-bakony-horgai_2.gpx">GPX letöltés</a></div>
+    </article>
+    
+    <article class="route" id="t3" data-i="3">
+      <header>
+        <div class="rk">30,7<small>km</small></div>
+        <div class="rh">
+          <h3>30 km</h3>
+          <div class="rmeta">
+            <span>↗ 466 m</span>
+            <span>A → B</span>
+            <span>⏱ 8 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        <dt>Rajt</dt><dd>Székesfehérvár, Ligetsor, Joe borozója (Garzonház)<br><small>8000 Székesfehérvár, Mészöly Géza utca 1.</small></dd>
+        <dt>Cél</dt><dd>Csór, Művelődési Ház<br><small>8041 Csór, Ady Endre utca 35.</small></dd>
+        <dt>Indulás</dt><dd>06:30–07:30</dd>
+        <dt>Célzárás</dt><dd>16:00</dd>
+        <dt>Nevezés</dt><dd>3 500 Ft</dd>
+        
+        <dt>Ellenőrzőpont</dt><dd>11 db</dd>
+        <dt>Frissítés</dt><dd>Útközben meleg ital és édesség, a célban meleg ital és zsíros kenyér.</dd>
+        
+        <dt>Megjegyzés</dt><dd>Moha, Iszkaszentgyörgy (kilátó), Száraz-horog, Kilátó-hegy, Szenes-horog kilátópontjai, Meredélyfő. Katonai lőtéren halad: a jelölt útról letérni tilos.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="3">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2026-11-07_keleti-bakony-horgai/3.gpx" download="2026-11-07_keleti-bakony-horgai_3.gpx">GPX letöltés</a></div>
+    </article>
+    
+  </section>
+
+  
+  <section class="block"><h2>Megközelítés</h2><p>A székesfehérvári rajt a Ligetsoron, Joe borozójánál (Garzonház) van; a 20 és 30 km-en csomagszállítás a célba.</p></section>
+  
+
+  <section class="block org">
+    <h2>Szervező</h2>
+    <p><b>Fejér Megyei Természetbarát Szövetség</b></p>
+    <ul class="links">
+      <li><a href="https://fejer-tura.hu/honlap/" target="_blank" rel="noopener">Kiírás / honlap</a></li>
+      
+      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdNX4mCwqaN5A373RaIF2ss5WRy5AjNM2c3t2zKIRlKxPa9sA/viewform" target="_blank" rel="noopener">Előnevezési oldal</a></li>
+      <li><a href="https://tturak.hu/hikeOccasion/8540/details" target="_blank" rel="noopener">tturak.hu adatlap</a></li>
+      <li><a href="http://fejer-tura.hu" target="_blank" rel="noopener">Szervező honlapja</a></li>
+      <li><a href="tel:+36204157111">+36204157111</a></li>
+      <li><a href="mailto:fejer.infotura@gmail.com">fejer.infotura@gmail.com</a></li>
+    </ul>
+  </section>
+
+  <section class="block curator">
+    <p>Utoljára ellenőrizve: <b>okt. 16.</b> ·
+      megbízhatóság: <b>magas</b></p>
+    <p><small>A rajtidők a tturak távadataiból (a leírás ezen része tördelési hibás). Az Észak-Dunántúli Kupa és a Fejér Megye Teljesítménytúrázója mozgalom része. Előnevezés Google-űrlapon.</small></p>
+    <p><small>Az adatokat egy MI-kurátor gyűjti a szervezői kiírásokból. Indulás előtt mindig nézd meg a hivatalos kiírást!</small></p>
+  </section>
+</main>
+
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-kituzo" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="currentColor"/></symbol>
+    <symbol id="i-jelveny" viewBox="0 0 24 24"><path d="M12 2.5 20 6v6c0 4.6-3.3 8.3-8 9.5C7.3 20.3 4 16.6 4 12V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m12 7.5 1.4 2.9 3.1.4-2.3 2.2.6 3.1L12 14.6l-2.8 1.5.6-3.1-2.3-2.2 3.1-.4z" fill="currentColor"/></symbol>
+    <symbol id="i-erem" viewBox="0 0 24 24"><path d="M7 2h4l2 6H9zM13 2h4l-2 6h-4z" fill="currentColor" opacity=".55"/><circle cx="12" cy="15" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="15" r="3" fill="currentColor"/></symbol>
+    <symbol id="i-oklevel" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-egyeb" viewBox="0 0 24 24"><rect x="3.5" y="9" width="17" height="11.5" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M2.5 9h19M12 9v11.5M12 9c-1.5-4-6-4.5-6-1.8C6 9 12 9 12 9zm0 0c1.5-4 6-4.5 6-1.8C18 9 12 9 12 9z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2.8 2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3L2.9 9.5l6.3-.9z" fill="currentColor"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M15 5 8 12l7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </defs>
+</svg>
+
+<script>
+window.EV = {"finishes": [{"address": "8042 Moha, F\u0151 utca 58.", "lat": 47.244075, "lng": 18.333181, "name": "Moha, Eg\u00e9szs\u00e9gh\u00e1z"}, null, {"address": "8041 Cs\u00f3r, Ady Endre utca 35.", "lat": 47.2048, "lng": 18.2547, "name": "Cs\u00f3r, M\u0171vel\u0151d\u00e9si H\u00e1z"}, {"address": "8041 Cs\u00f3r, Ady Endre utca 35.", "lat": 47.204747, "lng": 18.254688, "name": "Cs\u00f3r, M\u0171vel\u0151d\u00e9si H\u00e1z"}], "name": "Keleti-Bakony Horgai", "routes": ["10 km (Sz\u00e9kesfeh\u00e9rv\u00e1r\u2013Moha)", "Cs\u00f3r 13", "20 km", "30 km"], "slug": "2026-11-07_keleti-bakony-horgai", "starts": [{"address": "8000 Sz\u00e9kesfeh\u00e9rv\u00e1r, M\u00e9sz\u00f6ly G\u00e9za utca 1.", "lat": 47.1958, "lng": 18.400895, "name": "Sz\u00e9kesfeh\u00e9rv\u00e1r, Ligetsor, Joe boroz\u00f3ja (Garzonh\u00e1z)"}, {"address": "8041 Cs\u00f3r, Ady Endre utca 35.", "lat": 47.2048, "lng": 18.2547, "name": "Cs\u00f3r, M\u0171vel\u0151d\u00e9si H\u00e1z"}, {"address": "8000 Sz\u00e9kesfeh\u00e9rv\u00e1r, M\u00e9sz\u00f6ly G\u00e9za utca 1.", "lat": 47.1958, "lng": 18.400895, "name": "Sz\u00e9kesfeh\u00e9rv\u00e1r, Ligetsor, Joe boroz\u00f3ja (Garzonh\u00e1z)"}, {"address": "8000 Sz\u00e9kesfeh\u00e9rv\u00e1r, M\u00e9sz\u00f6ly G\u00e9za utca 1.", "lat": 47.1958, "lng": 18.400895, "name": "Sz\u00e9kesfeh\u00e9rv\u00e1r, Ligetsor, Joe boroz\u00f3ja (Garzonh\u00e1z)"}], "tracks": [0, 1, 2, 3]};
+</script>
+<script src="/kituzovadasz/static/vendor/leaflet/leaflet.js"></script>
+<script src="/kituzovadasz/static/js/common.js?v=1792167843"></script>
+<script src="/kituzovadasz/static/js/event.js?v=1792167843"></script>
+
+</body>
+</html>

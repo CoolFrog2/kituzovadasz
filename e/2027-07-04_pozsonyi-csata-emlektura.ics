@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2027-07-04_pozsonyi-csata-emlektura@kituzovadasz
+DTSTAMP:20261016T162410Z
+DTSTART;VALUE=DATE:20270704
+DTEND;VALUE=DATE:20270705
+SUMMARY:Pozsonyi-csata emléktúra
+LOCATION:Pomáz\, HÉV-állomás parkoló
+DESCRIPTION:A pozsonyi csata emlékére rendezett túra Pomázról a Klissza-dombon\, az Árpád vezér-szobron és az Oszolyon át: a 10-es Csobánkán ér véget\, a 25-ös a Holdvilág-árkon és a Nagy-Csikóváron át visszatér Pomázra. A Viribus Unitis emlékplakett (joker) és a Hazajáró Kupa túrája.\n\nTávok: 9\,2 km\, 22\,9 km\nDíjazás: Mindkét távon évente változó kitűző és oklevél.\nhttps://coolfrog2.github.io/kituzovadasz/e/2027-07-04_pozsonyi-csata-emlektura
+END:VEVENT
+END:VCALENDAR

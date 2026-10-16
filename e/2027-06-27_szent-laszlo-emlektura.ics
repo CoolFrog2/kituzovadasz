@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2027-06-27_szent-laszlo-emlektura@kituzovadasz
+DTSTAMP:20261016T162410Z
+DTSTART;VALUE=DATE:20270627
+DTEND;VALUE=DATE:20270628
+SUMMARY:Szent László emléktúra
+LOCATION:Vinye\, autóbusz-forduló
+DESCRIPTION:Vinyei körtúra az Északi-Bakonyban a Pápalátó-kőn és Fenyőfőn át Bakonyszentlászlóig\; a 40-es egy második körrel a Zörög-hegyen\, Csesznek várán és a Cuha-völgyön át is végigmegy. A Dunántúl Kupa (Győr-Moson-Sopron vármegye) és a Pannónia Maraton Kupa túrája.\n\nTávok: 19\,2 km\, 40 km\nDíjazás: Mindkét távon kitűző és oklevél.\nhttps://coolfrog2.github.io/kituzovadasz/e/2027-06-27_szent-laszlo-emlektura
+END:VEVENT
+END:VCALENDAR

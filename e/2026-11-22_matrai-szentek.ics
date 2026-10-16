@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2026-11-22_matrai-szentek@kituzovadasz
+DTSTAMP:20261016T162408Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Mátrai Szentek
+LOCATION:Mátraszentlászló\, sípálya parkoló
+DESCRIPTION:18 km-es kör Mátraszentlászlóról a Mátraszentimréhez tartozó falvakon (Mátraszentimre\, Bagolyirtás\, Fallóskút\, Mátraszentistván) át\, a Fallóskúti Mária-kegyhely\, az Ágasvári turistaház és a Vörös-kő kilátó érintésével.\n\nTávok: 18\,3 km\nDíjazás: Kitűző és oklevél.\nhttps://coolfrog2.github.io/kituzovadasz/e/2026-11-22_matrai-szentek
+END:VEVENT
+END:VCALENDAR

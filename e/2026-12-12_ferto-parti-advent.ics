@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2026-12-12_ferto-parti-advent@kituzovadasz
+DTSTAMP:20261016T162408Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Fertő-parti Advent
+LOCATION:Nagycenk\, vasútállomás
+DESCRIPTION:Sík\, 19 km-es adventi körtúra Nagycenk vasútállomásáról: a Széchenyi-mauzóleum\, a kastély és a hársfasor után a hidegségi Árpád-kori templomon és a Fertő-parton át Fertőbozig (Gloriette\, múzeumi mozdonyok)\, majd a kisvasút nagycenki végállomásán át vissza.\n\nTávok: 18\,7 km\nDíjazás: Kitűző és oklevél.\nhttps://coolfrog2.github.io/kituzovadasz/e/2026-12-12_ferto-parti-advent
+END:VEVENT
+END:VCALENDAR

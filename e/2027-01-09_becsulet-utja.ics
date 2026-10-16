@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2027-01-09_becsulet-utja@kituzovadasz
+DTSTAMP:20261016T162409Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:Becsület útja
+LOCATION:Esztergom\, vasútállomás
+DESCRIPTION:Téli körtúra Esztergom vasútállomásáról: a 45-ös a Pilisbe\, a Sasfészken\, a Pilis-nyergen és Pilisszentléleken át\, a 25-ös a Maróti-hegyeken keresztül jut el a Búbánat-völgyig\; mindkettő a II. világháborús emlékhelyet\, a Vaskapu turistaházat és a Rozália-kápolnát érintve tér vissza.\n\nTávok: 25 km\, 46 km\nDíjazás: Mindkét távon évente változó jelvény és oklevél.\nhttps://coolfrog2.github.io/kituzovadasz/e/2027-01-09_becsulet-utja
+END:VEVENT
+END:VCALENDAR

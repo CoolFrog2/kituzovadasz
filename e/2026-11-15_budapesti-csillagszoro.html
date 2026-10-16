@@ -1,0 +1,659 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1f5130">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="description" content="Jövőbeli teljesítménytúrák térképen — kitűző, érem, jelvény, oklevél. Szűrhető táv, szint, körtúra szerint.">
+  <title>Budapesti Csillagszóró — nov. 15. · Kitűzővadász</title>
+  <link rel="manifest" href="/kituzovadasz/static/manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="/kituzovadasz/static/img/icon.svg">
+  <link rel="apple-touch-icon" href="/kituzovadasz/static/img/icon-192.png">
+  <link rel="stylesheet" href="/kituzovadasz/static/css/app.css?v=1792167843">
+  <script>window.B = "/kituzovadasz";</script>
+  
+<meta property="og:title" content="Budapesti Csillagszóró — 2026. november 15., vasárnap">
+<meta property="og:description" content="A Területi Honvédelmi Klub ezen a napon az összes 2026-os budapesti túráját újra megrendezi: 16 városi táv (7–15 km) közül lehet választani, a díjazást mindenki a Rác-fürdőnél veheti át. Jó alkalom a kimaradt THK-túrák pótlására és a TTT Kupa-füzetbe történő utólagos igazolásra.">
+<link rel="stylesheet" href="/kituzovadasz/static/vendor/leaflet/leaflet.css">
+
+</head>
+<body class="page">
+
+
+<header class="topbar sub">
+  <a class="back" href="/kituzovadasz/" onclick="if(document.referrer.startsWith(location.origin)){history.back();return false}" aria-label="Vissza"><svg><use href="#i-back"/></svg></a>
+  <div class="t">nov. 15. · Budapest</div>
+  <button class="star" id="favBtn" data-slug="2026-11-15_budapesti-csillagszoro" aria-label="Csillagozás"><svg><use href="#i-star"/></svg></button>
+</header>
+
+<main class="ev">
+  <section class="ev-head">
+    
+    <h1>Budapesti Csillagszóró</h1>
+    <p class="when"><b>2026. november 15., vasárnap</b>
+      <span class="cd" id="cd" data-date="2026-11-15" data-end="">4 hét múlva</span></p>
+    <div class="aw-big">
+      <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      
+    </div>
+    <p class="aws">Minden távon kitűző és oklevél, átvétel a Rác-fürdőnél.</p>
+    <p class="summary">A Területi Honvédelmi Klub ezen a napon az összes 2026-os budapesti túráját újra megrendezi: 16 városi táv (7–15 km) közül lehet választani, a díjazást mindenki a Rác-fürdőnél veheti át. Jó alkalom a kimaradt THK-túrák pótlására és a TTT Kupa-füzetbe történő utólagos igazolásra.</p>
+    <div class="tags"><span>városi</span></div>
+  </section>
+
+  <section class="ev-map">
+    <div id="emap"></div>
+    <div id="profile" class="profile" hidden>
+      <div class="ptabs" id="ptabs"></div>
+      <svg id="psvg" preserveAspectRatio="none"></svg>
+      <div class="pinfo" id="pinfo"></div>
+    </div>
+  </section>
+
+  <section class="ev-actions">
+    
+    <a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=47.531791,19.03813" target="_blank" rel="noopener">Útvonal a rajthoz</a>
+    
+    <a class="btn-line" href="https://docs.google.com/forms/d/1OTASTAgJnkTaKgeGX_zKVHOTP3WoDQy8iMbVpoTDuOg/edit" target="_blank" rel="noopener">Előnevezés</a>
+    <a class="btn-line" href="/kituzovadasz/e/2026-11-15_budapesti-csillagszoro.ics">Naptárba</a>
+    <button class="btn-line" id="shareBtn">Megosztás</button>
+  </section>
+
+  <section class="routes">
+    <h2>Távok <small>16</small></h2>
+    
+    <div class="common">
+      <h3>Minden távra érvényes</h3>
+      <dl>
+        
+        
+        <dt>Célzárás</dt><dd>15:00</dd>
+        <dt>Előnevezés</dt><dd>Előnevezés kötelező <small>(határidő: nov. 11.)</small></dd>
+        
+        <dt>Frissítés</dt><dd>Csak a rajtban van édesség.</dd>
+        <dt>Vigyél</dt><dd>írószer</dd>
+        
+      </dl>
+    </div>
+    
+    
+    <article class="route" id="t0" data-i="0">
+      <header>
+        <div class="rk">6,9<small>km</small></div>
+        <div class="rh">
+          <h3>Szent Ivó napi gyaloglat</h3>
+          <div class="rmeta">
+            <span>↗ 104 m</span>
+            <span>körtúra</span>
+            <span>⏱ 3 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        <dt>Rajt</dt><dd>Budapest, Katonavárosi Amfiteátrum<br><small>1036 Budapest, Bokor utca 25.</small></dd>
+        
+        <dt>Indulás</dt><dd>08:00–10:00</dd>
+        
+        <dt>Nevezés</dt><dd>2 000 Ft</dd>
+        
+        
+        
+        
+        <dt>Megjegyzés</dt><dd>Óbuda: Kéhlik kocsma, Szentháromság-szobor, Zichy-kastély, Cella Trichora, Kiscelli Múzeum, Kálvária, Szent Vér-kápolna.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="0">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2026-11-15_budapesti-csillagszoro/0.gpx" download="2026-11-15_budapesti-csillagszoro_0.gpx">GPX letöltés</a></div>
+    </article>
+    
+    <article class="route" id="t1" data-i="1">
+      <header>
+        <div class="rk">7,5<small>km</small></div>
+        <div class="rh">
+          <h3>Az emlékezés a lelket erősíti</h3>
+          <div class="rmeta">
+            <span>↗ 165 m</span>
+            <span>körtúra</span>
+            <span>⏱ 3 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        <dt>Rajt</dt><dd>Budapest, Rác-fürdő<br><small>1013 Budapest, Hadnagy utca 8–10.</small></dd>
+        
+        <dt>Indulás</dt><dd>08:00–10:00</dd>
+        
+        <dt>Nevezés</dt><dd>2 000 Ft</dd>
+        
+        
+        
+        
+        <dt>Megjegyzés</dt><dd>Őze Lajos-emlékmű, Turul, Déli pályaudvar, Vérmező, Budai vár, Tabán.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="1">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2026-11-15_budapesti-csillagszoro/1.gpx" download="2026-11-15_budapesti-csillagszoro_1.gpx">GPX letöltés</a></div>
+    </article>
+    
+    <article class="route" id="t2" data-i="2">
+      <header>
+        <div class="rk">7,9<small>km</small></div>
+        <div class="rh">
+          <h3>Gellért-hegyi villák</h3>
+          <div class="rmeta">
+            <span>↗ 336 m</span>
+            <span>körtúra</span>
+            <span>⏱ 3 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        <dt>Rajt</dt><dd>Budapest, Rác-fürdő<br><small>1013 Budapest, Hadnagy utca 8–10.</small></dd>
+        
+        <dt>Indulás</dt><dd>08:00–10:00</dd>
+        
+        <dt>Nevezés</dt><dd>2 000 Ft</dd>
+        
+        
+        
+        
+        <dt>Megjegyzés</dt><dd>A Gellért-hegy villái (Hegedüs-, Haggenmacher-, Medgyaszay-, Wenckheim-villa stb.), Gellért fürdő, Sziklatemplom.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="2">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2026-11-15_budapesti-csillagszoro/2.gpx" download="2026-11-15_budapesti-csillagszoro_2.gpx">GPX letöltés</a></div>
+    </article>
+    
+    <article class="route" id="t3" data-i="3">
+      <header>
+        <div class="rk">8,1<small>km</small></div>
+        <div class="rh">
+          <h3>Budavári Csillagok</h3>
+          <div class="rmeta">
+            <span>↗ 126 m</span>
+            <span>körtúra</span>
+            <span>⏱ 3 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        <dt>Rajt</dt><dd>Budapest, Rác-fürdő<br><small>1013 Budapest, Hadnagy utca 8–10.</small></dd>
+        
+        <dt>Indulás</dt><dd>08:00–10:00</dd>
+        
+        <dt>Nevezés</dt><dd>2 000 Ft</dd>
+        
+        
+        
+        
+        <dt>Megjegyzés</dt><dd>A forrás szerint 8,05 km. Budai vár: bástyák, Magdolna-torony, Budai Várbarlang, Mátyás-kút, Turul, Várkert Bazár.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="3">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2026-11-15_budapesti-csillagszoro/3.gpx" download="2026-11-15_budapesti-csillagszoro_3.gpx">GPX letöltés</a></div>
+    </article>
+    
+    <article class="route" id="t4" data-i="4">
+      <header>
+        <div class="rk">8,3<small>km</small></div>
+        <div class="rh">
+          <h3>A nándorfehérvári diadal napja</h3>
+          <div class="rmeta">
+            <span>↗ 377 m</span>
+            <span>körtúra</span>
+            <span>⏱ 4 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        <dt>Rajt</dt><dd>Budapest, Rác-fürdő<br><small>1013 Budapest, Hadnagy utca 8–10.</small></dd>
+        
+        <dt>Indulás</dt><dd>08:00–10:00</dd>
+        
+        <dt>Nevezés</dt><dd>2 000 Ft</dd>
+        
+        
+        
+        
+        <dt>Megjegyzés</dt><dd>A forrás szerint 8,31 km. Gellért-hegy, Filozófusok kertje, Kapisztrán Szent János-szobor, Bécsi kapu, Hunyadi János-szobor.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="4">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2026-11-15_budapesti-csillagszoro/4.gpx" download="2026-11-15_budapesti-csillagszoro_4.gpx">GPX letöltés</a></div>
+    </article>
+    
+    <article class="route" id="t5" data-i="5">
+      <header>
+        <div class="rk">8,5<small>km</small></div>
+        <div class="rh">
+          <h3>Tisza István emléktúra</h3>
+          <div class="rmeta">
+            <span>↗ 164 m</span>
+            <span>A → B</span>
+            <span>⏱ 4 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        <dt>Rajt</dt><dd>Budapest, Róheim-villa</dd>
+        <dt>Cél</dt><dd>Budapest, Rác-fürdő<br><small>1013 Budapest, Hadnagy utca 8–10.</small></dd>
+        <dt>Indulás</dt><dd>08:00–10:00</dd>
+        
+        <dt>Nevezés</dt><dd>2 000 Ft</dd>
+        
+        
+        
+        
+        <dt>Megjegyzés</dt><dd>Hősök tere, Andrássy út, Bazilika, Nemzeti Vértanúk emlékhelye, Tisza István-szobor, Lánchíd. A forrás rajtkoordinátája 1,5 km-rel keletebbre esik; a Róheim-villához javítva (a Regnum Marianum táv és a GPX rajtja alapján). A GPX régebbi, a Sziklatemplomnál ér véget; a cél a Rác-fürdő.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="5">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2026-11-15_budapesti-csillagszoro/5.gpx" download="2026-11-15_budapesti-csillagszoro_5.gpx">GPX letöltés</a></div>
+    </article>
+    
+    <article class="route" id="t6" data-i="6">
+      <header>
+        <div class="rk">8,6<small>km</small></div>
+        <div class="rh">
+          <h3>32-es baka vagyok én...</h3>
+          <div class="rmeta">
+            <span>↗ 129 m</span>
+            <span>A → B</span>
+            <span>⏱ 3 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        <dt>Rajt</dt><dd>Budapest, Málenkij robot emlékmű</dd>
+        <dt>Cél</dt><dd>Budapest, Rác-fürdő<br><small>1013 Budapest, Hadnagy utca 8–10.</small></dd>
+        <dt>Indulás</dt><dd>08:00–10:00</dd>
+        
+        <dt>Nevezés</dt><dd>2 000 Ft</dd>
+        
+        
+        
+        
+        <dt>Megjegyzés</dt><dd>Ludovika, volt Mária Terézia laktanya, Corvin köz, 32-es gyalogezred emlékműve, Ferenciek tere, Erzsébet híd.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="6">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2026-11-15_budapesti-csillagszoro/6.gpx" download="2026-11-15_budapesti-csillagszoro_6.gpx">GPX letöltés</a></div>
+    </article>
+    
+    <article class="route" id="t7" data-i="7">
+      <header>
+        <div class="rk">8,8<small>km</small></div>
+        <div class="rh">
+          <h3>Szent Margit nyomában</h3>
+          <div class="rmeta">
+            <span>↗ 65 m</span>
+            <span>körtúra</span>
+            <span>⏱ 3 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        <dt>Rajt</dt><dd>Budapest, Katonavárosi Amfiteátrum<br><small>1037 Budapest, Bokor utca 27.</small></dd>
+        
+        <dt>Indulás</dt><dd>08:00–10:00</dd>
+        
+        <dt>Nevezés</dt><dd>2 000 Ft</dd>
+        
+        
+        
+        
+        <dt>Megjegyzés</dt><dd>Árpád híd, Margitsziget (Zenélő kút, Japánkert, Szent Margit sírja, kolostorromok), Margit híd, Újlipótváros.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="7">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2026-11-15_budapesti-csillagszoro/7.gpx" download="2026-11-15_budapesti-csillagszoro_7.gpx">GPX letöltés</a></div>
+    </article>
+    
+    <article class="route" id="t8" data-i="8">
+      <header>
+        <div class="rk">8,9<small>km</small></div>
+        <div class="rh">
+          <h3>Római-kori emlékek nyomában</h3>
+          <div class="rmeta">
+            <span>↗ 56 m</span>
+            <span>A → B</span>
+            <span>⏱ 3 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        <dt>Rajt</dt><dd>Budapest, Római-fürdő HÉV-megálló<br><small>1031 Budapest, Szentendrei út</small></dd>
+        <dt>Cél</dt><dd>Budapest, Katonavárosi Amfiteátrum<br><small>1037 Budapest, Bokor utca 27.</small></dd>
+        <dt>Indulás</dt><dd>08:00–10:00</dd>
+        
+        <dt>Nevezés</dt><dd>2 000 Ft</dd>
+        
+        
+        
+        
+        <dt>Megjegyzés</dt><dd>A forrás szerint 8,94 km. Aquincum, vízvezeték, Hercules-villa, Cella Trichora, légiós tábor, Thermae Maiores.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="8">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2026-11-15_budapesti-csillagszoro/8.gpx" download="2026-11-15_budapesti-csillagszoro_8.gpx">GPX letöltés</a></div>
+    </article>
+    
+    <article class="route" id="t9" data-i="9">
+      <header>
+        <div class="rk">9,1<small>km</small></div>
+        <div class="rh">
+          <h3>Pálos emlékek nyomában</h3>
+          <div class="rmeta">
+            <span>↗ 290 m</span>
+            <span>körtúra</span>
+            <span>⏱ 3 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        <dt>Rajt</dt><dd>Budapest, Rác-fürdő<br><small>1013 Budapest, Hadnagy utca 8–10.</small></dd>
+        
+        <dt>Indulás</dt><dd>08:00–10:00</dd>
+        
+        <dt>Nevezés</dt><dd>2 000 Ft</dd>
+        
+        
+        
+        
+        <dt>Megjegyzés</dt><dd>Pálos Sziklakápolna, Egyetemi templom, a budai vár egykori pálos emlékei, Mária Magdolna-templomrom.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="9">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2026-11-15_budapesti-csillagszoro/9.gpx" download="2026-11-15_budapesti-csillagszoro_9.gpx">GPX letöltés</a></div>
+    </article>
+    
+    <article class="route" id="t10" data-i="10">
+      <header>
+        <div class="rk">10<small>km</small></div>
+        <div class="rh">
+          <h3>Regnum Marianum</h3>
+          <div class="rmeta">
+            <span>↗ 65 m</span>
+            <span>körtúra</span>
+            <span>⏱ 3 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        <dt>Rajt</dt><dd>Budapest, Róheim-villa</dd>
+        
+        <dt>Indulás</dt><dd>08:00–10:00</dd>
+        
+        <dt>Nevezés</dt><dd>2 000 Ft</dd>
+        
+        
+        
+        
+        <dt>Megjegyzés</dt><dd>Hermina-kápolna, Regnum Marianum emlékkereszt, Városliget, Hősök tere, Zugló templomai.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="10">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2026-11-15_budapesti-csillagszoro/10.gpx" download="2026-11-15_budapesti-csillagszoro_10.gpx">GPX letöltés</a></div>
+    </article>
+    
+    <article class="route" id="t11" data-i="11">
+      <header>
+        <div class="rk">10,8<small>km</small></div>
+        <div class="rh">
+          <h3>Török-kori emlékek nyomában</h3>
+          <div class="rmeta">
+            <span>↗ 162 m</span>
+            <span>A → B</span>
+            <span>⏱ 4 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        <dt>Rajt</dt><dd>Budapest, Katonavárosi Amfiteátrum<br><small>1037 Budapest, Bokor utca 27.</small></dd>
+        <dt>Cél</dt><dd>Budapest, Sziklatemplom<br><small>1118 Budapest, Szent Gellért rakpart</small></dd>
+        <dt>Indulás</dt><dd>08:00–10:00</dd>
+        
+        <dt>Nevezés</dt><dd>2 000 Ft</dd>
+        
+        
+        
+        
+        <dt>Megjegyzés</dt><dd>A forrás szerint 10,77 km. Gül Baba türbéje, Király fürdő, Abdurrahmán pasa síremléke, török sírok, Rác és Rudas fürdő.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="11">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2026-11-15_budapesti-csillagszoro/11.gpx" download="2026-11-15_budapesti-csillagszoro_11.gpx">GPX letöltés</a></div>
+    </article>
+    
+    <article class="route" id="t12" data-i="12">
+      <header>
+        <div class="rk">11,2<small>km</small></div>
+        <div class="rh">
+          <h3>Budapesti kápolnák</h3>
+          <div class="rmeta">
+            <span>↗ 270 m</span>
+            <span>körtúra</span>
+            <span>⏱ 4 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        <dt>Rajt</dt><dd>Budapest, Hűvösvölgy, P+R parkoló</dd>
+        
+        <dt>Indulás</dt><dd>08:00–10:00</dd>
+        
+        <dt>Nevezés</dt><dd>2 000 Ft</dd>
+        
+        
+        
+        
+        <dt>Megjegyzés</dt><dd>Pesthidegkút és Máriaremete kápolnái és templomai, Máriaremetei bazilika, Szent István király-kápolna.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="12">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2026-11-15_budapesti-csillagszoro/12.gpx" download="2026-11-15_budapesti-csillagszoro_12.gpx">GPX letöltés</a></div>
+    </article>
+    
+    <article class="route" id="t13" data-i="13">
+      <header>
+        <div class="rk">11,7<small>km</small></div>
+        <div class="rh">
+          <h3>Budapesti templomok</h3>
+          <div class="rmeta">
+            <span>↗ 193 m</span>
+            <span>körtúra</span>
+            <span>⏱ 4 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        <dt>Rajt</dt><dd>Budapest, Rác-fürdő<br><small>1013 Budapest, Hadnagy utca 8–10.</small></dd>
+        
+        <dt>Indulás</dt><dd>08:00–10:00</dd>
+        
+        <dt>Nevezés</dt><dd>2 000 Ft</dd>
+        
+        
+        
+        
+        <dt>Megjegyzés</dt><dd>A forrás szerint 11,65 km. Pesti belváros templomai, Bazilika, Hazatérés temploma, Víziváros templomai. A forrás célja a Katonavárosi Amfiteátrum, de az útvonal-leírás és a GPX is a Rác-fürdőnél ér véget → kör.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="13">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2026-11-15_budapesti-csillagszoro/13.gpx" download="2026-11-15_budapesti-csillagszoro_13.gpx">GPX letöltés</a></div>
+    </article>
+    
+    <article class="route" id="t14" data-i="14">
+      <header>
+        <div class="rk">12,4<small>km</small></div>
+        <div class="rh">
+          <h3>Márton Áron emléktúra</h3>
+          <div class="rmeta">
+            <span>↗ 301 m</span>
+            <span>körtúra</span>
+            <span>⏱ 4 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        <dt>Rajt</dt><dd>Budapest, Rác-fürdő<br><small>1013 Budapest, Hadnagy utca 8–10.</small></dd>
+        
+        <dt>Indulás</dt><dd>08:00–10:00</dd>
+        
+        <dt>Nevezés</dt><dd>2 000 Ft</dd>
+        
+        
+        
+        
+        <dt>Megjegyzés</dt><dd>Gellért-hegy, Feneketlen-tó, Ugató-szikla, Márton Áron-szobor, Farkasréti temető, Tabáni kereszt.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="14">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2026-11-15_budapesti-csillagszoro/14.gpx" download="2026-11-15_budapesti-csillagszoro_14.gpx">GPX letöltés</a></div>
+    </article>
+    
+    <article class="route" id="t15" data-i="15">
+      <header>
+        <div class="rk">15<small>km</small></div>
+        <div class="rh">
+          <h3>Szabó Dezső emléktúra</h3>
+          <div class="rmeta">
+            <span>↗ 337 m</span>
+            <span>körtúra</span>
+            <span>⏱ 5 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        <dt>Rajt</dt><dd>Budapest, Rác-fürdő<br><small>1013 Budapest, Hadnagy utca 8–10.</small></dd>
+        
+        <dt>Indulás</dt><dd>08:00–10:00</dd>
+        
+        <dt>Nevezés</dt><dd>2 000 Ft</dd>
+        
+        
+        
+        
+        <dt>Megjegyzés</dt><dd>Filozófusok kertje, Szabó Dezső-szobor, Nemzeti Múzeum, Nagykörút, Erzsébet híd, Budai vár, Városmajor, Vérmező.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="15">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2026-11-15_budapesti-csillagszoro/15.gpx" download="2026-11-15_budapesti-csillagszoro_15.gpx">GPX letöltés</a></div>
+    </article>
+    
+  </section>
+
+  
+  <section class="block"><h2>Megközelítés</h2><p>Az itinerek a Rác-fürdőnél lévő parkolóban vehetők át, vagy e-mailben kérhetők; teljesítés után a díjazást is a Rác-fürdőnél adják át.</p></section>
+  
+
+  <section class="block org">
+    <h2>Szervező</h2>
+    <p><b>Területi Honvédelmi Klub</b></p>
+    <ul class="links">
+      
+      
+      <li><a href="https://docs.google.com/forms/d/1OTASTAgJnkTaKgeGX_zKVHOTP3WoDQy8iMbVpoTDuOg/edit" target="_blank" rel="noopener">Előnevezési oldal</a></li>
+      <li><a href="https://tturak.hu/hikeOccasion/7775/details" target="_blank" rel="noopener">tturak.hu adatlap</a></li>
+      
+      <li><a href="tel:+36709424410">+36709424410</a></li>
+      <li><a href="mailto:bakonyturistaja@googlemail.com">bakonyturistaja@googlemail.com</a></li>
+    </ul>
+  </section>
+
+  <section class="block curator">
+    <p>Utoljára ellenőrizve: <b>okt. 16.</b> ·
+      megbízhatóság: <b>közepes</b></p>
+    <p><small>A forrás 18 távjából két „-” nevű helyőrző kimaradt: a Pesti városfal mentén és a Tormay Cécile emléktúra a leírásuk szerint 2026-ban nem része a Csillagszórónak. Javítások: Tisza István emléktúra rajtja (Róheim-villa, rossz koordináta), Budapesti templomok kör (a forrás célja ellentmond az itinernek és a GPX-nek). A GPX-ek egy része korábbi évekből való. A rajtidő-ablak minden távon 8:00–10:00; a Rác-fürdőtől távoli rajtokhoz az itinert e-mailben kell kérni.</small></p>
+    <p><small>Az adatokat egy MI-kurátor gyűjti a szervezői kiírásokból. Indulás előtt mindig nézd meg a hivatalos kiírást!</small></p>
+  </section>
+</main>
+
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-kituzo" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="currentColor"/></symbol>
+    <symbol id="i-jelveny" viewBox="0 0 24 24"><path d="M12 2.5 20 6v6c0 4.6-3.3 8.3-8 9.5C7.3 20.3 4 16.6 4 12V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m12 7.5 1.4 2.9 3.1.4-2.3 2.2.6 3.1L12 14.6l-2.8 1.5.6-3.1-2.3-2.2 3.1-.4z" fill="currentColor"/></symbol>
+    <symbol id="i-erem" viewBox="0 0 24 24"><path d="M7 2h4l2 6H9zM13 2h4l-2 6h-4z" fill="currentColor" opacity=".55"/><circle cx="12" cy="15" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="15" r="3" fill="currentColor"/></symbol>
+    <symbol id="i-oklevel" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-egyeb" viewBox="0 0 24 24"><rect x="3.5" y="9" width="17" height="11.5" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M2.5 9h19M12 9v11.5M12 9c-1.5-4-6-4.5-6-1.8C6 9 12 9 12 9zm0 0c1.5-4 6-4.5 6-1.8C18 9 12 9 12 9z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2.8 2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3L2.9 9.5l6.3-.9z" fill="currentColor"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M15 5 8 12l7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </defs>
+</svg>
+
+<script>
+window.EV = {"finishes": [null, null, null, null, null, {"address": "1013 Budapest, Hadnagy utca 8\u201310.", "lat": 47.490561, "lng": 19.043327, "name": "Budapest, R\u00e1c-f\u00fcrd\u0151"}, {"address": "1013 Budapest, Hadnagy utca 8\u201310.", "lat": 47.490599, "lng": 19.042968, "name": "Budapest, R\u00e1c-f\u00fcrd\u0151"}, null, {"address": "1037 Budapest, Bokor utca 27.", "lat": 47.531872, "lng": 19.038129, "name": "Budapest, Katonav\u00e1rosi Amfite\u00e1trum"}, null, null, {"address": "1118 Budapest, Szent Gell\u00e9rt rakpart", "lat": 47.484751, "lng": 19.052273, "name": "Budapest, Sziklatemplom"}, null, null, null, null], "name": "Budapesti Csillagsz\u00f3r\u00f3", "routes": ["Szent Iv\u00f3 napi gyaloglat", "Az eml\u00e9kez\u00e9s a lelket er\u0151s\u00edti", "Gell\u00e9rt-hegyi vill\u00e1k", "Budav\u00e1ri Csillagok", "A n\u00e1ndorfeh\u00e9rv\u00e1ri diadal napja", "Tisza Istv\u00e1n eml\u00e9kt\u00fara", "32-es baka vagyok \u00e9n...", "Szent Margit nyom\u00e1ban", "R\u00f3mai-kori eml\u00e9kek nyom\u00e1ban", "P\u00e1los eml\u00e9kek nyom\u00e1ban", "Regnum Marianum", "T\u00f6r\u00f6k-kori eml\u00e9kek nyom\u00e1ban", "Budapesti k\u00e1poln\u00e1k", "Budapesti templomok", "M\u00e1rton \u00c1ron eml\u00e9kt\u00fara", "Szab\u00f3 Dezs\u0151 eml\u00e9kt\u00fara"], "slug": "2026-11-15_budapesti-csillagszoro", "starts": [{"address": "1036 Budapest, Bokor utca 25.", "lat": 47.531791, "lng": 19.03813, "name": "Budapest, Katonav\u00e1rosi Amfite\u00e1trum"}, {"address": "1013 Budapest, Hadnagy utca 8\u201310.", "lat": 47.490561, "lng": 19.043327, "name": "Budapest, R\u00e1c-f\u00fcrd\u0151"}, {"address": "1013 Budapest, Hadnagy utca 8\u201310.", "lat": 47.490561, "lng": 19.043327, "name": "Budapest, R\u00e1c-f\u00fcrd\u0151"}, {"address": "1013 Budapest, Hadnagy utca 8\u201310.", "lat": 47.490599, "lng": 19.042968, "name": "Budapest, R\u00e1c-f\u00fcrd\u0151"}, {"address": "1013 Budapest, Hadnagy utca 8\u201310.", "lat": 47.490599, "lng": 19.042968, "name": "Budapest, R\u00e1c-f\u00fcrd\u0151"}, {"address": null, "lat": 47.51661, "lng": 19.089485, "name": "Budapest, R\u00f3heim-villa"}, {"address": null, "lat": 47.46944, "lng": 19.088791, "name": "Budapest, M\u00e1lenkij robot eml\u00e9km\u0171"}, {"address": "1037 Budapest, Bokor utca 27.", "lat": 47.531872, "lng": 19.038129, "name": "Budapest, Katonav\u00e1rosi Amfite\u00e1trum"}, {"address": "1031 Budapest, Szentendrei \u00fat", "lat": 47.575202, "lng": 19.048456, "name": "Budapest, R\u00f3mai-f\u00fcrd\u0151 H\u00c9V-meg\u00e1ll\u00f3"}, {"address": "1013 Budapest, Hadnagy utca 8\u201310.", "lat": 47.490561, "lng": 19.043327, "name": "Budapest, R\u00e1c-f\u00fcrd\u0151"}, {"address": null, "lat": 47.51661, "lng": 19.089485, "name": "Budapest, R\u00f3heim-villa"}, {"address": "1037 Budapest, Bokor utca 27.", "lat": 47.531872, "lng": 19.038129, "name": "Budapest, Katonav\u00e1rosi Amfite\u00e1trum"}, {"address": null, "lat": 47.54304, "lng": 18.96397, "name": "Budapest, H\u0171v\u00f6sv\u00f6lgy, P+R parkol\u00f3"}, {"address": "1013 Budapest, Hadnagy utca 8\u201310.", "lat": 47.490561, "lng": 19.043327, "name": "Budapest, R\u00e1c-f\u00fcrd\u0151"}, {"address": "1013 Budapest, Hadnagy utca 8\u201310.", "lat": 47.490561, "lng": 19.043327, "name": "Budapest, R\u00e1c-f\u00fcrd\u0151"}, {"address": "1013 Budapest, Hadnagy utca 8\u201310.", "lat": 47.490561, "lng": 19.043327, "name": "Budapest, R\u00e1c-f\u00fcrd\u0151"}], "tracks": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]};
+</script>
+<script src="/kituzovadasz/static/vendor/leaflet/leaflet.js"></script>
+<script src="/kituzovadasz/static/js/common.js?v=1792167843"></script>
+<script src="/kituzovadasz/static/js/event.js?v=1792167843"></script>
+
+</body>
+</html>

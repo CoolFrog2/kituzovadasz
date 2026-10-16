@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2026-11-21_kodos-borzsony@kituzovadasz
+DTSTAMP:20261016T162408Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Ködös Börzsöny
+LOCATION:Hiúz Ház Erdei Iskola és Látogatóközpont
+DESCRIPTION:Királyréti körtúrák 12\, 23 és 29 km-en a Vár-hegyi kilátón és a Szénpataki kulcsosházon át\; a két hosszabb táv a Nagy-Hideg-hegyet és Kisinócot\, a leghosszabb a Csóványost is érinti. Csak online előnevezéssel lehet indulni\, 16 év alatt ingyenes.\n\nTávok: 11\,7 km\, 22\,8 km\, 29 km\nDíjazás: Minden távon kitűző és oklevél.\nhttps://coolfrog2.github.io/kituzovadasz/e/2026-11-21_kodos-borzsony
+END:VEVENT
+END:VCALENDAR

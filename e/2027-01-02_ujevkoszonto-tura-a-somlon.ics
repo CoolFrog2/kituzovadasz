@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2027-01-02_ujevkoszonto-tura-a-somlon@kituzovadasz
+DTSTAMP:20261016T162409Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:Újévköszöntő túra a Somlón
+LOCATION:Somlóvásárhely\, vasútállomás
+DESCRIPTION:Újévi körtúra a Somlóra Somlóvásárhely vasútállomásáról: a hegy kápolnáit (Szent Ilona\, Szent Márton\, Szent János\, Szent Margit)\, a Somlói várat és a Szent István-kilátót járja körbe\, 12 km-en 500 m szinttel.\n\nTávok: 12\,1 km\nDíjazás: Évente változó kitűző és oklevél.\nhttps://coolfrog2.github.io/kituzovadasz/e/2027-01-02_ujevkoszonto-tura-a-somlon
+END:VEVENT
+END:VCALENDAR

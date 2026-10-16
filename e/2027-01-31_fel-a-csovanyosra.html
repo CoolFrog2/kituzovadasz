@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1f5130">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="description" content="Jövőbeli teljesítménytúrák térképen — kitűző, érem, jelvény, oklevél. Szűrhető táv, szint, körtúra szerint.">
+  <title>Fel a Csóványosra! — jan. 31. · Kitűzővadász</title>
+  <link rel="manifest" href="/kituzovadasz/static/manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="/kituzovadasz/static/img/icon.svg">
+  <link rel="apple-touch-icon" href="/kituzovadasz/static/img/icon-192.png">
+  <link rel="stylesheet" href="/kituzovadasz/static/css/app.css?v=1792167843">
+  <script>window.B = "/kituzovadasz";</script>
+  
+<meta property="og:title" content="Fel a Csóványosra! — 2027. január 31., vasárnap">
+<meta property="og:description" content="Kötetlen útvonalú téli túra: a Börzsöny legmagasabb pontját, a Csóványost kell 10 és 13 óra között felkeresni, bárhonnan indulva és bárhova érkezve. A szervező Királyrétet, Diósjenőt, Kemencét és Nógrádot ajánlja kiindulópontnak; a csúcson meleg tea és csokoládé vár.">
+<link rel="stylesheet" href="/kituzovadasz/static/vendor/leaflet/leaflet.css">
+
+</head>
+<body class="page">
+
+
+<header class="topbar sub">
+  <a class="back" href="/kituzovadasz/" onclick="if(document.referrer.startsWith(location.origin)){history.back();return false}" aria-label="Vissza"><svg><use href="#i-back"/></svg></a>
+  <div class="t">jan. 31. · Börzsöny</div>
+  <button class="star" id="favBtn" data-slug="2027-01-31_fel-a-csovanyosra" aria-label="Csillagozás"><svg><use href="#i-star"/></svg></button>
+</header>
+
+<main class="ev">
+  <section class="ev-head">
+    
+    <h1>Fel a Csóványosra!</h1>
+    <p class="when"><b>2027. január 31., vasárnap</b>
+      <span class="cd" id="cd" data-date="2027-01-31" data-end="">4 hónap múlva</span></p>
+    <div class="aw-big">
+      <span class="aw aw-jelveny"><svg><use href="#i-jelveny"/></svg>Jelvény</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      <span class="pill">évente változó</span>
+    </div>
+    <p class="aws">Évente változó színű jelvény és emléklap.</p>
+    <p class="summary">Kötetlen útvonalú téli túra: a Börzsöny legmagasabb pontját, a Csóványost kell 10 és 13 óra között felkeresni, bárhonnan indulva és bárhova érkezve. A szervező Királyrétet, Diósjenőt, Kemencét és Nógrádot ajánlja kiindulópontnak; a csúcson meleg tea és csokoládé vár.</p>
+    <div class="tags"><span>téli</span><span>szabad útvonalválasztás</span></div>
+  </section>
+
+  <section class="ev-map">
+    <div id="emap"></div>
+    <div id="profile" class="profile" hidden>
+      <div class="ptabs" id="ptabs"></div>
+      <svg id="psvg" preserveAspectRatio="none"></svg>
+      <div class="pinfo" id="pinfo"></div>
+    </div>
+  </section>
+
+  <section class="ev-actions">
+    
+    <a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=47.949086,18.948287" target="_blank" rel="noopener">Útvonal a rajthoz</a>
+    
+    
+    <a class="btn-line" href="/kituzovadasz/e/2027-01-31_fel-a-csovanyosra.ics">Naptárba</a>
+    <button class="btn-line" id="shareBtn">Megosztás</button>
+  </section>
+
+  <section class="routes">
+    <h2>Távok <small>1</small></h2>
+    
+    
+    <article class="route" id="t0" data-i="0">
+      <header>
+        <div class="rk">18<small>km</small></div>
+        <div class="rh">
+          <h3>Fel a Csóványosra!</h3>
+          <div class="rmeta">
+            <span>↗ 700 m</span>
+            <span>körtúra</span>
+            
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-jelveny"><svg><use href="#i-jelveny"/></svg>Jelvény</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      <p class="rnote">Évente változó színű jelvény és emléklap.</p>
+      <dl>
+        <dt>Rajt</dt><dd>Csóványos, kilátó<br><small>Börzsöny, Csóványos-csúcs</small></dd>
+        
+        <dt>Indulás</dt><dd>10:00–13:00</dd>
+        <dt>Célzárás</dt><dd>13:00</dd>
+        <dt>Nevezés</dt><dd>2 000 Ft<br><small>online előnevezéssel, előre fizetve 2000 Ft; helyszínen vagy előnevezéssel a rajtban fizetve 2500 Ft</small></dd>
+        <dt>Előnevezés</dt><dd>Előnevezés ajánlott <small>(határidő: jan. 30.)</small></dd>
+        
+        <dt>Frissítés</dt><dd>A csúcson meleg tea és csokoládé, saját pohárba.</dd>
+        <dt>Vigyél</dt><dd>saját pohár/bögre</dd>
+        <dt>Megjegyzés</dt><dd>Az útvonal tetszőleges: a csúcsot (Csóványos, kilátó) kell 10:00–13:00 között felkeresni, itt van a nevezés és a cél is. A 18 km / 700 m csak a tturak által a túramozgalmakhoz beírt átlagérték, a valós táv a választott útvonaltól függ.</dd>
+      </dl>
+      
+    </article>
+    
+  </section>
+
+  
+  <section class="block"><h2>Megközelítés</h2><p>Királyrét a Nyugatiból Kismarosig vonattal, onnan busszal vagy kisvasúttal érhető el (hétvégén fizetős parkolás); Diósjenő vonattal Vácon át. További javasolt kiindulópont Kemence és Nógrád.</p></section>
+  
+
+  <section class="block org">
+    <h2>Szervező</h2>
+    <p><b>Börzsöny Természetbarát és Hegymászó Egyesület (BTHE)</b></p>
+    <ul class="links">
+      <li><a href="https://www.bthe.hu/fel-a-csovanyosra/" target="_blank" rel="noopener">Kiírás / honlap</a></li>
+      <li><a href="https://www.facebook.com/borzsonythe" target="_blank" rel="noopener">Facebook-esemény</a></li>
+      
+      <li><a href="https://tturak.hu/hikeOccasion/8576/details" target="_blank" rel="noopener">tturak.hu adatlap</a></li>
+      <li><a href="https://www.bthe.hu" target="_blank" rel="noopener">Szervező honlapja</a></li>
+      
+      <li><a href="mailto:info@bthe.hu">info@bthe.hu</a></li>
+    </ul>
+  </section>
+
+  <section class="block curator">
+    <p>Utoljára ellenőrizve: <b>okt. 16.</b> ·
+      megbízhatóság: <b>közepes</b></p>
+    <p><small>Kötetlen útvonalú túra: a rajt és a cél is a csúcson van, ezért kör (a ténylegesen bejárt út lehet A→B is); a táv/szint csak átlagérték. A tturak ár (2500 Ft) a helyszíni díj, a legolcsóbb az előre fizetett online előnevezés (2000 Ft). A tturak leírás január 27-i utalási határidőt ír, a 2027-es turarendezveny.hu nevezési oldal 2027.01.30-at – ezt vettem. A bthe.hu oldal még a 2026-os kiírást mutatja, a díjazás ott is jelvény + emléklap.</small></p>
+    <p><small>Az adatokat egy MI-kurátor gyűjti a szervezői kiírásokból. Indulás előtt mindig nézd meg a hivatalos kiírást!</small></p>
+  </section>
+</main>
+
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-kituzo" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="currentColor"/></symbol>
+    <symbol id="i-jelveny" viewBox="0 0 24 24"><path d="M12 2.5 20 6v6c0 4.6-3.3 8.3-8 9.5C7.3 20.3 4 16.6 4 12V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m12 7.5 1.4 2.9 3.1.4-2.3 2.2.6 3.1L12 14.6l-2.8 1.5.6-3.1-2.3-2.2 3.1-.4z" fill="currentColor"/></symbol>
+    <symbol id="i-erem" viewBox="0 0 24 24"><path d="M7 2h4l2 6H9zM13 2h4l-2 6h-4z" fill="currentColor" opacity=".55"/><circle cx="12" cy="15" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="15" r="3" fill="currentColor"/></symbol>
+    <symbol id="i-oklevel" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-egyeb" viewBox="0 0 24 24"><rect x="3.5" y="9" width="17" height="11.5" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M2.5 9h19M12 9v11.5M12 9c-1.5-4-6-4.5-6-1.8C6 9 12 9 12 9zm0 0c1.5-4 6-4.5 6-1.8C18 9 12 9 12 9z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2.8 2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3L2.9 9.5l6.3-.9z" fill="currentColor"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M15 5 8 12l7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </defs>
+</svg>
+
+<script>
+window.EV = {"finishes": [null], "name": "Fel a Cs\u00f3v\u00e1nyosra!", "routes": ["Fel a Cs\u00f3v\u00e1nyosra!"], "slug": "2027-01-31_fel-a-csovanyosra", "starts": [{"address": "B\u00f6rzs\u00f6ny, Cs\u00f3v\u00e1nyos-cs\u00facs", "lat": 47.949086, "lng": 18.948287, "name": "Cs\u00f3v\u00e1nyos, kil\u00e1t\u00f3"}], "tracks": []};
+</script>
+<script src="/kituzovadasz/static/vendor/leaflet/leaflet.js"></script>
+<script src="/kituzovadasz/static/js/common.js?v=1792167843"></script>
+<script src="/kituzovadasz/static/js/event.js?v=1792167843"></script>
+
+</body>
+</html>

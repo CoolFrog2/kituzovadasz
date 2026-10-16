@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2026-11-14_iszinik-100@kituzovadasz
+DTSTAMP:20261016T162407Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Iszinik 100
+LOCATION:Szárliget\, Faluház
+DESCRIPTION:A „fordított Kinizsi”: fél évvel a Kinizsi Százas után\, ellenkező irányban\, Szárligetről a Gerecsén és a Pilisen át Békásmegyerig. A rövidebb távok a Vértes–Gerecse peremén érnek véget\, az éjszakai 40-es Dorogról indul.\n\nTávok: 21\,4 km\, 36\,7 km\, 50 km\, 100\,8 km\nDíjazás: Minden távon névre szóló oklevél\; a 100-ason egyedi jelvény\, a többi távon kitűző.\nhttps://coolfrog2.github.io/kituzovadasz/e/2026-11-14_iszinik-100
+END:VEVENT
+END:VCALENDAR

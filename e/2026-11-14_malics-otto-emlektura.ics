@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2026-11-14_malics-otto-emlektura@kituzovadasz
+DTSTAMP:20261016T162407Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Málics Ottó emléktúra
+LOCATION:Pécs\, PTE TTK A-épület
+DESCRIPTION:Pécsi\, 14 km-es A→B emléktúra a PTE TTK-tól a Mecsek déli lejtőin (Mecsekkapu\, Tettye\, Dömörkapu\, Lámpásvölgy) át Pécsbányáig\, 600 m szintemelkedéssel. Csak online előnevezéssel és előre fizetve lehet indulni\, a rajtban nincs pénzkezelés.\n\nTávok: 13\,8 km\nDíjazás: Kitűző és oklevél.\nhttps://coolfrog2.github.io/kituzovadasz/e/2026-11-14_malics-otto-emlektura
+END:VEVENT
+END:VCALENDAR

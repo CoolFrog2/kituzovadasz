@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2027-09-19_balatoni-kilatok@kituzovadasz
+DTSTAMP:20261016T162410Z
+DTSTART;VALUE=DATE:20270919
+DTEND;VALUE=DATE:20270920
+SUMMARY:Balatoni Kilátók
+LOCATION:Csopak\, vasútállomás
+DESCRIPTION:Kilátótúra a Balaton-felvidék keleti részén: a 20-as Balatonalmádiból Alsóörsön és Paloznakon át Csopakig négy kilátót (Óvári-messzelátó\, Csere-hegyi\, Somlyó-hegyi és Csákány-hegyi kilátó) érint\, a 10-es Csopakról tesz kört a Csákány-hegyi kilátóhoz. A Dunántúl Kupa (Veszprém vármegye) és a Veszprém Vármegye Teljesítménytúrázója mozgalom része.\n\nTávok: 9\,8 km\, 17\,3 km\nDíjazás: Mindkét távon évente változó kitűző és oklevél.\nhttps://coolfrog2.github.io/kituzovadasz/e/2027-09-19_balatoni-kilatok
+END:VEVENT
+END:VCALENDAR

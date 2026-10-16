@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2026-10-18_borzsonyi-kis-pistazo@kituzovadasz
+DTSTAMP:20261016T162404Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Börzsönyi Kis Pistázó
+LOCATION:Szokolya-Királyrét\, központi parkoló
+DESCRIPTION:Tréfás koncepciójú túra Királyrétről: a rajtban kapott instrukció után bármelyik jelzett turistaúton mehetsz\, a „kispistázás” (útvonal-rövidítés) itt hivatalosan megengedett. Nincs kiírt útvonal\, GPX és pontőrös ellenőrzőpont\; szintidő sincs\, de 20:30-ig mindenkinek be kell érnie.\n\nTávok: 7 km\, 21 km\, 42 km\nDíjazás: Minden távon kitűző és emléklap.\nhttps://coolfrog2.github.io/kituzovadasz/e/2026-10-18_borzsonyi-kis-pistazo
+END:VEVENT
+END:VCALENDAR

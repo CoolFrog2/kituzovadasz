@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2026-10-18_tatabanya-10-20-30@kituzovadasz
+DTSTAMP:20261016T162404Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Tatabánya 10-20-30
+LOCATION:Tatabánya-Felsőgalla\, a Szent István út vége (1-es út 47\,5 km)
+DESCRIPTION:Tatabánya-Felsőgallából induló vértesi körök a Csákányosi turistaház és a Körtvélyesi-kilátó érintésével\; a 20-as a Szarvas-kútig\, a 30-as Vérteskozmán és Várgesztesen át jut el. Jelzett turistautakon\, kisebb szalagozott szakaszokkal.\n\nTávok: 9\,5 km\, 21\,2 km\, 33\,5 km\nDíjazás: Minden távon kitűző és emléklap.\nhttps://coolfrog2.github.io/kituzovadasz/e/2026-10-18_tatabanya-10-20-30
+END:VEVENT
+END:VCALENDAR

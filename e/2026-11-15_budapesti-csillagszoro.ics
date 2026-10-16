@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2026-11-15_budapesti-csillagszoro@kituzovadasz
+DTSTAMP:20261016T162407Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Budapesti Csillagszóró
+LOCATION:Budapest\, Katonavárosi Amfiteátrum
+DESCRIPTION:A Területi Honvédelmi Klub ezen a napon az összes 2026-os budapesti túráját újra megrendezi: 16 városi táv (7–15 km) közül lehet választani\, a díjazást mindenki a Rác-fürdőnél veheti át. Jó alkalom a kimaradt THK-túrák pótlására és a TTT Kupa-füzetbe történő utólagos igazolásra.\n\nTávok: 6\,9 km\, 7\,5 km\, 7\,9 km\, 8\,1 km\, 8\,3 km\, 8\,5 km\, 8\,6 km\, 8\,8 km\, 8\,9 km\, 9\,1 km\, 10 km\, 10\,8 km\, 11\,2 km\, 11\,7 km\, 12\,4 km\, 15 km\nDíjazás: Minden távon kitűző és oklevél\, átvétel a Rác-fürdőnél.\nhttps://coolfrog2.github.io/kituzovadasz/e/2026-11-15_budapesti-csillagszoro
+END:VEVENT
+END:VCALENDAR

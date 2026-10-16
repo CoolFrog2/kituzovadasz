@@ -1,0 +1,1109 @@
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2025-02-11T14:05:52Z</time>
+    <bounds maxlat="47.400734480470419" maxlon="16.542448997497559" minlat="47.381415367126465" minlon="16.499104499816895" />
+  </metadata>
+
+  <rte>
+    <name>Meskó Utca és Makadám – Meskó Utca és Makadám1</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>true</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+      <trp:Trip>
+        <trp:TransportationMode>Walking</trp:TransportationMode>
+      </trp:Trip>
+    </extensions>
+    <rtept lat="47.397551536560059" lon="16.53815746307373">
+      <ele>273.515625</ele>
+      <time>2025-02-11T14:00:16Z</time>
+      <name>Meskó Utca és Makadám</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>ShorterDistance</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0000C82558000700F60D0F210B0076B4AEC2</gpxx:Subclass>
+          <gpxx:rpt lat="47.397551536560059" lon="16.53815746307373">
+            <gpxx:Subclass>0D00C8255800FA750D00211600001C000000</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.397551536560059" lon="16.53815746307373" />
+          <gpxx:rpt lat="47.397551536560059" lon="16.53815746307373" />
+          <gpxx:rpt lat="47.397551536560059" lon="16.53815746307373" />
+          <gpxx:rpt lat="47.397551536560059" lon="16.53815746307373">
+            <gpxx:Subclass>0D00C8255800FA758D001F000800DCB81D00</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.397551536560059" lon="16.53815746307373" />
+          <gpxx:rpt lat="47.398109436035156" lon="16.537857055664063">
+            <gpxx:Subclass>0F00C8255800F6BF8F001F060800B2B84300</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.398109436035156" lon="16.537857055664063" />
+          <gpxx:rpt lat="47.397637367248535" lon="16.536483764648437" />
+          <gpxx:rpt lat="47.397680282592773" lon="16.536269187927246" />
+          <gpxx:rpt lat="47.397594451904297" lon="16.536097526550293" />
+          <gpxx:rpt lat="47.397680282592773" lon="16.536011695861816">
+            <gpxx:Subclass>0F00C8255800DCBF0F001F00080054B80400</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.397680282592773" lon="16.536011695861816" />
+          <gpxx:rpt lat="47.397723197937012" lon="16.535840034484863">
+            <gpxx:Subclass>1600C82558008D1E84001F00080032B80800</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.397723197937012" lon="16.535840034484863" />
+          <gpxx:rpt lat="47.397723197937012" lon="16.535840034484863" />
+          <gpxx:rpt lat="47.397637367248535" lon="16.53566837310791" />
+          <gpxx:rpt lat="47.397594451904297" lon="16.535625457763672">
+            <gpxx:Subclass>0F00C825580058C380001F0008002AB81200</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.397594451904297" lon="16.535625457763672" />
+          <gpxx:rpt lat="47.397594451904297" lon="16.535496711730957" />
+          <gpxx:rpt lat="47.397637367248535" lon="16.535367965698242" />
+          <gpxx:rpt lat="47.397465705871582" lon="16.535367965698242">
+            <gpxx:Subclass>1600C8255800327A83001F0008001FB82200</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.397465705871582" lon="16.535367965698242" />
+          <gpxx:rpt lat="47.397079467773438" lon="16.535625457763672" />
+          <gpxx:rpt lat="47.39677906036377" lon="16.535882949829102">
+            <gpxx:Subclass>1600C825580058E78C001F0308003AB8F400</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.39677906036377" lon="16.535882949829102" />
+          <gpxx:rpt lat="47.396907806396484" lon="16.53541088104248" />
+          <gpxx:rpt lat="47.397251129150391" lon="16.534638404846191" />
+          <gpxx:rpt lat="47.397336959838867" lon="16.533994674682617" />
+          <gpxx:rpt lat="47.397336959838867" lon="16.533823013305664" />
+          <gpxx:rpt lat="47.397251129150391" lon="16.533694267272949" />
+          <gpxx:rpt lat="47.397122383117676" lon="16.533651351928711" />
+          <gpxx:rpt lat="47.39677906036377" lon="16.533780097961426" />
+          <gpxx:rpt lat="47.396693229675293" lon="16.533737182617188" />
+          <gpxx:rpt lat="47.396650314331055" lon="16.533608436584473" />
+          <gpxx:rpt lat="47.396950721740723" lon="16.532320976257324" />
+          <gpxx:rpt lat="47.39750862121582" lon="16.531548500061035" />
+          <gpxx:rpt lat="47.397980690002441" lon="16.530947685241699" />
+          <gpxx:rpt lat="47.398109436035156" lon="16.530647277832031" />
+          <gpxx:rpt lat="47.398195266723633" lon="16.530089378356934">
+            <gpxx:Subclass>0A00C82558008CFB02001F00080045B35100</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.398195266723633" lon="16.530089378356934" />
+          <gpxx:rpt lat="47.398152351379395" lon="16.529788970947266" />
+          <gpxx:rpt lat="47.398109436035156" lon="16.529660224914551" />
+          <gpxx:rpt lat="47.398152351379395" lon="16.529488563537598" />
+          <gpxx:rpt lat="47.398366928100586" lon="16.52918815612793" />
+          <gpxx:rpt lat="47.399053573608398" lon="16.528372764587402" />
+          <gpxx:rpt lat="47.399139404296875" lon="16.528201103210449">
+            <gpxx:Subclass>1600C825580080B50B001F00080097B25500</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.399139404296875" lon="16.528201103210449" />
+          <gpxx:rpt lat="47.39926815032959" lon="16.528158187866211" />
+          <gpxx:rpt lat="47.399654388427734" lon="16.527900695800781" />
+          <gpxx:rpt lat="47.399997711181641" lon="16.527857780456543" />
+          <gpxx:rpt lat="47.400383949279785" lon="16.527600288391113" />
+          <gpxx:rpt lat="47.400426864624023" lon="16.527514457702637" />
+          <gpxx:rpt lat="47.400734480470419" lon="16.527052950114012">
+            <gpxx:Subclass>1600C825580080B50B002117000055005500</gpxx:Subclass>
+          </gpxx:rpt>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="47.400727272033691" lon="16.527042388916016">
+      <ele>374.171875</ele>
+      <time>2025-02-11T14:00:19Z</time>
+      <name>Trianoni Kereszt6</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>ShorterDistance</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>1559C82558004080630D1200000000000000</gpxx:Subclass>
+          <gpxx:rpt lat="47.400734480470419" lon="16.527052950114012">
+            <gpxx:Subclass>1600C825580080B50B002116000055005500</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.400426864624023" lon="16.527514457702637" />
+          <gpxx:rpt lat="47.400426864624023" lon="16.527514457702637" />
+          <gpxx:rpt lat="47.400383949279785" lon="16.527600288391113" />
+          <gpxx:rpt lat="47.399997711181641" lon="16.527857780456543" />
+          <gpxx:rpt lat="47.399654388427734" lon="16.527900695800781" />
+          <gpxx:rpt lat="47.39926815032959" lon="16.528158187866211" />
+          <gpxx:rpt lat="47.399139404296875" lon="16.528201103210449">
+            <gpxx:Subclass>0A00C82558008CFB02001F02080097B25B00</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.399139404296875" lon="16.528201103210449" />
+          <gpxx:rpt lat="47.399139404296875" lon="16.528201103210449" />
+          <gpxx:rpt lat="47.399182319641113" lon="16.527814865112305" />
+          <gpxx:rpt lat="47.399139404296875" lon="16.52742862701416" />
+          <gpxx:rpt lat="47.398409843444824" lon="16.525583267211914">
+            <gpxx:Subclass>0A00C8255800238083001F020800DC703B00</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.398409843444824" lon="16.525583267211914" />
+          <gpxx:rpt lat="47.398967742919922" lon="16.524853706359863" />
+          <gpxx:rpt lat="47.39926815032959" lon="16.524167060852051">
+            <gpxx:Subclass>0A00C8255800238083001F000800C6707C00</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.39926815032959" lon="16.524167060852051" />
+          <gpxx:rpt lat="47.399611473083496" lon="16.522879600524902" />
+          <gpxx:rpt lat="47.399997711181641" lon="16.521849632263184" />
+          <gpxx:rpt lat="47.400126457214355" lon="16.52094841003418" />
+          <gpxx:rpt lat="47.40009049884975" lon="16.520517747849226">
+            <gpxx:Subclass>0A00C825580023800300211700009E017C00</gpxx:Subclass>
+          </gpxx:rpt>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="47.400083541870117" lon="16.520519256591797">
+      <ele>450.66015625</ele>
+      <time>2025-02-11T14:01:15Z</time>
+      <name>Kék Sáv71</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>ShorterDistance</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>2BC9C82558001E80630D1200000000000000</gpxx:Subclass>
+          <gpxx:rpt lat="47.40009049884975" lon="16.520517747849226">
+            <gpxx:Subclass>0A00C825580023800300211600009E011201</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.400083541870117" lon="16.52043342590332" />
+          <gpxx:rpt lat="47.400083541870117" lon="16.52043342590332" />
+          <gpxx:rpt lat="47.399954795837402" lon="16.519789695739746" />
+          <gpxx:rpt lat="47.399439811706543" lon="16.518888473510742" />
+          <gpxx:rpt lat="47.399225234985352" lon="16.518502235412598" />
+          <gpxx:rpt lat="47.398924827575684" lon="16.517987251281738" />
+          <gpxx:rpt lat="47.398581504821777" lon="16.516828536987305" />
+          <gpxx:rpt lat="47.396306991577148" lon="16.514124870300293">
+            <gpxx:Subclass>0A00C8255800238083001F0008006F708B00</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.396306991577148" lon="16.514124870300293" />
+          <gpxx:rpt lat="47.395920753479004" lon="16.513738632202148" />
+          <gpxx:rpt lat="47.395362854003906" lon="16.513009071350098" />
+          <gpxx:rpt lat="47.395362854003906" lon="16.513009071350098" />
+          <gpxx:rpt lat="47.395191192626953" lon="16.512880325317383" />
+          <gpxx:rpt lat="47.395148277282715" lon="16.512751579284668" />
+          <gpxx:rpt lat="47.394933700561523" lon="16.512236595153809" />
+          <gpxx:rpt lat="47.394676208496094" lon="16.510863304138184" />
+          <gpxx:rpt lat="47.394590377807617" lon="16.510734558105469">
+            <gpxx:Subclass>0500C8255800F34905001F0008007A921400</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.394590377807617" lon="16.510734558105469" />
+          <gpxx:rpt lat="47.394590377807617" lon="16.510562896728516" />
+          <gpxx:rpt lat="47.394547462463379" lon="16.510090827941895">
+            <gpxx:Subclass>0A00C8255800EC7F83001F0008006F926400</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.394547462463379" lon="16.510090827941895" />
+          <gpxx:rpt lat="47.394461631774902" lon="16.508631706237793" />
+          <gpxx:rpt lat="47.394375801086426" lon="16.507987976074219" />
+          <gpxx:rpt lat="47.394375801086426" lon="16.507987976074219" />
+          <gpxx:rpt lat="47.393946647644043" lon="16.507172584533691" />
+          <gpxx:rpt lat="47.393946647644043" lon="16.507172584533691">
+            <gpxx:Subclass>0A00C8255800EC7F83001F00080037928800</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.393946647644043" lon="16.507172584533691" />
+          <gpxx:rpt lat="47.393689155578613" lon="16.506528854370117" />
+          <gpxx:rpt lat="47.393217086791992" lon="16.504597663879395" />
+          <gpxx:rpt lat="47.392959594726563" lon="16.504039764404297" />
+          <gpxx:rpt lat="47.392616271972656" lon="16.503653526306152" />
+          <gpxx:rpt lat="47.392509402707219" lon="16.503559984266758">
+            <gpxx:Subclass>0A00C8255800EC7F0300211700001B018800</gpxx:Subclass>
+          </gpxx:rpt>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="47.392509570345283" lon="16.50356006808579">
+      <ele>473.1328125</ele>
+      <time>2025-02-11T14:01:22Z</time>
+      <name>Kék Kiemelo705</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F00C82558000180D90D0D210B008BB361BC</gpxx:Subclass>
+          <gpxx:rpt lat="47.392509402707219" lon="16.503559984266758">
+            <gpxx:Subclass>0A00C8255800EC7F0300211600001B01E500</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.39227294921875" lon="16.503353118896484" />
+          <gpxx:rpt lat="47.39227294921875" lon="16.503353118896484" />
+          <gpxx:rpt lat="47.391929626464844" lon="16.503181457519531" />
+          <gpxx:rpt lat="47.391242980957031" lon="16.502838134765625" />
+          <gpxx:rpt lat="47.390599250793457" lon="16.50270938873291" />
+          <gpxx:rpt lat="47.390041351318359" lon="16.502237319946289" />
+          <gpxx:rpt lat="47.3895263671875" lon="16.502065658569336" />
+          <gpxx:rpt lat="47.388796806335449" lon="16.50146484375" />
+          <gpxx:rpt lat="47.387938499450684" lon="16.501121520996094" />
+          <gpxx:rpt lat="47.387938499450684" lon="16.501121520996094">
+            <gpxx:Subclass>0A00C8255800EC7F83001F000800FF8F2200</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.387938499450684" lon="16.501121520996094" />
+          <gpxx:rpt lat="47.38776683807373" lon="16.501035690307617" />
+          <gpxx:rpt lat="47.387251853942871" lon="16.500692367553711">
+            <gpxx:Subclass>1600C825580014F68C001F020800E68F0500</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.387251853942871" lon="16.500692367553711" />
+          <gpxx:rpt lat="47.387251853942871" lon="16.500692367553711" />
+          <gpxx:rpt lat="47.387251853942871" lon="16.500692367553711" />
+          <gpxx:rpt lat="47.387292589992285" lon="16.500561945140362">
+            <gpxx:Subclass>1600C825580014F60C00211700001F000500</gpxx:Subclass>
+          </gpxx:rpt>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="47.387294769287109" lon="16.500563621520996">
+      <ele>446.140625</ele>
+      <time>2025-02-11T14:01:33Z</time>
+      <name>Hét-Forrás Oktph_02 Ph1</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>ShorterDistance</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>6490C82558000200D60D1200000000000000</gpxx:Subclass>
+          <gpxx:rpt lat="47.387292589992285" lon="16.500561945140362">
+            <gpxx:Subclass>1600C825580014F60C00211600001F000500</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.387251853942871" lon="16.500692367553711" />
+          <gpxx:rpt lat="47.387251853942871" lon="16.500692367553711" />
+          <gpxx:rpt lat="47.387251853942871" lon="16.500692367553711" />
+          <gpxx:rpt lat="47.387251853942871" lon="16.500692367553711">
+            <gpxx:Subclass>0A00C8255800EC7F83001F020800E68F1300</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.387251853942871" lon="16.500692367553711" />
+          <gpxx:rpt lat="47.386865615844727" lon="16.50047779083252">
+            <gpxx:Subclass>0D00C8255800C8608D001F000800DE8F5B00</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.386865615844727" lon="16.50047779083252" />
+          <gpxx:rpt lat="47.386479377746582" lon="16.500434875488281" />
+          <gpxx:rpt lat="47.386093139648438" lon="16.500134468078613" />
+          <gpxx:rpt lat="47.385835647583008" lon="16.500005722045898" />
+          <gpxx:rpt lat="47.385234832763672" lon="16.499748229980469" />
+          <gpxx:rpt lat="47.384977340698242" lon="16.499748229980469">
+            <gpxx:Subclass>1600C8255800428D03001F000800A78F4900</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.384977340698242" lon="16.499748229980469" />
+          <gpxx:rpt lat="47.38429069519043" lon="16.499748229980469" />
+          <gpxx:rpt lat="47.383818626403809" lon="16.499662399291992" />
+          <gpxx:rpt lat="47.383389472961426" lon="16.499490737915039">
+            <gpxx:Subclass>1600C8255800428D03001F0008009A8F2300</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.383389472961426" lon="16.499490737915039" />
+          <gpxx:rpt lat="47.383174896240234" lon="16.499276161193848" />
+          <gpxx:rpt lat="47.383003234863281" lon="16.499147415161133" />
+          <gpxx:rpt lat="47.38278865814209" lon="16.499104499816895" />
+          <gpxx:rpt lat="47.382703330367804" lon="16.499104499816895">
+            <gpxx:Subclass>1600C8255800428D0300211700006E002300</gpxx:Subclass>
+          </gpxx:rpt>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="47.382703330367804" lon="16.499104499816895">
+      <ele>548.5234375</ele>
+      <time>2025-02-11T14:01:49Z</time>
+      <name>Kék Kiemelo706</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F00C82558000C80D50D0D210B00C2B192BB</gpxx:Subclass>
+          <gpxx:rpt lat="47.382703330367804" lon="16.499104499816895">
+            <gpxx:Subclass>1600C8255800428D0300211600006E003C00</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.382659912109375" lon="16.499104499816895" />
+          <gpxx:rpt lat="47.382659912109375" lon="16.499104499816895" />
+          <gpxx:rpt lat="47.382359504699707" lon="16.499276161193848" />
+          <gpxx:rpt lat="47.382016181945801" lon="16.499619483947754" />
+          <gpxx:rpt lat="47.381629943847656" lon="16.499791145324707" />
+          <gpxx:rpt lat="47.38154411315918" lon="16.499876976013184">
+            <gpxx:Subclass>1600C8255800E98883001F060800C88F5D00</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.38154411315918" lon="16.499876976013184" />
+          <gpxx:rpt lat="47.381973266601563" lon="16.501636505126953" />
+          <gpxx:rpt lat="47.382187843322754" lon="16.502108573913574" />
+          <gpxx:rpt lat="47.382445335388184" lon="16.50245189666748">
+            <gpxx:Subclass>1600C8255800A48284001F02080029901D00</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.382445335388184" lon="16.50245189666748" />
+          <gpxx:rpt lat="47.382359504699707" lon="16.502580642700195" />
+          <gpxx:rpt lat="47.381930351257324" lon="16.50296688079834">
+            <gpxx:Subclass>1600C82558008D8204001F0008003F901800</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.381930351257324" lon="16.50296688079834" />
+          <gpxx:rpt lat="47.381758689880371" lon="16.502923965454102" />
+          <gpxx:rpt lat="47.381629943847656" lon="16.502881050109863" />
+          <gpxx:rpt lat="47.381427185609937" lon="16.502961935475469">
+            <gpxx:Subclass>1600C82558008D8204002117000018001800</gpxx:Subclass>
+          </gpxx:rpt>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="47.381427185609937" lon="16.502962186932564">
+      <ele>598.90234375</ele>
+      <time>2025-02-11T14:01:59Z</time>
+      <name>Ismeretlen496</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4FE8C82558001680D50D0D210B0086B145BC</gpxx:Subclass>
+          <gpxx:rpt lat="47.381427185609937" lon="16.502961935475469">
+            <gpxx:Subclass>1600C82558008D8204002116000018000500</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.381415367126465" lon="16.50296688079834" />
+          <gpxx:rpt lat="47.381415367126465" lon="16.50296688079834" />
+          <gpxx:rpt lat="47.381415367126465" lon="16.503095626831055">
+            <gpxx:Subclass>1600C82558008D8204001F0608004A901200</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.381415367126465" lon="16.503095626831055" />
+          <gpxx:rpt lat="47.381415367126465" lon="16.503353118896484" />
+          <gpxx:rpt lat="47.381458282470703" lon="16.503438949584961" />
+          <gpxx:rpt lat="47.381587028503418" lon="16.503524780273438">
+            <gpxx:Subclass>1600C82558008D8204001F00080076900000</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.381587028503418" lon="16.503524780273438" />
+          <gpxx:rpt lat="47.381587028503418" lon="16.503524780273438" />
+          <gpxx:rpt lat="47.381587028503418" lon="16.503524780273438" />
+          <gpxx:rpt lat="47.381587028503418" lon="16.503524780273438">
+            <gpxx:Subclass>1600C82558008D8204002117000030000000</gpxx:Subclass>
+          </gpxx:rpt>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="47.38160228356719" lon="16.503517236560583">
+      <ele>597.0859375</ele>
+      <time>2025-02-11T14:02:01Z</time>
+      <name>Kék Kiemelo707</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F00C82558000B80D50D0D210B008EB15FBC</gpxx:Subclass>
+          <gpxx:rpt lat="47.381587028503418" lon="16.503524780273438">
+            <gpxx:Subclass>1600C82558008D8204002116000030000000</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.381587028503418" lon="16.503524780273438" />
+          <gpxx:rpt lat="47.381587028503418" lon="16.503524780273438" />
+          <gpxx:rpt lat="47.381587028503418" lon="16.503524780273438" />
+          <gpxx:rpt lat="47.381587028503418" lon="16.503524780273438">
+            <gpxx:Subclass>1600C82558008D8204001F06080076900500</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.381587028503418" lon="16.503524780273438" />
+          <gpxx:rpt lat="47.381587028503418" lon="16.503524780273438" />
+          <gpxx:rpt lat="47.381587028503418" lon="16.503524780273438" />
+          <gpxx:rpt lat="47.381678558886051" lon="16.503479015082121">
+            <gpxx:Subclass>1600C82558008D8204002117000033000500</gpxx:Subclass>
+          </gpxx:rpt>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="47.381629943847656" lon="16.503267288208008">
+      <ele>598.921875</ele>
+      <time>2025-02-11T14:02:03Z</time>
+      <name>Óház2</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>ShorterDistance</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>1619C82558005880D50D1200000000000000</gpxx:Subclass>
+          <gpxx:rpt lat="47.381678558886051" lon="16.503479015082121">
+            <gpxx:Subclass>1600C82558008D8204002116000033001200</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.381758689880371" lon="16.503438949584961" />
+          <gpxx:rpt lat="47.381758689880371" lon="16.503438949584961" />
+          <gpxx:rpt lat="47.381844520568848" lon="16.503396034240723" />
+          <gpxx:rpt lat="47.381930351257324" lon="16.503095626831055">
+            <gpxx:Subclass>1600C8255800E5B28B001F02080055903A00</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.381930351257324" lon="16.503095626831055" />
+          <gpxx:rpt lat="47.381930351257324" lon="16.503095626831055" />
+          <gpxx:rpt lat="47.382102012634277" lon="16.503095626831055" />
+          <gpxx:rpt lat="47.382230758666992" lon="16.503181457519531" />
+          <gpxx:rpt lat="47.382316589355469" lon="16.503310203552246" />
+          <gpxx:rpt lat="47.382402420043945" lon="16.503353118896484" />
+          <gpxx:rpt lat="47.382488250732422" lon="16.503353118896484" />
+          <gpxx:rpt lat="47.382616996765137" lon="16.503267288208008" />
+          <gpxx:rpt lat="47.382831573486328" lon="16.503267288208008" />
+          <gpxx:rpt lat="47.38304615020752" lon="16.503138542175293" />
+          <gpxx:rpt lat="47.383089065551758" lon="16.503181457519531">
+            <gpxx:Subclass>1600C8255800E98883001F02080060908200</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.383089065551758" lon="16.503181457519531" />
+          <gpxx:rpt lat="47.383475303649902" lon="16.503696441650391" />
+          <gpxx:rpt lat="47.383818626403809" lon="16.504554748535156" />
+          <gpxx:rpt lat="47.384934425354004" lon="16.504983901977539" />
+          <gpxx:rpt lat="47.385309096425772" lon="16.505316998809576">
+            <gpxx:Subclass>1600C8255800E988030021170000FA018200</gpxx:Subclass>
+          </gpxx:rpt>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="47.38530901260674" lon="16.505316831171513">
+      <ele>560.41015625</ele>
+      <time>2025-02-11T14:02:34Z</time>
+      <name>Ösvény142</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>1600C82558002400D50D0D210B003BB2B3BC</gpxx:Subclass>
+          <gpxx:rpt lat="47.385309096425772" lon="16.505316998809576">
+            <gpxx:Subclass>1600C8255800E988030021160000FA01A200</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.385320663452148" lon="16.505327224731445" />
+          <gpxx:rpt lat="47.385320663452148" lon="16.505327224731445" />
+          <gpxx:rpt lat="47.38579273223877" lon="16.50571346282959" />
+          <gpxx:rpt lat="47.387166023254395" lon="16.507601737976074" />
+          <gpxx:rpt lat="47.387466430664062" lon="16.507773399353027" />
+          <gpxx:rpt lat="47.388195991516113" lon="16.507730484008789" />
+          <gpxx:rpt lat="47.388195991516113" lon="16.507730484008789">
+            <gpxx:Subclass>0A00C825580079ED0B001F020800D3904800</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.388195991516113" lon="16.507730484008789" />
+          <gpxx:rpt lat="47.388238906860352" lon="16.508846282958984" />
+          <gpxx:rpt lat="47.388195991516113" lon="16.509232521057129" />
+          <gpxx:rpt lat="47.38802433013916" lon="16.509490013122559" />
+          <gpxx:rpt lat="47.387803550809622" lon="16.509732836857438">
+            <gpxx:Subclass>0A00C825580079ED0B002117000048004800</gpxx:Subclass>
+          </gpxx:rpt>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="47.387803383171558" lon="16.509733004495502">
+      <ele>529.03515625</ele>
+      <time>2025-02-11T14:02:41Z</time>
+      <name>Kék Kiemelo708</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F00C82558000980D40D0D210B00AFB281BD</gpxx:Subclass>
+          <gpxx:rpt lat="47.387803550809622" lon="16.509732836857438">
+            <gpxx:Subclass>0A00C825580079ED0B002116000048004D00</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.387595176696777" lon="16.50996208190918" />
+          <gpxx:rpt lat="47.387595176696777" lon="16.50996208190918" />
+          <gpxx:rpt lat="47.386951446533203" lon="16.510820388793945" />
+          <gpxx:rpt lat="47.386736869812012" lon="16.510992050170898" />
+          <gpxx:rpt lat="47.386479377746582" lon="16.511120796203613">
+            <gpxx:Subclass>0500C8255800977485001F06080088924A00</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.386479377746582" lon="16.511120796203613" />
+          <gpxx:rpt lat="47.38652229309082" lon="16.511378288269043" />
+          <gpxx:rpt lat="47.386651039123535" lon="16.511635780334473" />
+          <gpxx:rpt lat="47.387166023254395" lon="16.51219367980957" />
+          <gpxx:rpt lat="47.387337684631348" lon="16.512322425842285" />
+          <gpxx:rpt lat="47.387595176696777" lon="16.512494087219238" />
+          <gpxx:rpt lat="47.387654017657042" lon="16.512553011998534">
+            <gpxx:Subclass>0500C8255800977405002117000006004A00</gpxx:Subclass>
+          </gpxx:rpt>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="47.387681007385254" lon="16.512494087219238">
+      <ele>487.99609375</ele>
+      <time>2025-02-11T14:02:49Z</time>
+      <name>Információs Tábla47</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>ShorterDistance</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4C00C82558000800D40D1200000000000000</gpxx:Subclass>
+          <gpxx:rpt lat="47.387654017657042" lon="16.512553011998534">
+            <gpxx:Subclass>0500C8255800977405002116000006000600</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.387681007385254" lon="16.512579917907715" />
+          <gpxx:rpt lat="47.387681007385254" lon="16.512579917907715" />
+          <gpxx:rpt lat="47.387681007385254" lon="16.51270866394043">
+            <gpxx:Subclass>1600C8255800FA8A83001F000800D6922800</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.387681007385254" lon="16.51270866394043" />
+          <gpxx:rpt lat="47.387723922729492" lon="16.512923240661621" />
+          <gpxx:rpt lat="47.387852668762207" lon="16.513180732727051" />
+          <gpxx:rpt lat="47.387895584106445" lon="16.513652801513672" />
+          <gpxx:rpt lat="47.387895584106445" lon="16.513867378234863" />
+          <gpxx:rpt lat="47.387852668762207" lon="16.51395320892334">
+            <gpxx:Subclass>1600C825580055B48B001F000800F6920900</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.387852668762207" lon="16.51395320892334" />
+          <gpxx:rpt lat="47.387852668762207" lon="16.51395320892334" />
+          <gpxx:rpt lat="47.387938499450684" lon="16.51421070098877">
+            <gpxx:Subclass>0A00C825580041B603001F26080001933201</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.387938499450684" lon="16.51421070098877" />
+          <gpxx:rpt lat="47.388410568237305" lon="16.514253616333008" />
+          <gpxx:rpt lat="47.388582229614258" lon="16.514554023742676" />
+          <gpxx:rpt lat="47.388753890991211" lon="16.515111923217773" />
+          <gpxx:rpt lat="47.389140129089355" lon="16.51545524597168" />
+          <gpxx:rpt lat="47.389483451843262" lon="16.515583992004395" />
+          <gpxx:rpt lat="47.390341758728027" lon="16.515283584594727" />
+          <gpxx:rpt lat="47.390685081481934" lon="16.515326499938965" />
+          <gpxx:rpt lat="47.391071319580078" lon="16.51545524597168" />
+          <gpxx:rpt lat="47.39128589630127" lon="16.515498161315918" />
+          <gpxx:rpt lat="47.391672134399414" lon="16.515927314758301" />
+          <gpxx:rpt lat="47.391972541809082" lon="16.516227722167969" />
+          <gpxx:rpt lat="47.392144203186035" lon="16.516485214233398" />
+          <gpxx:rpt lat="47.392230033874512" lon="16.516914367675781" />
+          <gpxx:rpt lat="47.39227294921875" lon="16.517901420593262" />
+          <gpxx:rpt lat="47.392144203186035" lon="16.51820182800293" />
+          <gpxx:rpt lat="47.39201545715332" lon="16.518802642822266">
+            <gpxx:Subclass>0A00C82558008BFD91001F00080053932500</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.39201545715332" lon="16.518802642822266" />
+          <gpxx:rpt lat="47.39201545715332" lon="16.519360542297363" />
+          <gpxx:rpt lat="47.392058372497559" lon="16.519875526428223" />
+          <gpxx:rpt lat="47.39207454957068" lon="16.519972588866949">
+            <gpxx:Subclass>0A00C82558008BFD1100211700009E002500</gpxx:Subclass>
+          </gpxx:rpt>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="47.39207454957068" lon="16.519972421228886">
+      <ele>377.63671875</ele>
+      <time>2025-02-11T14:03:15Z</time>
+      <name>Kék Kiemelo709</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F00C82558000880D40D0D210B0076B35EBF</gpxx:Subclass>
+          <gpxx:rpt lat="47.39207454957068" lon="16.519972588866949">
+            <gpxx:Subclass>0A00C82558008BFD1100211600009E009E00</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.392144203186035" lon="16.520390510559082" />
+          <gpxx:rpt lat="47.392144203186035" lon="16.520390510559082" />
+          <gpxx:rpt lat="47.39201545715332" lon="16.521420478820801" />
+          <gpxx:rpt lat="47.39201545715332" lon="16.521892547607422" />
+          <gpxx:rpt lat="47.391972541809082" lon="16.52219295501709" />
+          <gpxx:rpt lat="47.391843795776367" lon="16.522622108459473" />
+          <gpxx:rpt lat="47.391629219055176" lon="16.522965431213379" />
+          <gpxx:rpt lat="47.390985488891602" lon="16.523609161376953" />
+          <gpxx:rpt lat="47.390642166137695" lon="16.524038314819336">
+            <gpxx:Subclass>0A00C8255800E94890001F000800BC947900</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.390642166137695" lon="16.524038314819336" />
+          <gpxx:rpt lat="47.390599250793457" lon="16.524467468261719" />
+          <gpxx:rpt lat="47.390556335449219" lon="16.525025367736816" />
+          <gpxx:rpt lat="47.39051342010498" lon="16.526913642883301" />
+          <gpxx:rpt lat="47.390439659357071" lon="16.527847135439515">
+            <gpxx:Subclass>0A00C8255800E9481000211700002E007900</gpxx:Subclass>
+          </gpxx:rpt>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="47.390439659357071" lon="16.527847051620483">
+      <ele>324.75390625</ele>
+      <time>2025-02-11T14:03:18Z</time>
+      <name>Kék Kiemelo710</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F00C82558000880D40D0D210B002AB3CDC0</gpxx:Subclass>
+          <gpxx:rpt lat="47.390439659357071" lon="16.527847135439515">
+            <gpxx:Subclass>0A00C8255800E9481000211600002E002E00</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.390384674072266" lon="16.528544425964355" />
+          <gpxx:rpt lat="47.390384674072266" lon="16.528544425964355" />
+          <gpxx:rpt lat="47.390298843383789" lon="16.529273986816406">
+            <gpxx:Subclass>0A00C8255800BEFB02001F060800D7B20600</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.390298843383789" lon="16.529273986816406" />
+          <gpxx:rpt lat="47.390427589416504" lon="16.529273986816406">
+            <gpxx:Subclass>0F00C8255800730591001F020800E2B28500</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.390427589416504" lon="16.529273986816406" />
+          <gpxx:rpt lat="47.39051342010498" lon="16.529660224914551" />
+          <gpxx:rpt lat="47.39051342010498" lon="16.53017520904541" />
+          <gpxx:rpt lat="47.390556335449219" lon="16.530518531799316" />
+          <gpxx:rpt lat="47.390813827514648" lon="16.531033515930176" />
+          <gpxx:rpt lat="47.39102840423584" lon="16.531462669372559" />
+          <gpxx:rpt lat="47.391157150268555" lon="16.531848907470703" />
+          <gpxx:rpt lat="47.391157150268555" lon="16.531848907470703" />
+          <gpxx:rpt lat="47.391457557678223" lon="16.532406806945801" />
+          <gpxx:rpt lat="47.391629219055176" lon="16.533007621765137" />
+          <gpxx:rpt lat="47.391629219055176" lon="16.533007621765137">
+            <gpxx:Subclass>0F00C8255800730591001F000800E4B47700</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.391629219055176" lon="16.533007621765137" />
+          <gpxx:rpt lat="47.391843795776367" lon="16.533865928649902" />
+          <gpxx:rpt lat="47.391972541809082" lon="16.534595489501953" />
+          <gpxx:rpt lat="47.392187118530273" lon="16.535325050354004" />
+          <gpxx:rpt lat="47.392358779907227" lon="16.536011695861816" />
+          <gpxx:rpt lat="47.392436228692532" lon="16.536579318344593">
+            <gpxx:Subclass>0F00C8255800730511002117000012007700</gpxx:Subclass>
+          </gpxx:rpt>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="47.392436228692532" lon="16.536579234525561">
+      <ele>292.9296875</ele>
+      <time>2025-02-11T14:03:25Z</time>
+      <name>Kék Kiemelo711</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4EF8C82558000380F70D0D210B0087B364C2</gpxx:Subclass>
+          <gpxx:rpt lat="47.392436228692532" lon="16.536579318344593">
+            <gpxx:Subclass>0F00C8255800730511002116000012001200</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.392487525939941" lon="16.536955833435059" />
+          <gpxx:rpt lat="47.392487525939941" lon="16.536955833435059" />
+          <gpxx:rpt lat="47.392487525939941" lon="16.537127494812012">
+            <gpxx:Subclass>0600C8255800570591001F000800ABB53400</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.392487525939941" lon="16.537127494812012" />
+          <gpxx:rpt lat="47.392487525939941" lon="16.537127494812012" />
+          <gpxx:rpt lat="47.392444610595703" lon="16.53742790222168" />
+          <gpxx:rpt lat="47.392444610595703" lon="16.53742790222168" />
+          <gpxx:rpt lat="47.392187118530273" lon="16.538457870483398" />
+          <gpxx:rpt lat="47.392144203186035" lon="16.538500785827637" />
+          <gpxx:rpt lat="47.392058372497559" lon="16.53867244720459">
+            <gpxx:Subclass>0600C8255800400511001F00080059A00900</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.392058372497559" lon="16.53867244720459" />
+          <gpxx:rpt lat="47.391929626464844" lon="16.538844108581543" />
+          <gpxx:rpt lat="47.391929626464844" lon="16.538844108581543">
+            <gpxx:Subclass>0600C82558005EE111001F0208007CA01D00</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.391929626464844" lon="16.538844108581543" />
+          <gpxx:rpt lat="47.391800880432129" lon="16.538758277893066" />
+          <gpxx:rpt lat="47.391757965087891" lon="16.538758277893066" />
+          <gpxx:rpt lat="47.391757965087891" lon="16.538758277893066" />
+          <gpxx:rpt lat="47.391672134399414" lon="16.538715362548828" />
+          <gpxx:rpt lat="47.391328811645508" lon="16.538586616516113">
+            <gpxx:Subclass>0600C82558005EE111001F00080044A01700</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.391328811645508" lon="16.538586616516113" />
+          <gpxx:rpt lat="47.391328811645508" lon="16.538586616516113" />
+          <gpxx:rpt lat="47.390856742858887" lon="16.538457870483398" />
+          <gpxx:rpt lat="47.390845259651542" lon="16.538457870483398">
+            <gpxx:Subclass>0600C82558005EE111002117000041001700</gpxx:Subclass>
+          </gpxx:rpt>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="47.390845259651542" lon="16.538457870483398">
+      <ele>277.97265625</ele>
+      <time>2025-02-11T14:03:33Z</time>
+      <name>Ismeretlen497</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4FE8C82558001180F10D0D210B003DB3BCC2</gpxx:Subclass>
+          <gpxx:rpt lat="47.390845259651542" lon="16.538457870483398">
+            <gpxx:Subclass>0600C82558005EE111002116000041000900</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.390642166137695" lon="16.538457870483398" />
+          <gpxx:rpt lat="47.390642166137695" lon="16.538457870483398" />
+          <gpxx:rpt lat="47.390642166137695" lon="16.538457870483398" />
+          <gpxx:rpt lat="47.390642166137695" lon="16.538457870483398">
+            <gpxx:Subclass>0600C82558005EE111001F00080039A00E00</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.390642166137695" lon="16.538457870483398" />
+          <gpxx:rpt lat="47.39051342010498" lon="16.538500785827637" />
+          <gpxx:rpt lat="47.390341758728027" lon="16.53841495513916">
+            <gpxx:Subclass>0600C825580090FE92001F0008002EA02000</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.390341758728027" lon="16.53841495513916" />
+          <gpxx:rpt lat="47.389912605285645" lon="16.537599563598633">
+            <gpxx:Subclass>0600C8255800E0F490001F060800EBB50600</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.389912605285645" lon="16.537599563598633" />
+          <gpxx:rpt lat="47.389912605285645" lon="16.537599563598633" />
+          <gpxx:rpt lat="47.389826774597168" lon="16.537728309631348">
+            <gpxx:Subclass>0A00C8255800170C8D001F000800F5B52300</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.389826774597168" lon="16.537728309631348" />
+          <gpxx:rpt lat="47.389698028564453" lon="16.537513732910156" />
+          <gpxx:rpt lat="47.389569282531738" lon="16.537470817565918" />
+          <gpxx:rpt lat="47.389483451843262" lon="16.537470817565918" />
+          <gpxx:rpt lat="47.38926887512207" lon="16.537556648254395" />
+          <gpxx:rpt lat="47.389191593974829" lon="16.537672569975257">
+            <gpxx:Subclass>0A00C8255800170C0D002117000020002300</gpxx:Subclass>
+          </gpxx:rpt>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="47.389191761612892" lon="16.537672402337193">
+      <ele>284.296875</ele>
+      <time>2025-02-11T14:04:02Z</time>
+      <name>Földút463</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0A00C82558004700F10D0D210B00F0B297C2</gpxx:Subclass>
+          <gpxx:rpt lat="47.389191593974829" lon="16.537672569975257">
+            <gpxx:Subclass>0A00C8255800170C0D002116000020002000</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.389011383056641" lon="16.537942886352539" />
+          <gpxx:rpt lat="47.389011383056641" lon="16.537942886352539" />
+          <gpxx:rpt lat="47.388753890991211" lon="16.538457870483398">
+            <gpxx:Subclass>0F00C8255800B45287001F020800B5A41000</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.388753890991211" lon="16.538457870483398" />
+          <gpxx:rpt lat="47.388625144958496" lon="16.538200378417969" />
+          <gpxx:rpt lat="47.388496398925781" lon="16.538286209106445">
+            <gpxx:Subclass>0F00C8255800B8C780001F00080011B60100</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.388496398925781" lon="16.538286209106445" />
+          <gpxx:rpt lat="47.388496398925781" lon="16.538243293762207">
+            <gpxx:Subclass>0600C825580090FE92001F06080007B62900</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.388496398925781" lon="16.538243293762207" />
+          <gpxx:rpt lat="47.38828182220459" lon="16.538500785827637" />
+          <gpxx:rpt lat="47.38776683807373" lon="16.539058685302734">
+            <gpxx:Subclass>0600C825580090FE92001F00080009A51200</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.38776683807373" lon="16.539058685302734" />
+          <gpxx:rpt lat="47.38776683807373" lon="16.539058685302734" />
+          <gpxx:rpt lat="47.38776683807373" lon="16.539058685302734" />
+          <gpxx:rpt lat="47.387473471462727" lon="16.539425477385521">
+            <gpxx:Subclass>0600C825580090FE12002117000003001200</gpxx:Subclass>
+          </gpxx:rpt>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="47.387509346008301" lon="16.539487838745117">
+      <ele>280.08203125</ele>
+      <time>2025-02-11T14:04:09Z</time>
+      <name>Kút28</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>ShorterDistance</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>5000C82558000500F10D1200000000000000</gpxx:Subclass>
+          <gpxx:rpt lat="47.387473471462727" lon="16.539425477385521">
+            <gpxx:Subclass>0600C825580090FE12002116000003000300</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.387423515319824" lon="16.539487838745117" />
+          <gpxx:rpt lat="47.387423515319824" lon="16.539487838745117" />
+          <gpxx:rpt lat="47.387423515319824" lon="16.539487838745117" />
+          <gpxx:rpt lat="47.387423515319824" lon="16.539487838745117">
+            <gpxx:Subclass>0600C82558001FFE92001F0608004CA51400</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.387423515319824" lon="16.539487838745117" />
+          <gpxx:rpt lat="47.38776683807373" lon="16.5399169921875">
+            <gpxx:Subclass>0600C825580036FE92001F0008007EA50200</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.38776683807373" lon="16.5399169921875" />
+          <gpxx:rpt lat="47.38776683807373" lon="16.539959907531738">
+            <gpxx:Subclass>0D00C825580079FE92001F00080091A53000</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.38776683807373" lon="16.539959907531738" />
+          <gpxx:rpt lat="47.38776683807373" lon="16.539959907531738" />
+          <gpxx:rpt lat="47.387809753417969" lon="16.540045738220215" />
+          <gpxx:rpt lat="47.387938499450684" lon="16.540689468383789" />
+          <gpxx:rpt lat="47.387981414794922" lon="16.54090404510498" />
+          <gpxx:rpt lat="47.388110160827637" lon="16.541461944580078">
+            <gpxx:Subclass>0D00C8255800F31292001F000800A8A60C00</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.388110160827637" lon="16.541461944580078" />
+          <gpxx:rpt lat="47.388110160827637" lon="16.541590690612793" />
+          <gpxx:rpt lat="47.388067245483398" lon="16.541633605957031" />
+          <gpxx:rpt lat="47.387938499450684" lon="16.541719436645508">
+            <gpxx:Subclass>0F00C8255800FA1990001F060800E8A60600</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.387938499450684" lon="16.541719436645508" />
+          <gpxx:rpt lat="47.38802433013916" lon="16.541891098022461">
+            <gpxx:Subclass>0F00C8255800FA1990001F000800FBA60C00</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.38802433013916" lon="16.541891098022461" />
+          <gpxx:rpt lat="47.38802433013916" lon="16.541891098022461" />
+          <gpxx:rpt lat="47.38802433013916" lon="16.541891098022461" />
+          <gpxx:rpt lat="47.388114519417286" lon="16.542251771315932">
+            <gpxx:Subclass>0F00C8255800FA1910002117000089000C00</gpxx:Subclass>
+          </gpxx:rpt>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="47.388067245483398" lon="16.542277336120605">
+      <ele>273.70703125</ele>
+      <time>2025-02-11T14:04:12Z</time>
+      <name>Koszeg Oktph_03_1 Ph</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>ShorterDistance</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>6490C82558004A00F10D1200000000000000</gpxx:Subclass>
+          <gpxx:rpt lat="47.388114519417286" lon="16.542251771315932">
+            <gpxx:Subclass>0F00C8255800FA1910002116000089000700</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.388153076171875" lon="16.54240608215332" />
+          <gpxx:rpt lat="47.388153076171875" lon="16.54240608215332" />
+          <gpxx:rpt lat="47.388153076171875" lon="16.542448997497559">
+            <gpxx:Subclass>0600C8255800F81181001F06080052A70900</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.388153076171875" lon="16.542448997497559" />
+          <gpxx:rpt lat="47.388195991516113" lon="16.54240608215332" />
+          <gpxx:rpt lat="47.388324737548828" lon="16.542277336120605">
+            <gpxx:Subclass>0F00C8255800B98B05001F06080039A70D00</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.388324737548828" lon="16.542277336120605" />
+          <gpxx:rpt lat="47.388238906860352" lon="16.541891098022461" />
+          <gpxx:rpt lat="47.388238906860352" lon="16.541891098022461">
+            <gpxx:Subclass>0F00C82558001D2208001F0108000AA70B00</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.388238906860352" lon="16.541891098022461" />
+          <gpxx:rpt lat="47.38828182220459" lon="16.541633605957031" />
+          <gpxx:rpt lat="47.388324737548828" lon="16.541547775268555" />
+          <gpxx:rpt lat="47.388324737548828" lon="16.541547775268555">
+            <gpxx:Subclass>0F00C8255800A6FE92001F000800B0A61D00</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.388324737548828" lon="16.541547775268555" />
+          <gpxx:rpt lat="47.388496398925781" lon="16.541204452514648" />
+          <gpxx:rpt lat="47.388625144958496" lon="16.541032791137695" />
+          <gpxx:rpt lat="47.388668060302734" lon="16.540989875793457" />
+          <gpxx:rpt lat="47.388796806335449" lon="16.540946960449219">
+            <gpxx:Subclass>0F00C825580031EB90001F00080066A62600</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.388796806335449" lon="16.540946960449219" />
+          <gpxx:rpt lat="47.38926887512207" lon="16.540389060974121" />
+          <gpxx:rpt lat="47.389311790466309" lon="16.540303230285645" />
+          <gpxx:rpt lat="47.389440536499023" lon="16.540217399597168">
+            <gpxx:Subclass>0F00C8255800970F92001F000800B8A50800</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.389440536499023" lon="16.540217399597168" />
+          <gpxx:rpt lat="47.389440536499023" lon="16.540217399597168" />
+          <gpxx:rpt lat="47.389440536499023" lon="16.540217399597168" />
+          <gpxx:rpt lat="47.38957179710269" lon="16.54008605517447">
+            <gpxx:Subclass>0F00C8255800970F1200211700003A000700</gpxx:Subclass>
+          </gpxx:rpt>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="47.389612197875977" lon="16.54017448425293">
+      <ele>278.16796875</ele>
+      <time>2025-02-11T14:04:25Z</time>
+      <name>Zarándokszállás</name>
+      <cmt>Zarándokszállás
+,
+Kõszeg, Vas Megye, Hungary</cmt>
+      <desc>Zarándokszállás
+,
+Kõszeg, Vas Megye, Hungary</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>ShorterDistance</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>2B08C82558002000F10D1400000000000000</gpxx:Subclass>
+          <gpxx:rpt lat="47.38957179710269" lon="16.54008605517447">
+            <gpxx:Subclass>0F00C8255800970F1200211600003A000E00</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.389740943908691" lon="16.5399169921875" />
+          <gpxx:rpt lat="47.389740943908691" lon="16.5399169921875" />
+          <gpxx:rpt lat="47.38978385925293" lon="16.539788246154785">
+            <gpxx:Subclass>0F00C8255800970F92001F00080072A52C00</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.38978385925293" lon="16.539788246154785" />
+          <gpxx:rpt lat="47.390084266662598" lon="16.539058685302734" />
+          <gpxx:rpt lat="47.390170097351074" lon="16.538972854614258" />
+          <gpxx:rpt lat="47.390427589416504" lon="16.53892993927002">
+            <gpxx:Subclass>0600C825580009FE12001F06080087A00500</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.390427589416504" lon="16.53892993927002" />
+          <gpxx:rpt lat="47.390427589416504" lon="16.538715362548828">
+            <gpxx:Subclass>0F00C8255800843C85001F02080066A00D00</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.390427589416504" lon="16.538715362548828" />
+          <gpxx:rpt lat="47.39051342010498" lon="16.538543701171875" />
+          <gpxx:rpt lat="47.390642166137695" lon="16.538457870483398">
+            <gpxx:Subclass>0600C82558005EE191001F02080039A00A00</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.390642166137695" lon="16.538457870483398" />
+          <gpxx:rpt lat="47.390642166137695" lon="16.538457870483398" />
+          <gpxx:rpt lat="47.390642166137695" lon="16.538457870483398" />
+          <gpxx:rpt lat="47.390845259651542" lon="16.538457870483398">
+            <gpxx:Subclass>0600C82558005EE111002117000041000900</gpxx:Subclass>
+          </gpxx:rpt>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="47.390845259651542" lon="16.538457870483398">
+      <ele>277.97265625</ele>
+      <time>2025-02-11T14:04:28Z</time>
+      <name>Ismeretlen4971</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>ShorterDistance</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+          <gpxx:rpt lat="47.390845259651542" lon="16.538457870483398">
+            <gpxx:Subclass>0600C82558005EE111002116000041001700</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.390856742858887" lon="16.538457870483398" />
+          <gpxx:rpt lat="47.390856742858887" lon="16.538457870483398" />
+          <gpxx:rpt lat="47.391328811645508" lon="16.538586616516113" />
+          <gpxx:rpt lat="47.391328811645508" lon="16.538586616516113">
+            <gpxx:Subclass>0600C82558005EE191001F00080044A02900</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.391328811645508" lon="16.538586616516113" />
+          <gpxx:rpt lat="47.391672134399414" lon="16.538715362548828" />
+          <gpxx:rpt lat="47.391757965087891" lon="16.538758277893066" />
+          <gpxx:rpt lat="47.391757965087891" lon="16.538758277893066" />
+          <gpxx:rpt lat="47.391800880432129" lon="16.538758277893066" />
+          <gpxx:rpt lat="47.391929626464844" lon="16.538844108581543" />
+          <gpxx:rpt lat="47.392187118530273" lon="16.538972854614258">
+            <gpxx:Subclass>0600C8255800F12F8F001F00080091A02100</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.392187118530273" lon="16.538972854614258" />
+          <gpxx:rpt lat="47.392187118530273" lon="16.538972854614258" />
+          <gpxx:rpt lat="47.392444610595703" lon="16.539101600646973" />
+          <gpxx:rpt lat="47.392659187316895" lon="16.539101600646973" />
+          <gpxx:rpt lat="47.392873764038086" lon="16.539015769958496">
+            <gpxx:Subclass>0600C82558008AB912001F0008009FA01D00</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.392873764038086" lon="16.539015769958496" />
+          <gpxx:rpt lat="47.393474578857422" lon="16.53867244720459">
+            <gpxx:Subclass>0600C82558008AB912001F0008004FA00000</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.393474578857422" lon="16.53867244720459" />
+          <gpxx:rpt lat="47.393474578857422" lon="16.53867244720459" />
+          <gpxx:rpt lat="47.393474578857422" lon="16.53867244720459" />
+          <gpxx:rpt lat="47.393474578857422" lon="16.53867244720459">
+            <gpxx:Subclass>0600C82558008AB91200211700001E000000</gpxx:Subclass>
+          </gpxx:rpt>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="47.393474578857422" lon="16.53867244720459">
+      <ele>278.546875</ele>
+      <time>2025-02-11T14:04:30Z</time>
+      <name>Sziget Utca és Erdo Utca</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0000C82558000A00F70D0F210B00B8B3C6C2</gpxx:Subclass>
+          <gpxx:rpt lat="47.393474578857422" lon="16.53867244720459">
+            <gpxx:Subclass>0600C82558008AB91200211600001E000000</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.393474578857422" lon="16.53867244720459" />
+          <gpxx:rpt lat="47.393474578857422" lon="16.53867244720459" />
+          <gpxx:rpt lat="47.393474578857422" lon="16.53867244720459" />
+          <gpxx:rpt lat="47.393474578857422" lon="16.53867244720459">
+            <gpxx:Subclass>0600C82558008AB912001F0008004FA03900</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.393474578857422" lon="16.53867244720459" />
+          <gpxx:rpt lat="47.394118309020996" lon="16.538329124450684" />
+          <gpxx:rpt lat="47.394504547119141" lon="16.538200378417969" />
+          <gpxx:rpt lat="47.394633293151855" lon="16.538200378417969">
+            <gpxx:Subclass>0600C8255800F4ED10001F000800FDB58300</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.394633293151855" lon="16.538200378417969" />
+          <gpxx:rpt lat="47.394847869873047" lon="16.538071632385254" />
+          <gpxx:rpt lat="47.395234107971191" lon="16.537942886352539" />
+          <gpxx:rpt lat="47.395920753479004" lon="16.537599563598633" />
+          <gpxx:rpt lat="47.39626407623291" lon="16.537041664123535" />
+          <gpxx:rpt lat="47.396349906921387" lon="16.536870002746582" />
+          <gpxx:rpt lat="47.396349906921387" lon="16.536870002746582" />
+          <gpxx:rpt lat="47.396564483642578" lon="16.536054611206055" />
+          <gpxx:rpt lat="47.39677906036377" lon="16.535882949829102">
+            <gpxx:Subclass>1600C8255800327A03001F0008003AB81F00</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.39677906036377" lon="16.535882949829102" />
+          <gpxx:rpt lat="47.397079467773438" lon="16.535625457763672" />
+          <gpxx:rpt lat="47.397374175488949" lon="16.535428985953331">
+            <gpxx:Subclass>1600C8255800327A0300211700001F001F00</gpxx:Subclass>
+          </gpxx:rpt>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="47.397374259307981" lon="16.535428985953331">
+      <ele>291.41796875</ele>
+      <time>2025-02-11T14:04:46Z</time>
+      <name>Zöld Kiemelo492</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F28C82558000280FA0D0D210B006DB42EC2</gpxx:Subclass>
+          <gpxx:rpt lat="47.397374175488949" lon="16.535428985953331">
+            <gpxx:Subclass>1600C8255800327A0300211600001F000500</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.397465705871582" lon="16.535367965698242" />
+          <gpxx:rpt lat="47.397465705871582" lon="16.535367965698242" />
+          <gpxx:rpt lat="47.397465705871582" lon="16.535367965698242" />
+          <gpxx:rpt lat="47.397465705871582" lon="16.535367965698242">
+            <gpxx:Subclass>0F00C825580058C300001F0208001FB81200</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.397465705871582" lon="16.535367965698242" />
+          <gpxx:rpt lat="47.397637367248535" lon="16.535367965698242" />
+          <gpxx:rpt lat="47.397594451904297" lon="16.535496711730957" />
+          <gpxx:rpt lat="47.397594451904297" lon="16.535625457763672">
+            <gpxx:Subclass>1600C82558008D1E04001F0008002AB80800</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.397594451904297" lon="16.535625457763672" />
+          <gpxx:rpt lat="47.397637367248535" lon="16.53566837310791" />
+          <gpxx:rpt lat="47.397723197937012" lon="16.535840034484863" />
+          <gpxx:rpt lat="47.397723197937012" lon="16.535840034484863">
+            <gpxx:Subclass>0F00C8255800DCBF8F001F00080032B80400</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.397723197937012" lon="16.535840034484863" />
+          <gpxx:rpt lat="47.397680282592773" lon="16.536011695861816">
+            <gpxx:Subclass>0F00C8255800F6BF0F001F00080054B84300</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.397680282592773" lon="16.536011695861816" />
+          <gpxx:rpt lat="47.397594451904297" lon="16.536097526550293" />
+          <gpxx:rpt lat="47.397680282592773" lon="16.536269187927246" />
+          <gpxx:rpt lat="47.397637367248535" lon="16.536483764648437" />
+          <gpxx:rpt lat="47.398109436035156" lon="16.537857055664063">
+            <gpxx:Subclass>0D00C8255800FA750D001F020800B2B81D00</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.398109436035156" lon="16.537857055664063" />
+          <gpxx:rpt lat="47.397551536560059" lon="16.53815746307373">
+            <gpxx:Subclass>0D00C8255800FA758D001F000800DCB80000</gpxx:Subclass>
+          </gpxx:rpt>
+          <gpxx:rpt lat="47.397551536560059" lon="16.53815746307373" />
+          <gpxx:rpt lat="47.397551536560059" lon="16.53815746307373" />
+          <gpxx:rpt lat="47.397551536560059" lon="16.53815746307373" />
+          <gpxx:rpt lat="47.397551536560059" lon="16.53815746307373">
+            <gpxx:Subclass>0D00C8255800FA750D00211700001C000000</gpxx:Subclass>
+          </gpxx:rpt>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="47.397551536560059" lon="16.53815746307373">
+      <ele>273.515625</ele>
+      <time>2025-02-11T14:04:49Z</time>
+      <name>Meskó Utca és Makadám1</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>ShorterDistance</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+</gpx>

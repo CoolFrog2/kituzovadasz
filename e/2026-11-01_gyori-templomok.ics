@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2026-11-01_gyori-templomok@kituzovadasz
+DTSTAMP:20261016T162407Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Győri templomok
+LOCATION:Győr\, vasútállomás előtti parkoló
+DESCRIPTION:Rövid\, sík városi túra Győrben a belváros templomai és emlékművei között (Karmelita templom\, Bazilika\, Bencés templom\, Radó-sziget). A Dunántúl Kupa Győr-Moson-Sopron vármegyei túrája.\n\nTávok: 6\,7 km\nDíjazás: Kitűző és oklevél.\nhttps://coolfrog2.github.io/kituzovadasz/e/2026-11-01_gyori-templomok
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2027-01-09_esztergomi-templomok@kituzovadasz
+DTSTAMP:20261016T162409Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:Esztergomi templomok
+LOCATION:Esztergom\, vasútállomás\, P+R parkoló
+DESCRIPTION:Templom- és kápolnajáró kör Esztergomban a vasútállomástól: a Rozália- és a Kálvária-kápolnától a Szent Tamás-hegyen és a Bazilikán át a belváros templomaiig mintegy húsz szakrális emléket és több hadisírt érint\, 14 km-en.\n\nTávok: 14\,2 km\nDíjazás: Évente változó kitűző és oklevél.\nhttps://coolfrog2.github.io/kituzovadasz/e/2027-01-09_esztergomi-templomok
+END:VEVENT
+END:VCALENDAR

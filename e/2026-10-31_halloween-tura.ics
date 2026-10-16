@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2026-10-31_halloween-tura@kituzovadasz
+DTSTAMP:20261016T162406Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Halloween Túra
+LOCATION:Jahn Ferenc Kórház\, a parkoló végén lévő zöld terület
+DESCRIPTION:Esti\, sík terepű körtúrák Budapest XX. kerületében\, a Jahn Ferenc Kórház mögül\, 2-től 20 km-ig. Családoknak\, futóknak és kutyásoknak is szól\; a megszokott kitűző helyett Halloween-érmet adnak.\n\nTávok: 2 km\, 5 km\, 10 km\, 20 km\nDíjazás: Minden távon Halloween-érem (a készlet erejéig) és emléklap.\nhttps://coolfrog2.github.io/kituzovadasz/e/2026-10-31_halloween-tura
+END:VEVENT
+END:VCALENDAR

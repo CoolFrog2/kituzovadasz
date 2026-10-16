@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2026-12-31_szilveszter-bit@kituzovadasz
+DTSTAMP:20261016T162409Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Szilveszter BIT
+LOCATION:Máriaremetei Cserkészház
+DESCRIPTION:Szilveszteri délutáni-éjszakai túra Máriaremetéről a Budai-hegységben: egy 12 és egy 5 km-es kör\, amelyek tetszőleges sorrendben 17 km-re is összefűzhetők. Szintidő nincs\, a cél éjjel 2-kor zár\; éjfélkor pezsgővel köszöntik az újévet.\n\nTávok: 5 km\, 12 km\, 17 km\nDíjazás: Minden távon kitűző és oklevél.\nhttps://coolfrog2.github.io/kituzovadasz/e/2026-12-31_szilveszter-bit
+END:VEVENT
+END:VCALENDAR

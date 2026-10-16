@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2026-11-21_kekes@kituzovadasz
+DTSTAMP:20261016T162408Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Kékes
+LOCATION:Mátraháza\, parkoló
+DESCRIPTION:Mátraházáról induló túra\, amelyen a Kékes csúcsára egyszer\, kétszer\, háromszor vagy négyszer kell felkapaszkodni (13–51 km\, 700–2700 m szint)\; a cél mindig a kékestetői szanatórium buszfordulója. A 4x távval a szervezők Domokos Klarisszára emlékeznek.\n\nTávok: 13\,1 km\, 22\,1 km\, 35\,3 km\, 50\,8 km\nDíjazás: Minden távon jelvény és oklevél\; a 4x távon kitűző is.\nhttps://coolfrog2.github.io/kituzovadasz/e/2026-11-21_kekes
+END:VEVENT
+END:VCALENDAR

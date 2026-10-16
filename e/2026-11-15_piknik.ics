@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2026-11-15_piknik@kituzovadasz
+DTSTAMP:20261016T162408Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Piknik
+LOCATION:Budapest\, Szépjuhászné
+DESCRIPTION:Két rövid kör a Szépjuhásznétól a Budai-hegységben: az 5 km-es a János-hegyre és vissza\, a 14 km-es a Szilfa-tisztás\, a sárga körséta és a Libegő érintésével. A célban hideg ital\, gyümölcs\, kenyér és édesség vár.\n\nTávok: 5 km\, 13\,7 km\nDíjazás: Mindkét távon kitűző és oklevél.\nhttps://coolfrog2.github.io/kituzovadasz/e/2026-11-15_piknik
+END:VEVENT
+END:VCALENDAR

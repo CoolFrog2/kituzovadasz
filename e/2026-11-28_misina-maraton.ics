@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2026-11-28_misina-maraton@kituzovadasz
+DTSTAMP:20261016T162408Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Misina Maraton
+LOCATION:Misina Tetőpont\, Infópont
+DESCRIPTION:Három\, a Misina-tetőről induló mecseki hurok (7\, 14\, 21 km)\, amelyekből 7-től 42 km-ig bármilyen táv összerakható. Kifejezetten nem száguldós: túrázóknak és terepfutóknak egyaránt szól\, maximum 200 fővel.\n\nTávok: 7\,3 km\, 14 km\, 21 km\, 28 km\, 35 km\, 42 km\nDíjazás: Minden távon egyedi teljesítői kitűző és letölthető oklevél.\nhttps://coolfrog2.github.io/kituzovadasz/e/2026-11-28_misina-maraton
+END:VEVENT
+END:VCALENDAR

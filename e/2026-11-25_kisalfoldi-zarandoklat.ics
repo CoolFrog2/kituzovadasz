@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2026-11-25_kisalfoldi-zarandoklat@kituzovadasz
+DTSTAMP:20261016T162408Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Kisalföldi Zarándoklat
+LOCATION:Lébény-Mosonszentmiklós vasútállomás
+DESCRIPTION:Hétköznapi\, teljesen sík zarándoktúra a Kisalföldön vasútállomástól vasútállomásig: Lébényből a Szent Jakab-templomon és a Rábca-tőzegcsatornán át a 20-as Kimle-Károlyházáig\, a 40-es tovább a Mosoni-Duna mentén Mosonmagyaróvárig tart. Közös rajt 9 órakor\; a Dunántúl Kupa része.\n\nTávok: 20 km\, 38\,9 km\nDíjazás: Mindkét távon kitűző és oklevél.\nhttps://coolfrog2.github.io/kituzovadasz/e/2026-11-25_kisalfoldi-zarandoklat
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2027-05-30_hosok-napja@kituzovadasz
+DTSTAMP:20261016T162410Z
+DTSTART;VALUE=DATE:20270530
+DTEND;VALUE=DATE:20270531
+SUMMARY:Hősök Napja
+LOCATION:Pilisszentkereszt\, autóbusz-forduló
+DESCRIPTION:Pilisszentkereszti körtúra a Hősök napján a dobogókői első világháborús hősi emlékműhöz\; a rövidebb táv a Döme-halálán és a Mária-padon\, a hosszabb a Nagy-Szoplákon és Pilisszántón át tér vissza a ciszterci kolostorromhoz. A Dunántúl Kupa (Pest vármegye) és a Viribus Unitis emlékplakett túrája.\n\nTávok: 12\,4 km\, 20\,3 km\nDíjazás: Mindkét távon kitűző és oklevél.\nhttps://coolfrog2.github.io/kituzovadasz/e/2027-05-30_hosok-napja
+END:VEVENT
+END:VCALENDAR

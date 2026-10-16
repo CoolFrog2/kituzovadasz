@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1f5130">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="description" content="Jövőbeli teljesítménytúrák térképen — kitűző, érem, jelvény, oklevél. Szűrhető táv, szint, körtúra szerint.">
+  <title>Pozsonyi-csata emléktúra — júl. 4. · Kitűzővadász</title>
+  <link rel="manifest" href="/kituzovadasz/static/manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="/kituzovadasz/static/img/icon.svg">
+  <link rel="apple-touch-icon" href="/kituzovadasz/static/img/icon-192.png">
+  <link rel="stylesheet" href="/kituzovadasz/static/css/app.css?v=1792167843">
+  <script>window.B = "/kituzovadasz";</script>
+  
+<meta property="og:title" content="Pozsonyi-csata emléktúra — 2027. július 4., vasárnap">
+<meta property="og:description" content="A pozsonyi csata emlékére rendezett túra Pomázról a Klissza-dombon, az Árpád vezér-szobron és az Oszolyon át: a 10-es Csobánkán ér véget, a 25-ös a Holdvilág-árkon és a Nagy-Csikóváron át visszatér Pomázra. A Viribus Unitis emlékplakett (joker) és a Hazajáró Kupa túrája.">
+<link rel="stylesheet" href="/kituzovadasz/static/vendor/leaflet/leaflet.css">
+
+</head>
+<body class="page">
+
+
+<header class="topbar sub">
+  <a class="back" href="/kituzovadasz/" onclick="if(document.referrer.startsWith(location.origin)){history.back();return false}" aria-label="Vissza"><svg><use href="#i-back"/></svg></a>
+  <div class="t">júl. 4. · Pilis</div>
+  <button class="star" id="favBtn" data-slug="2027-07-04_pozsonyi-csata-emlektura" aria-label="Csillagozás"><svg><use href="#i-star"/></svg></button>
+</header>
+
+<main class="ev">
+  <section class="ev-head">
+    
+    <h1>Pozsonyi-csata emléktúra</h1>
+    <p class="when"><b>2027. július 4., vasárnap</b>
+      <span class="cd" id="cd" data-date="2027-07-04" data-end="">9 hónap múlva</span></p>
+    <div class="aw-big">
+      <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      <span class="pill">évente változó</span>
+    </div>
+    <p class="aws">Mindkét távon évente változó kitűző és oklevél.</p>
+    <p class="summary">A pozsonyi csata emlékére rendezett túra Pomázról a Klissza-dombon, az Árpád vezér-szobron és az Oszolyon át: a 10-es Csobánkán ér véget, a 25-ös a Holdvilág-árkon és a Nagy-Csikóváron át visszatér Pomázra. A Viribus Unitis emlékplakett (joker) és a Hazajáró Kupa túrája.</p>
+    <div class="tags"><span>emléktúra</span></div>
+  </section>
+
+  <section class="ev-map">
+    <div id="emap"></div>
+    <div id="profile" class="profile" hidden>
+      <div class="ptabs" id="ptabs"></div>
+      <svg id="psvg" preserveAspectRatio="none"></svg>
+      <div class="pinfo" id="pinfo"></div>
+    </div>
+  </section>
+
+  <section class="ev-actions">
+    
+    <a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=47.642252,19.033042" target="_blank" rel="noopener">Útvonal a rajthoz</a>
+    
+    <a class="btn-line" href="https://docs.google.com/forms/d/1pQdEp7FdHDlCkH9XjW2UuhdLVHlJFpNKbhnAy48AxI8/edit" target="_blank" rel="noopener">Előnevezés</a>
+    <a class="btn-line" href="/kituzovadasz/e/2027-07-04_pozsonyi-csata-emlektura.ics">Naptárba</a>
+    <button class="btn-line" id="shareBtn">Megosztás</button>
+  </section>
+
+  <section class="routes">
+    <h2>Távok <small>2</small></h2>
+    
+    <div class="common">
+      <h3>Minden távra érvényes</h3>
+      <dl>
+        <dt>Rajt</dt><dd>Pomáz, HÉV-állomás parkoló<br><small>2013 Pomáz, 11319</small></dd>
+        
+        
+        <dt>Előnevezés</dt><dd>Előnevezés kötelező <small>(határidő: jún. 30.)</small></dd>
+        <dt>Díjazás</dt><dd>Évente változó kitűző.</dd>
+        
+        <dt>Vigyél</dt><dd>tintapárna, írószer</dd>
+        
+      </dl>
+    </div>
+    
+    
+    <article class="route" id="t0" data-i="0">
+      <header>
+        <div class="rk">9,2<small>km</small></div>
+        <div class="rh">
+          <h3>Pozsonyi-csata 10</h3>
+          <div class="rmeta">
+            <span>↗ 226 m</span>
+            <span>A → B</span>
+            <span>⏱ 3 óra 30 perc</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        
+        <dt>Cél</dt><dd>Csobánka, Fő tér<br><small>2014 Csobánka, Fő tér 2.</small></dd>
+        <dt>Indulás</dt><dd>08:00–09:00</dd>
+        <dt>Célzárás</dt><dd>12:00</dd>
+        <dt>Nevezés</dt><dd>2 000 Ft</dd>
+        
+        
+        <dt>Frissítés</dt><dd>Csak a rajtban van édesség; útközben ivóvízcsap, a célban bolt és kocsma.</dd>
+        
+        
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="0">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2027-07-04_pozsonyi-csata-emlektura/0.gpx" download="2027-07-04_pozsonyi-csata-emlektura_0.gpx">GPX letöltés</a></div>
+    </article>
+    
+    <article class="route" id="t1" data-i="1">
+      <header>
+        <div class="rk">22,9<small>km</small></div>
+        <div class="rh">
+          <h3>Pozsonyi-csata 25</h3>
+          <div class="rmeta">
+            <span>↗ 655 m</span>
+            <span>körtúra</span>
+            <span>⏱ 6 óra 30 perc</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        
+        
+        <dt>Indulás</dt><dd>08:00–09:00</dd>
+        <dt>Célzárás</dt><dd>15:00</dd>
+        <dt>Nevezés</dt><dd>2 000 Ft</dd>
+        
+        
+        <dt>Frissítés</dt><dd>Csak a rajtban van édesség; útközben ivóvízcsap.</dd>
+        
+        <dt>Megjegyzés</dt><dd>A „25” nevű táv 22,9 km.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="1">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2027-07-04_pozsonyi-csata-emlektura/1.gpx" download="2027-07-04_pozsonyi-csata-emlektura_1.gpx">GPX letöltés</a></div>
+    </article>
+    
+  </section>
+
+  
+
+  <section class="block org">
+    <h2>Szervező</h2>
+    <p><b>Területi Honvédelmi Klub</b></p>
+    <ul class="links">
+      
+      
+      <li><a href="https://docs.google.com/forms/d/1pQdEp7FdHDlCkH9XjW2UuhdLVHlJFpNKbhnAy48AxI8/edit" target="_blank" rel="noopener">Előnevezési oldal</a></li>
+      <li><a href="https://tturak.hu/hikeOccasion/8403/details" target="_blank" rel="noopener">tturak.hu adatlap</a></li>
+      
+      <li><a href="tel:+36709424410">+36709424410</a></li>
+      <li><a href="mailto:bakonyturistaja@googlemail.com">bakonyturistaja@googlemail.com</a></li>
+    </ul>
+  </section>
+
+  <section class="block curator">
+    <p>Utoljára ellenőrizve: <b>okt. 16.</b> ·
+      megbízhatóság: <b>magas</b></p>
+    <p><small>A Hazajáró Kupa résztvevőinek a leírás szerint hozniuk kell az igazolófüzetüket. Szervezői honlap nincs; az előnevezés a leírásban linkelt Google-űrlapon megy.</small></p>
+    <p><small>Az adatokat egy MI-kurátor gyűjti a szervezői kiírásokból. Indulás előtt mindig nézd meg a hivatalos kiírást!</small></p>
+  </section>
+</main>
+
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-kituzo" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="currentColor"/></symbol>
+    <symbol id="i-jelveny" viewBox="0 0 24 24"><path d="M12 2.5 20 6v6c0 4.6-3.3 8.3-8 9.5C7.3 20.3 4 16.6 4 12V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m12 7.5 1.4 2.9 3.1.4-2.3 2.2.6 3.1L12 14.6l-2.8 1.5.6-3.1-2.3-2.2 3.1-.4z" fill="currentColor"/></symbol>
+    <symbol id="i-erem" viewBox="0 0 24 24"><path d="M7 2h4l2 6H9zM13 2h4l-2 6h-4z" fill="currentColor" opacity=".55"/><circle cx="12" cy="15" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="15" r="3" fill="currentColor"/></symbol>
+    <symbol id="i-oklevel" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-egyeb" viewBox="0 0 24 24"><rect x="3.5" y="9" width="17" height="11.5" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M2.5 9h19M12 9v11.5M12 9c-1.5-4-6-4.5-6-1.8C6 9 12 9 12 9zm0 0c1.5-4 6-4.5 6-1.8C18 9 12 9 12 9z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2.8 2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3L2.9 9.5l6.3-.9z" fill="currentColor"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M15 5 8 12l7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </defs>
+</svg>
+
+<script>
+window.EV = {"finishes": [{"address": "2014 Csob\u00e1nka, F\u0151 t\u00e9r 2.", "lat": 47.641528, "lng": 18.967952, "name": "Csob\u00e1nka, F\u0151 t\u00e9r"}, null], "name": "Pozsonyi-csata eml\u00e9kt\u00fara", "routes": ["Pozsonyi-csata 10", "Pozsonyi-csata 25"], "slug": "2027-07-04_pozsonyi-csata-emlektura", "starts": [{"address": "2013 Pom\u00e1z, 11319", "lat": 47.642252, "lng": 19.033042, "name": "Pom\u00e1z, H\u00c9V-\u00e1llom\u00e1s parkol\u00f3"}, {"address": "2013 Pom\u00e1z, 11319", "lat": 47.642252, "lng": 19.033042, "name": "Pom\u00e1z, H\u00c9V-\u00e1llom\u00e1s parkol\u00f3"}], "tracks": [0, 1]};
+</script>
+<script src="/kituzovadasz/static/vendor/leaflet/leaflet.js"></script>
+<script src="/kituzovadasz/static/js/common.js?v=1792167843"></script>
+<script src="/kituzovadasz/static/js/event.js?v=1792167843"></script>
+
+</body>
+</html>

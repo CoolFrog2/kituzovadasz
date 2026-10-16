@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1f5130">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="description" content="Jövőbeli teljesítménytúrák térképen — kitűző, érem, jelvény, oklevél. Szűrhető táv, szint, körtúra szerint.">
+  <title>Őszi Bakonyi Retró túra — nov. 21. · Kitűzővadász</title>
+  <link rel="manifest" href="/kituzovadasz/static/manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="/kituzovadasz/static/img/icon.svg">
+  <link rel="apple-touch-icon" href="/kituzovadasz/static/img/icon-192.png">
+  <link rel="stylesheet" href="/kituzovadasz/static/css/app.css?v=1792167843">
+  <script>window.B = "/kituzovadasz";</script>
+  
+<meta property="og:title" content="Őszi Bakonyi Retró túra — 2026. november 21., szombat">
+<meta property="og:description" content="A→B túra Vinyéről a Bakony turistautakkal nem lefedett útjain és régi, helyi vendéglátóhelyein (Fenyőfő, Porva, Porva-Csesznek) át; a rövid táv Porva-Csesznek vasútállomásnál, a hosszú Zircen, a Hetes sörözőben ér véget. A frissítés is ehhez illik: müzliszelet, zsíros kenyér, tea és retró édesség.">
+<link rel="stylesheet" href="/kituzovadasz/static/vendor/leaflet/leaflet.css">
+
+</head>
+<body class="page">
+
+
+<header class="topbar sub">
+  <a class="back" href="/kituzovadasz/" onclick="if(document.referrer.startsWith(location.origin)){history.back();return false}" aria-label="Vissza"><svg><use href="#i-back"/></svg></a>
+  <div class="t">nov. 21. · Északi-Bakony</div>
+  <button class="star" id="favBtn" data-slug="2026-11-21_oszi-bakonyi-retro-tura" aria-label="Csillagozás"><svg><use href="#i-star"/></svg></button>
+</header>
+
+<main class="ev">
+  <section class="ev-head">
+    
+    <h1>Őszi Bakonyi Retró túra</h1>
+    <p class="when"><b>2026. november 21., szombat</b>
+      <span class="cd" id="cd" data-date="2026-11-21" data-end="">5 hét múlva</span></p>
+    <div class="aw-big">
+      <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      
+    </div>
+    <p class="aws">Mindkét távon kitűző és oklevél.</p>
+    <p class="summary">A→B túra Vinyéről a Bakony turistautakkal nem lefedett útjain és régi, helyi vendéglátóhelyein (Fenyőfő, Porva, Porva-Csesznek) át; a rövid táv Porva-Csesznek vasútállomásnál, a hosszú Zircen, a Hetes sörözőben ér véget. A frissítés is ehhez illik: müzliszelet, zsíros kenyér, tea és retró édesség.</p>
+    <div class="tags"><span>vonattal</span></div>
+  </section>
+
+  <section class="ev-map">
+    <div id="emap"></div>
+    <div id="profile" class="profile" hidden>
+      <div class="ptabs" id="ptabs"></div>
+      <svg id="psvg" preserveAspectRatio="none"></svg>
+      <div class="pinfo" id="pinfo"></div>
+    </div>
+  </section>
+
+  <section class="ev-actions">
+    
+    <a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=47.36012,17.82205" target="_blank" rel="noopener">Útvonal a rajthoz</a>
+    
+    <a class="btn-line" href="https://forms.gle/sLC1dY1Yg76bSBM77" target="_blank" rel="noopener">Előnevezés</a>
+    <a class="btn-line" href="/kituzovadasz/e/2026-11-21_oszi-bakonyi-retro-tura.ics">Naptárba</a>
+    <button class="btn-line" id="shareBtn">Megosztás</button>
+  </section>
+
+  <section class="routes">
+    <h2>Távok <small>2</small></h2>
+    
+    <div class="common">
+      <h3>Minden távra érvényes</h3>
+      <dl>
+        <dt>Rajt</dt><dd>Vinye, büfé<br><small>Vinye</small></dd>
+        
+        
+        <dt>Előnevezés</dt><dd>Előnevezés kötelező <small>(határidő: nov. 15.)</small></dd>
+        
+        
+        <dt>Vigyél</dt><dd>lámpa</dd>
+        
+      </dl>
+    </div>
+    
+    
+    <article class="route" id="t0" data-i="0">
+      <header>
+        <div class="rk">15<small>km</small></div>
+        <div class="rh">
+          <h3>Retró 16</h3>
+          <div class="rmeta">
+            <span>↗ 337 m</span>
+            <span>A → B</span>
+            <span>⏱ 5 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        
+        <dt>Cél</dt><dd>Porva-Csesznek vasútállomás, büfé<br><small>Porva-Csesznek vasútállomás</small></dd>
+        <dt>Indulás</dt><dd>08:40–10:50</dd>
+        <dt>Célzárás</dt><dd>17:00</dd>
+        <dt>Nevezés</dt><dd>2 800 Ft<br><small>A helyszínen készpénzzel vagy előre banki átutalással fizethető (az utalást kérik).</small></dd>
+        
+        
+        <dt>Frissítés</dt><dd>Fenyőfőn müzliszelet, Porván zsíros kenyér, Porva-Cseszneken tea; minden ellenőrzőponton vízvételi lehetőség.</dd>
+        
+        <dt>Megjegyzés</dt><dd>Előnevezés Google-űrlapon. Ellenőrzőpontok: Vinye (rajt) 8:40–10:50, Fenyőfő 9:30–12:30, Porva 10:00–14:30, Porva-Csesznek 10:30–17:00. A forrás célzárása (2025-11-29) elírás; a Porva-Csesznek-i pont 17:00-ig van nyitva.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="0">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2026-11-21_oszi-bakonyi-retro-tura/0.gpx" download="2026-11-21_oszi-bakonyi-retro-tura_0.gpx">GPX letöltés</a></div>
+    </article>
+    
+    <article class="route" id="t1" data-i="1">
+      <header>
+        <div class="rk">22,9<small>km</small></div>
+        <div class="rh">
+          <h3>Retró 24</h3>
+          <div class="rmeta">
+            <span>↗ 408 m</span>
+            <span>A → B</span>
+            <span>⏱ 7 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        
+        <dt>Cél</dt><dd>Zirc, Hetes söröző<br><small>8420 Zirc, Péch Antal utca 7.</small></dd>
+        <dt>Indulás</dt><dd>08:40–10:50</dd>
+        <dt>Célzárás</dt><dd>19:00</dd>
+        <dt>Nevezés</dt><dd>3 500 Ft<br><small>A helyszínen készpénzzel vagy előre banki átutalással fizethető (az utalást kérik).</small></dd>
+        
+        
+        <dt>Frissítés</dt><dd>Fenyőfőn müzliszelet, Porván zsíros kenyér, Porva-Cseszneken tea, Zircen retró édesség; minden ellenőrzőponton vízvételi lehetőség.</dd>
+        
+        <dt>Megjegyzés</dt><dd>A táv neve 24, a forrás szerint 22,91 km. Előnevezés Google-űrlapon. Ellenőrzőpontok: Vinye (rajt) 8:40–10:50, Fenyőfő 9:30–12:30, Porva 10:00–14:30, Porva-Csesznek 10:30–17:00, Zirc 13:30–19:00. Napnyugta 16 óra körül, ezért lámpa kell; későbbi rajt nincs.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="1">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2026-11-21_oszi-bakonyi-retro-tura/1.gpx" download="2026-11-21_oszi-bakonyi-retro-tura_1.gpx">GPX letöltés</a></div>
+    </article>
+    
+  </section>
+
+  
+  <section class="block"><h2>Megközelítés</h2><p>Vinye, Porva-Csesznek és Zirc egyaránt a Győr–Veszprém vasútvonalon fekszik, így a rajt és mindkét cél vonattal elérhető.</p></section>
+  
+
+  <section class="block org">
+    <h2>Szervező</h2>
+    <p><b>Trexler Máté</b></p>
+    <ul class="links">
+      
+      <li><a href="https://www.facebook.com/porvacsesznekbufe" target="_blank" rel="noopener">Facebook-esemény</a></li>
+      <li><a href="https://forms.gle/sLC1dY1Yg76bSBM77" target="_blank" rel="noopener">Előnevezési oldal</a></li>
+      <li><a href="https://tturak.hu/hikeOccasion/8549/details" target="_blank" rel="noopener">tturak.hu adatlap</a></li>
+      
+      <li><a href="tel:+36203894521">+36203894521</a></li>
+      <li><a href="mailto:trexlermate@gmail.com">trexlermate@gmail.com</a></li>
+    </ul>
+  </section>
+
+  <section class="block curator">
+    <p>Utoljára ellenőrizve: <b>okt. 16.</b> ·
+      megbízhatóság: <b>közepes</b></p>
+    <p><small>A tturak a 24-es távra „Nappal; Éjszakai” időzítést jelöl, de a túra nappali, csak a vége eshet sötétbe → night=false. A GPX-fájlok a tavaszi („Nagy tavaszi barangolás”) változat nevét viselik; hosszuk egyezik a meghirdetett távokkal. A 16-os célzárását az ellenőrzőpont nyitvatartásából javítottam. A vasúti megközelítést a forrás nem írja, a helyszínek alapján adtam meg.</small></p>
+    <p><small>Az adatokat egy MI-kurátor gyűjti a szervezői kiírásokból. Indulás előtt mindig nézd meg a hivatalos kiírást!</small></p>
+  </section>
+</main>
+
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-kituzo" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="currentColor"/></symbol>
+    <symbol id="i-jelveny" viewBox="0 0 24 24"><path d="M12 2.5 20 6v6c0 4.6-3.3 8.3-8 9.5C7.3 20.3 4 16.6 4 12V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m12 7.5 1.4 2.9 3.1.4-2.3 2.2.6 3.1L12 14.6l-2.8 1.5.6-3.1-2.3-2.2 3.1-.4z" fill="currentColor"/></symbol>
+    <symbol id="i-erem" viewBox="0 0 24 24"><path d="M7 2h4l2 6H9zM13 2h4l-2 6h-4z" fill="currentColor" opacity=".55"/><circle cx="12" cy="15" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="15" r="3" fill="currentColor"/></symbol>
+    <symbol id="i-oklevel" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-egyeb" viewBox="0 0 24 24"><rect x="3.5" y="9" width="17" height="11.5" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M2.5 9h19M12 9v11.5M12 9c-1.5-4-6-4.5-6-1.8C6 9 12 9 12 9zm0 0c1.5-4 6-4.5 6-1.8C18 9 12 9 12 9z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2.8 2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3L2.9 9.5l6.3-.9z" fill="currentColor"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M15 5 8 12l7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </defs>
+</svg>
+
+<script>
+window.EV = {"finishes": [{"address": "Porva-Csesznek vas\u00fat\u00e1llom\u00e1s", "lat": 47.32707, "lng": 17.84145, "name": "Porva-Csesznek vas\u00fat\u00e1llom\u00e1s, b\u00fcf\u00e9"}, {"address": "8420 Zirc, P\u00e9ch Antal utca 7.", "lat": 47.26649, "lng": 17.8703, "name": "Zirc, Hetes s\u00f6r\u00f6z\u0151"}], "name": "\u0150szi Bakonyi Retr\u00f3 t\u00fara", "routes": ["Retr\u00f3 16", "Retr\u00f3 24"], "slug": "2026-11-21_oszi-bakonyi-retro-tura", "starts": [{"address": "Vinye", "lat": 47.36012, "lng": 17.82205, "name": "Vinye, b\u00fcf\u00e9"}, {"address": "Vinye", "lat": 47.36012, "lng": 17.82205, "name": "Vinye, b\u00fcf\u00e9"}], "tracks": [0, 1]};
+</script>
+<script src="/kituzovadasz/static/vendor/leaflet/leaflet.js"></script>
+<script src="/kituzovadasz/static/js/common.js?v=1792167843"></script>
+<script src="/kituzovadasz/static/js/event.js?v=1792167843"></script>
+
+</body>
+</html>

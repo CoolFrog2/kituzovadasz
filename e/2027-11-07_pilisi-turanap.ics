@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2027-11-07_pilisi-turanap@kituzovadasz
+DTSTAMP:20261016T162411Z
+DTSTART;VALUE=DATE:20271107
+DTEND;VALUE=DATE:20271108
+SUMMARY:Pilisi Túranap
+LOCATION:Pilisszentkereszt\, autóbusz-forduló
+DESCRIPTION:Két pilisszentkereszti körtúra egy napon: a 25 km-es Pilis-nyereg Retro Klastrompusztán\, a Pilis-nyergen és a Fekete-kőn át\, a 36 km-es\, 1500 m feletti szintű 4 kolostor útja pedig Dobogókőn és Dömösön át a Pilis pálos és cisztercita kolostorromjait fűzi fel.\n\nTávok: 25 km\, 35\,9 km\nDíjazás: Mindkét távon oklevél/emléklap\; a Pilis-nyereg Retrón évente változó kitűző\, a 4 kolostor útján jelvény.\nhttps://coolfrog2.github.io/kituzovadasz/e/2027-11-07_pilisi-turanap
+END:VEVENT
+END:VCALENDAR

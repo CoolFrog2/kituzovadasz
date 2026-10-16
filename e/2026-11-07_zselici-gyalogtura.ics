@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2026-11-07_zselici-gyalogtura@kituzovadasz
+DTSTAMP:20261016T162407Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Zselici Gyalogtúra
+LOCATION:Kaposszerdahely\, Régi Iskola (Mikrotérségi Központ)
+DESCRIPTION:A kaposvári Zöldpont Életmódklub őszi zselici túrája Kaposszerdahelyről\, négy körrel 5 és 34 km között: Húsvét-forrás\, Töröcske\, Ropolyi-vár és a leghosszabbon a zselici Csillagpark. Iskolás csoportoknak is szól.\n\nTávok: 5 km\, 12\,5 km\, 23 km\, 34 km\nDíjazás: Minden távon kitűző\; az egyéni indulók között ajándékokat sorsolnak.\nhttps://coolfrog2.github.io/kituzovadasz/e/2026-11-07_zselici-gyalogtura
+END:VEVENT
+END:VCALENDAR

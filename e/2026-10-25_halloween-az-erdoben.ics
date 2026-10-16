@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2026-10-25_halloween-az-erdoben@kituzovadasz
+DTSTAMP:20261016T162406Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Halloween az erdőben
+LOCATION:Budapest XVII.\, Régivám köz\, erdei parkoló (lovarda)
+DESCRIPTION:Rövid\, sík\, szalagozott séta a XVII. kerületi Bélai-erdőben\, a Régivám közi erdei parkolótól (lovarda). Reggel 7 és délután 2 óra között bármikor lehet indulni\; a Budapest Kupa része.\n\nTávok: 4\,2 km\nDíjazás: Kitűző és oklevél.\nhttps://coolfrog2.github.io/kituzovadasz/e/2026-10-25_halloween-az-erdoben
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1f5130">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="description" content="Jövőbeli teljesítménytúrák térképen — kitűző, érem, jelvény, oklevél. Szűrhető táv, szint, körtúra szerint.">
+  <title>Dél-Börzsönyi kilátások — márc. 20. · Kitűzővadász</title>
+  <link rel="manifest" href="/kituzovadasz/static/manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="/kituzovadasz/static/img/icon.svg">
+  <link rel="apple-touch-icon" href="/kituzovadasz/static/img/icon-192.png">
+  <link rel="stylesheet" href="/kituzovadasz/static/css/app.css?v=1792167843">
+  <script>window.B = "/kituzovadasz";</script>
+  
+<meta property="og:title" content="Dél-Börzsönyi kilátások — 2027. március 20., szombat">
+<meta property="og:description" content="Négy kör a zebegényi erdei sátortáborból a Dél-Börzsöny kilátóihoz és ormaira (Kós Károly-kilátó, Dobozi-orom, Hegyes-tető), a 30-as és a 40-es a Só-hegyen, a Rózsakunyhón és Pusztatornyon át, a 40-es Kismaros-Morgó felé is. Az 5 km-estől a 40-esig mindenkinek van táv, mindegyiken létszámkorláttal.">
+<link rel="stylesheet" href="/kituzovadasz/static/vendor/leaflet/leaflet.css">
+
+</head>
+<body class="page">
+
+
+<header class="topbar sub">
+  <a class="back" href="/kituzovadasz/" onclick="if(document.referrer.startsWith(location.origin)){history.back();return false}" aria-label="Vissza"><svg><use href="#i-back"/></svg></a>
+  <div class="t">márc. 20. · Börzsöny</div>
+  <button class="star" id="favBtn" data-slug="2027-03-20_del-borzsonyi-kilatasok" aria-label="Csillagozás"><svg><use href="#i-star"/></svg></button>
+</header>
+
+<main class="ev">
+  <section class="ev-head">
+    
+    <h1>Dél-Börzsönyi kilátások</h1>
+    <p class="when"><b>2027. március 20., szombat</b>
+      <span class="cd" id="cd" data-date="2027-03-20" data-end="">5 hónap múlva</span></p>
+    <div class="aw-big">
+      <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      <span class="pill">évente változó</span>
+    </div>
+    <p class="aws">Minden távon évente változó színű kitűző és emléklap.</p>
+    <p class="summary">Négy kör a zebegényi erdei sátortáborból a Dél-Börzsöny kilátóihoz és ormaira (Kós Károly-kilátó, Dobozi-orom, Hegyes-tető), a 30-as és a 40-es a Só-hegyen, a Rózsakunyhón és Pusztatornyon át, a 40-es Kismaros-Morgó felé is. Az 5 km-estől a 40-esig mindenkinek van táv, mindegyiken létszámkorláttal.</p>
+    <div class="tags"><span>kör</span><span>létszámkorlát</span><span>vonattal</span></div>
+  </section>
+
+  <section class="ev-map">
+    <div id="emap"></div>
+    <div id="profile" class="profile" hidden>
+      <div class="ptabs" id="ptabs"></div>
+      <svg id="psvg" preserveAspectRatio="none"></svg>
+      <div class="pinfo" id="pinfo"></div>
+    </div>
+  </section>
+
+  <section class="ev-actions">
+    
+    <a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=47.80498,18.924204" target="_blank" rel="noopener">Útvonal a rajthoz</a>
+    
+    
+    <a class="btn-line" href="/kituzovadasz/e/2027-03-20_del-borzsonyi-kilatasok.ics">Naptárba</a>
+    <button class="btn-line" id="shareBtn">Megosztás</button>
+  </section>
+
+  <section class="routes">
+    <h2>Távok <small>4</small></h2>
+    
+    <div class="common">
+      <h3>Minden távra érvényes</h3>
+      <dl>
+        <dt>Rajt</dt><dd>Zebegény, Erdei sátortábor<br><small>2627 Zebegény, Fenyves út vége</small><br><small>(a cél is itt)</small></dd>
+        
+        <dt>Célzárás</dt><dd>18:00</dd>
+        <dt>Előnevezés</dt><dd>Előnevezés ajánlott <small>(határidő: márc. 19.)</small></dd>
+        <dt>Díjazás</dt><dd>Évente változó színű kitűző és emléklap.</dd>
+        
+        <dt>Vigyél</dt><dd>saját pohár/bögre</dd>
+        
+      </dl>
+    </div>
+    
+    
+    <article class="route" id="t0" data-i="0">
+      <header>
+        <div class="rk">4,6<small>km</small></div>
+        <div class="rh">
+          <h3>DBK 5</h3>
+          <div class="rmeta">
+            <span>↗ 185 m</span>
+            <span>körtúra</span>
+            <span>⏱ 3 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        
+        
+        <dt>Indulás</dt><dd>11:00–12:00</dd>
+        
+        <dt>Nevezés</dt><dd>2 000 Ft<br><small>online előnevezéssel, előre fizetve 2000 Ft; előnevezéssel, a rajtban fizetve 2500 Ft; helyszínen 3000 Ft</small></dd>
+        
+        <dt>Ellenőrzőpont</dt><dd>3 db</dd>
+        <dt>Frissítés</dt><dd>Útközben édesség és szörp, a célban meleg étel.</dd>
+        
+        <dt>Megjegyzés</dt><dd>Létszámkorlát: 50 fő. Útvonal: Szeder-völgy – Kövesmező – Zebegény.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="0">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2027-03-20_del-borzsonyi-kilatasok/0.gpx" download="2027-03-20_del-borzsonyi-kilatasok_0.gpx">GPX letöltés</a></div>
+    </article>
+    
+    <article class="route" id="t1" data-i="1">
+      <header>
+        <div class="rk">13,4<small>km</small></div>
+        <div class="rh">
+          <h3>DBK 15</h3>
+          <div class="rmeta">
+            <span>↗ 770 m</span>
+            <span>körtúra</span>
+            <span>⏱ 5 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        
+        
+        <dt>Indulás</dt><dd>09:00–11:00</dd>
+        
+        <dt>Nevezés</dt><dd>3 000 Ft<br><small>online előnevezéssel, előre fizetve 3000 Ft; előnevezéssel, a rajtban fizetve 3500 Ft; helyszínen 4000 Ft</small></dd>
+        
+        <dt>Ellenőrzőpont</dt><dd>4 db</dd>
+        <dt>Frissítés</dt><dd>Útközben édesség, gyümölcs és szörp, a célban meleg étel.</dd>
+        
+        <dt>Megjegyzés</dt><dd>A szervező oldala 13,4 km-t ír (tturak 12,7 km, a nevezési oldal 13 km; a GPX kb. 13,1 km). Saját idő terhére 11:30-ig is lehet indulni, a Hegyes-tetőre 13:45-ig fel kell érni. Létszámkorlát: 100 fő. Útvonal: Kós Károly-kilátó – Ernő-forrás – Dobozi-orom – Szent Mihály-hegyi nyereg – Hegyes-tető – Kövesmező – Zebegény.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="1">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2027-03-20_del-borzsonyi-kilatasok/1.gpx" download="2027-03-20_del-borzsonyi-kilatasok_1.gpx">GPX letöltés</a></div>
+    </article>
+    
+    <article class="route" id="t2" data-i="2">
+      <header>
+        <div class="rk">30,6<small>km</small></div>
+        <div class="rh">
+          <h3>DBK 30</h3>
+          <div class="rmeta">
+            <span>↗ 1 380 m</span>
+            <span>körtúra</span>
+            <span>⏱ 8 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        
+        
+        <dt>Indulás</dt><dd>08:00–10:00</dd>
+        
+        <dt>Nevezés</dt><dd>3 500 Ft<br><small>online előnevezéssel, előre fizetve 3500 Ft; előnevezéssel, a rajtban fizetve 4000 Ft; helyszínen 4500 Ft</small></dd>
+        
+        <dt>Ellenőrzőpont</dt><dd>8 db</dd>
+        <dt>Frissítés</dt><dd>Útközben hideg étel, édesség, gyümölcs és szörp, a célban meleg étel.</dd>
+        
+        <dt>Megjegyzés</dt><dd>Létszámkorlát: 75 fő. A nevezési oldal 8:00–9:00-s rajtot és 1060 m szintet ír, a szervező oldala és a tturak 8:00–10:00-t és 1380 m-t. Útvonal: Kós Károly-kilátó – Dobozi-orom – Hegyes-tető – Kövesmező – Gubacsi-hálás – Só-hegy – Rózsakunyhó – Pusztatorony – Békás-rét – Törökmező – Vizes-árok – Zebegény.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="2">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2027-03-20_del-borzsonyi-kilatasok/2.gpx" download="2027-03-20_del-borzsonyi-kilatasok_2.gpx">GPX letöltés</a></div>
+    </article>
+    
+    <article class="route" id="t3" data-i="3">
+      <header>
+        <div class="rk">40,5<small>km</small></div>
+        <div class="rh">
+          <h3>DBK 40</h3>
+          <div class="rmeta">
+            <span>↗ 1 710 m</span>
+            <span>körtúra</span>
+            <span>⏱ 10 óra</span>
+            
+            
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        
+        
+        <dt>Indulás</dt><dd>07:00–08:00</dd>
+        
+        <dt>Nevezés</dt><dd>4 000 Ft<br><small>online előnevezéssel, előre fizetve 4000 Ft; előnevezéssel, a rajtban fizetve 4500 Ft; helyszínen 5000 Ft</small></dd>
+        
+        <dt>Ellenőrzőpont</dt><dd>9 db</dd>
+        <dt>Frissítés</dt><dd>Útközben hideg étel, édesség, gyümölcs és szörp, a célban meleg étel.</dd>
+        
+        <dt>Megjegyzés</dt><dd>Saját idő terhére a szervező oldala szerint 9:00-ig (a tturak szerint 10:00-ig) lehet indulni; a Rózsakunyhó pontot 13:00-ig el kell érni. Létszámkorlát: 75 fő. A nevezési oldal 1450 m szintet ír, a szervező oldala és a tturak 1710 m-t.</dd>
+      </dl>
+      <div class="rfoot"><button class="btn-line sm" data-show="3">Mutasd a térképen</button><a class="btn-line sm" href="/kituzovadasz/gpx/2027-03-20_del-borzsonyi-kilatasok/3.gpx" download="2027-03-20_del-borzsonyi-kilatasok_3.gpx">GPX letöltés</a></div>
+    </article>
+    
+  </section>
+
+  
+  <section class="block"><h2>Megközelítés</h2><p>Zebegény vonattal a Nyugatiból Z70 zónázóval érhető el Vácon át (kb. 50 perc); autóval az M2-n Vácig, onnan a 12-es úton.</p></section>
+  
+
+  <section class="block org">
+    <h2>Szervező</h2>
+    <p><b>Börzsöny Természetbarát és Hegymászó Egyesület (BTHE)</b></p>
+    <ul class="links">
+      <li><a href="https://www.bthe.hu/del-borzsonyi-kilatasok/" target="_blank" rel="noopener">Kiírás / honlap</a></li>
+      <li><a href="https://www.facebook.com/borzsonythe" target="_blank" rel="noopener">Facebook-esemény</a></li>
+      
+      <li><a href="https://tturak.hu/hikeOccasion/8313/details" target="_blank" rel="noopener">tturak.hu adatlap</a></li>
+      <li><a href="https://www.bthe.hu" target="_blank" rel="noopener">Szervező honlapja</a></li>
+      <li><a href="tel:+36305840446">+36305840446</a></li>
+      <li><a href="mailto:info@bthe.hu">info@bthe.hu</a></li>
+    </ul>
+  </section>
+
+  <section class="block curator">
+    <p>Utoljára ellenőrizve: <b>okt. 16.</b> ·
+      megbízhatóság: <b>közepes</b></p>
+    <p><small>Díjazás: a tturak jelvényt (40-esen évente változót) jelöl, a szervező 2027-es oldala minden távon „emléklap, kitűző (évente változó színű)”-t ír – a szervezőt követtem. Árak: a legolcsóbb az online, előre fizetett előnevezés. A tturak a 15-ös és az 5-ös távot nem körnek jelöli, de a rajt és a cél ugyanott van. A szervező oldalán a DBK 30 rajtja „Szőnyi tábor” – valószínűleg elírás, a tturak és a nevezési oldal is az erdei sátortábort írja. A GPX-ek a szervező DBK.zip csomagjából (2024) valók, a tturakon nincs csatolt GPX. Az online előnevezés 2027. január 1-jén nyílik.</small></p>
+    <p><small>Az adatokat egy MI-kurátor gyűjti a szervezői kiírásokból. Indulás előtt mindig nézd meg a hivatalos kiírást!</small></p>
+  </section>
+</main>
+
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-kituzo" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="currentColor"/></symbol>
+    <symbol id="i-jelveny" viewBox="0 0 24 24"><path d="M12 2.5 20 6v6c0 4.6-3.3 8.3-8 9.5C7.3 20.3 4 16.6 4 12V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m12 7.5 1.4 2.9 3.1.4-2.3 2.2.6 3.1L12 14.6l-2.8 1.5.6-3.1-2.3-2.2 3.1-.4z" fill="currentColor"/></symbol>
+    <symbol id="i-erem" viewBox="0 0 24 24"><path d="M7 2h4l2 6H9zM13 2h4l-2 6h-4z" fill="currentColor" opacity=".55"/><circle cx="12" cy="15" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="15" r="3" fill="currentColor"/></symbol>
+    <symbol id="i-oklevel" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-egyeb" viewBox="0 0 24 24"><rect x="3.5" y="9" width="17" height="11.5" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M2.5 9h19M12 9v11.5M12 9c-1.5-4-6-4.5-6-1.8C6 9 12 9 12 9zm0 0c1.5-4 6-4.5 6-1.8C18 9 12 9 12 9z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2.8 2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3L2.9 9.5l6.3-.9z" fill="currentColor"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M15 5 8 12l7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </defs>
+</svg>
+
+<script>
+window.EV = {"finishes": [null, null, null, null], "name": "D\u00e9l-B\u00f6rzs\u00f6nyi kil\u00e1t\u00e1sok", "routes": ["DBK 5", "DBK 15", "DBK 30", "DBK 40"], "slug": "2027-03-20_del-borzsonyi-kilatasok", "starts": [{"address": "2627 Zebeg\u00e9ny, Fenyves \u00fat v\u00e9ge", "lat": 47.80498, "lng": 18.924204, "name": "Zebeg\u00e9ny, Erdei s\u00e1tort\u00e1bor"}, {"address": "2627 Zebeg\u00e9ny, Fenyves \u00fat v\u00e9ge", "lat": 47.80498, "lng": 18.924204, "name": "Zebeg\u00e9ny, Erdei s\u00e1tort\u00e1bor"}, {"address": "2627 Zebeg\u00e9ny, Fenyves \u00fat v\u00e9ge", "lat": 47.80498, "lng": 18.924204, "name": "Zebeg\u00e9ny, Erdei s\u00e1tort\u00e1bor"}, {"address": "2627 Zebeg\u00e9ny, Fenyves \u00fat v\u00e9ge", "lat": 47.80498, "lng": 18.924204, "name": "Zebeg\u00e9ny, Erdei s\u00e1tort\u00e1bor"}], "tracks": [0, 1, 2, 3]};
+</script>
+<script src="/kituzovadasz/static/vendor/leaflet/leaflet.js"></script>
+<script src="/kituzovadasz/static/js/common.js?v=1792167843"></script>
+<script src="/kituzovadasz/static/js/event.js?v=1792167843"></script>
+
+</body>
+</html>

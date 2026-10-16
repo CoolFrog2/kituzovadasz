@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2026-11-08_a-nap-papjai@kituzovadasz
+DTSTAMP:20261016T162407Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:A Nap papjai
+LOCATION:Budapest\, Szépjuhászné
+DESCRIPTION:Rövid\, 7 km-es kör a Szépjuhásznétól a Nagy-Hárs-hegyi Kaán Károly-kilátón és a János-hegyi Erzsébet-kilátón át. Az időpont november 22-ről november 8-ra változott.\n\nTávok: 7\,1 km\nDíjazás: Kitűző és oklevél.\nhttps://coolfrog2.github.io/kituzovadasz/e/2026-11-08_a-nap-papjai
+END:VEVENT
+END:VCALENDAR

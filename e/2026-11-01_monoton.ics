@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kituzovadasz//HU
+BEGIN:VEVENT
+UID:2026-11-01_monoton@kituzovadasz
+DTSTAMP:20261016T162407Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Monoton
+LOCATION:Szépjuhászné\, Gyermekvasút-állomás
+DESCRIPTION:A TTT „körözős” túrája: a Szépjuhásznéról induló\, a Kis- és Nagy-Hárs-hegyet érintő kb. 3\,3 km-es kört kell egymás után 1\, 3\, 7 vagy 14-szer megtenni. A maratoni változat így 46 km és több mint 2000 m szint egy kis hurkon.\n\nTávok: 3\,3 km\, 9\,9 km\, 23\,1 km\, 46\,2 km\nDíjazás: Minden távon kitűző és oklevél.\nhttps://coolfrog2.github.io/kituzovadasz/e/2026-11-01_monoton
+END:VEVENT
+END:VCALENDAR

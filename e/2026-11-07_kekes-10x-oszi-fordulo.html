@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1f5130">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="description" content="Jövőbeli teljesítménytúrák térképen — kitűző, érem, jelvény, oklevél. Szűrhető táv, szint, körtúra szerint.">
+  <title>Kékes 10x – Őszi forduló — nov. 7. · Kitűzővadász</title>
+  <link rel="manifest" href="/kituzovadasz/static/manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="/kituzovadasz/static/img/icon.svg">
+  <link rel="apple-touch-icon" href="/kituzovadasz/static/img/icon-192.png">
+  <link rel="stylesheet" href="/kituzovadasz/static/css/app.css?v=1792167843">
+  <script>window.B = "/kituzovadasz";</script>
+  
+<meta property="og:title" content="Kékes 10x – Őszi forduló — 2026. november 7., szombat">
+<meta property="og:description" content="Ismétléses kihívás a Mátrában: Mátraházáról a Kékestetőre és vissza egy 7 km-es, 350 m szintű kör, amelyet 1-től 10-szer lehet teljesíteni (7–70 km). Az évszakonkénti négy forduló közül ez az őszi; gyalog és futva is mehető, létszámkorlát 99 fő.">
+<link rel="stylesheet" href="/kituzovadasz/static/vendor/leaflet/leaflet.css">
+
+</head>
+<body class="page">
+
+
+<header class="topbar sub">
+  <a class="back" href="/kituzovadasz/" onclick="if(document.referrer.startsWith(location.origin)){history.back();return false}" aria-label="Vissza"><svg><use href="#i-back"/></svg></a>
+  <div class="t">nov. 7. · Mátra</div>
+  <button class="star" id="favBtn" data-slug="2026-11-07_kekes-10x-oszi-fordulo" aria-label="Csillagozás"><svg><use href="#i-star"/></svg></button>
+</header>
+
+<main class="ev">
+  <section class="ev-head">
+    
+    <h1>Kékes 10x – Őszi forduló</h1>
+    <p class="when"><b>2026. november 7., szombat</b>
+      <span class="cd" id="cd" data-date="2026-11-07" data-end="">3 hét múlva</span></p>
+    <div class="aw-big">
+      <span class="aw aw-erem"><svg><use href="#i-erem"/></svg>Érem</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      
+    </div>
+    <p class="aws">Minden távon egyedi nyakba akasztható érem és oklevél.</p>
+    <p class="summary">Ismétléses kihívás a Mátrában: Mátraházáról a Kékestetőre és vissza egy 7 km-es, 350 m szintű kör, amelyet 1-től 10-szer lehet teljesíteni (7–70 km). Az évszakonkénti négy forduló közül ez az őszi; gyalog és futva is mehető, létszámkorlát 99 fő.</p>
+    <div class="tags"><span>kör</span><span>futóknak is</span><span>létszámkorlát</span></div>
+  </section>
+
+  <section class="ev-map">
+    <div id="emap"></div>
+    <div id="profile" class="profile" hidden>
+      <div class="ptabs" id="ptabs"></div>
+      <svg id="psvg" preserveAspectRatio="none"></svg>
+      <div class="pinfo" id="pinfo"></div>
+    </div>
+  </section>
+
+  <section class="ev-actions">
+    
+    <a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=47.869984,19.978919" target="_blank" rel="noopener">Útvonal a rajthoz</a>
+    
+    
+    <a class="btn-line" href="/kituzovadasz/e/2026-11-07_kekes-10x-oszi-fordulo.ics">Naptárba</a>
+    <button class="btn-line" id="shareBtn">Megosztás</button>
+  </section>
+
+  <section class="routes">
+    <h2>Távok <small>10</small></h2>
+    
+    <div class="common">
+      <h3>Minden távra érvényes</h3>
+      <dl>
+        <dt>Rajt</dt><dd>Mátraháza, parkoló<br><small>3233 Gyöngyös-Mátraháza</small><br><small>(a cél is itt)</small></dd>
+        
+        <dt>Célzárás</dt><dd>23:59</dd>
+        <dt>Előnevezés</dt><dd>Előnevezés kötelező <small>(határidő: nov. 5.)</small></dd>
+        <dt>Díjazás</dt><dd>Egyedi nyakba akasztható érem és oklevél.</dd>
+        <dt>Frissítés</dt><dd>Kékestetőn és Mátraházán édes és sós falatok, zsíros kenyér, többféle hideg ital, szőlőcukor.</dd>
+        
+        
+      </dl>
+    </div>
+    
+    
+    <article class="route" id="t0" data-i="0">
+      <header>
+        <div class="rk">7<small>km</small></div>
+        <div class="rh">
+          <h3>Kékes 1x (7 km)</h3>
+          <div class="rmeta">
+            <span>↗ 350 m</span>
+            <span>körtúra</span>
+            <span>⏱ 2 óra</span>
+            
+            <span>futva is</span>
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-erem"><svg><use href="#i-erem"/></svg>Érem</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        
+        
+        <dt>Indulás</dt><dd>07:00–11:00</dd>
+        
+        <dt>Nevezés</dt><dd>2 500 Ft<br><small>induláskor fizetendő</small></dd>
+        
+        <dt>Ellenőrzőpont</dt><dd>1 db</dd>
+        
+        
+        <dt>Megjegyzés</dt><dd>A kiírás körönként 2 óra szintidőt ad (a tturak 2,5-et).</dd>
+      </dl>
+      
+    </article>
+    
+    <article class="route" id="t1" data-i="1">
+      <header>
+        <div class="rk">14<small>km</small></div>
+        <div class="rh">
+          <h3>Kékes 2x (14 km)</h3>
+          <div class="rmeta">
+            <span>↗ 700 m</span>
+            <span>körtúra</span>
+            <span>⏱ 4 óra</span>
+            
+            <span>futva is</span>
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-erem"><svg><use href="#i-erem"/></svg>Érem</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        
+        
+        <dt>Indulás</dt><dd>07:00–11:00</dd>
+        
+        <dt>Nevezés</dt><dd>3 500 Ft<br><small>induláskor fizetendő; 2–5 körig egységesen 3500 Ft</small></dd>
+        
+        
+        
+        
+        <dt>Megjegyzés</dt><dd>Szintidő a kiírás szerint körönként 2 óra.</dd>
+      </dl>
+      
+    </article>
+    
+    <article class="route" id="t2" data-i="2">
+      <header>
+        <div class="rk">21<small>km</small></div>
+        <div class="rh">
+          <h3>Kékes 3x (21 km)</h3>
+          <div class="rmeta">
+            <span>↗ 1 050 m</span>
+            <span>körtúra</span>
+            <span>⏱ 6 óra</span>
+            
+            <span>futva is</span>
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-erem"><svg><use href="#i-erem"/></svg>Érem</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        
+        
+        <dt>Indulás</dt><dd>07:00–11:00</dd>
+        
+        <dt>Nevezés</dt><dd>3 500 Ft<br><small>induláskor fizetendő; 2–5 körig egységesen 3500 Ft</small></dd>
+        
+        
+        
+        
+        <dt>Megjegyzés</dt><dd>Szintidő a kiírás szerint körönként 2 óra.</dd>
+      </dl>
+      
+    </article>
+    
+    <article class="route" id="t3" data-i="3">
+      <header>
+        <div class="rk">28<small>km</small></div>
+        <div class="rh">
+          <h3>Kékes 4x (28 km)</h3>
+          <div class="rmeta">
+            <span>↗ 1 400 m</span>
+            <span>körtúra</span>
+            <span>⏱ 8 óra</span>
+            
+            <span>futva is</span>
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-erem"><svg><use href="#i-erem"/></svg>Érem</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        
+        
+        <dt>Indulás</dt><dd>07:00–11:00</dd>
+        
+        <dt>Nevezés</dt><dd>3 500 Ft<br><small>induláskor fizetendő; 2–5 körig egységesen 3500 Ft</small></dd>
+        
+        
+        
+        
+        <dt>Megjegyzés</dt><dd>Szintidő a kiírás szerint körönként 2 óra.</dd>
+      </dl>
+      
+    </article>
+    
+    <article class="route" id="t4" data-i="4">
+      <header>
+        <div class="rk">35<small>km</small></div>
+        <div class="rh">
+          <h3>Kékes 5x (35 km)</h3>
+          <div class="rmeta">
+            <span>↗ 1 750 m</span>
+            <span>körtúra</span>
+            <span>⏱ 10 óra</span>
+            
+            <span>futva is</span>
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-erem"><svg><use href="#i-erem"/></svg>Érem</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        
+        
+        <dt>Indulás</dt><dd>07:00–11:00</dd>
+        
+        <dt>Nevezés</dt><dd>3 500 Ft<br><small>induláskor fizetendő; 2–5 körig egységesen 3500 Ft</small></dd>
+        
+        
+        
+        
+        <dt>Megjegyzés</dt><dd>Szintidő a kiírás szerint körönként 2 óra.</dd>
+      </dl>
+      
+    </article>
+    
+    <article class="route" id="t5" data-i="5">
+      <header>
+        <div class="rk">42<small>km</small></div>
+        <div class="rh">
+          <h3>Kékes 6x (42 km)</h3>
+          <div class="rmeta">
+            <span>↗ 2 100 m</span>
+            <span>körtúra</span>
+            <span>⏱ 12 óra</span>
+            
+            <span>futva is</span>
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-erem"><svg><use href="#i-erem"/></svg>Érem</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        
+        
+        <dt>Indulás</dt><dd>07:00–11:00</dd>
+        
+        <dt>Nevezés</dt><dd>5 000 Ft<br><small>induláskor fizetendő; 6–10 körig egységesen 5000 Ft</small></dd>
+        
+        
+        
+        <dt>Vigyél</dt><dd>fejlámpa</dd>
+        <dt>Megjegyzés</dt><dd>Szintidő a kiírás szerint körönként 2 óra. A sok kört tervezőknek a kiírás fejlámpát ír elő.</dd>
+      </dl>
+      
+    </article>
+    
+    <article class="route" id="t6" data-i="6">
+      <header>
+        <div class="rk">49<small>km</small></div>
+        <div class="rh">
+          <h3>Kékes 7x (49 km)</h3>
+          <div class="rmeta">
+            <span>↗ 2 450 m</span>
+            <span>körtúra</span>
+            <span>⏱ 14 óra</span>
+            
+            <span>futva is</span>
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-erem"><svg><use href="#i-erem"/></svg>Érem</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        
+        
+        <dt>Indulás</dt><dd>07:00–09:00</dd>
+        
+        <dt>Nevezés</dt><dd>5 000 Ft<br><small>induláskor fizetendő; 6–10 körig egységesen 5000 Ft</small></dd>
+        
+        
+        
+        <dt>Vigyél</dt><dd>fejlámpa</dd>
+        <dt>Megjegyzés</dt><dd>Szintidő a kiírás szerint körönként 2 óra. A sok kört tervezőknek a kiírás fejlámpát ír elő.</dd>
+      </dl>
+      
+    </article>
+    
+    <article class="route" id="t7" data-i="7">
+      <header>
+        <div class="rk">56<small>km</small></div>
+        <div class="rh">
+          <h3>Kékes 8x (56 km)</h3>
+          <div class="rmeta">
+            <span>↗ 2 800 m</span>
+            <span>körtúra</span>
+            <span>⏱ 16 óra</span>
+            
+            <span>futva is</span>
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-erem"><svg><use href="#i-erem"/></svg>Érem</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        
+        
+        <dt>Indulás</dt><dd>07:00–09:00</dd>
+        
+        <dt>Nevezés</dt><dd>5 000 Ft<br><small>induláskor fizetendő; 6–10 körig egységesen 5000 Ft</small></dd>
+        
+        
+        
+        <dt>Vigyél</dt><dd>fejlámpa</dd>
+        <dt>Megjegyzés</dt><dd>Szintidő a kiírás szerint körönként 2 óra. A sok kört tervezőknek a kiírás fejlámpát ír elő.</dd>
+      </dl>
+      
+    </article>
+    
+    <article class="route" id="t8" data-i="8">
+      <header>
+        <div class="rk">63<small>km</small></div>
+        <div class="rh">
+          <h3>Kékes 9x (63 km)</h3>
+          <div class="rmeta">
+            <span>↗ 3 150 m</span>
+            <span>körtúra</span>
+            <span>⏱ 18 óra</span>
+            
+            <span>futva is</span>
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-erem"><svg><use href="#i-erem"/></svg>Érem</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        
+        
+        <dt>Indulás</dt><dd>07:00–08:00</dd>
+        
+        <dt>Nevezés</dt><dd>5 000 Ft<br><small>induláskor fizetendő; 6–10 körig egységesen 5000 Ft</small></dd>
+        
+        
+        
+        <dt>Vigyél</dt><dd>fejlámpa</dd>
+        <dt>Megjegyzés</dt><dd>Szintidő a kiírás szerint körönként 2 óra, de a célzárás (23:59) ennél korábbi lehet. A sok kört tervezőknek a kiírás fejlámpát ír elő.</dd>
+      </dl>
+      
+    </article>
+    
+    <article class="route" id="t9" data-i="9">
+      <header>
+        <div class="rk">70<small>km</small></div>
+        <div class="rh">
+          <h3>Kékes 10x (70 km)</h3>
+          <div class="rmeta">
+            <span>↗ 3 500 m</span>
+            <span>körtúra</span>
+            <span>⏱ 20 óra</span>
+            
+            <span>futva is</span>
+          </div>
+        </div>
+      </header>
+      <div class="raw">
+        <span class="aw aw-erem"><svg><use href="#i-erem"/></svg>Érem</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
+      </div>
+      
+      <dl>
+        
+        
+        <dt>Indulás</dt><dd>07:00–08:00</dd>
+        
+        <dt>Nevezés</dt><dd>5 000 Ft<br><small>induláskor fizetendő; 6–10 körig egységesen 5000 Ft</small></dd>
+        
+        
+        
+        <dt>Vigyél</dt><dd>fejlámpa</dd>
+        <dt>Megjegyzés</dt><dd>A kiírás 20 óra maximális szintidőt ad, de a tturak célzárása 23:59 — 7–8 órai rajttal ez legfeljebb kb. 17 óra; érdemes a szervezőnél tisztázni. A sok kört tervezőknek a kiírás fejlámpát ír elő.</dd>
+      </dl>
+      
+    </article>
+    
+  </section>
+
+  
+  <section class="block"><h2>Megközelítés</h2><p>Ingyenes, nem őrzött parkolás Mátraházán, a nagy parkolóban vagy a vele szemközti parkolóban.</p></section>
+  
+
+  <section class="block org">
+    <h2>Szervező</h2>
+    <p><b>Tisza-tó Bringakör Kerékpáros Túramozgalom</b></p>
+    <ul class="links">
+      
+      
+      
+      <li><a href="https://tturak.hu/hikeOccasion/8564/details" target="_blank" rel="noopener">tturak.hu adatlap</a></li>
+      <li><a href="http://tiszatobringakor.webnode.hu" target="_blank" rel="noopener">Szervező honlapja</a></li>
+      <li><a href="tel:+36706760651">+36706760651</a></li>
+      <li><a href="mailto:tiszato.bringa@gmail.com">tiszato.bringa@gmail.com</a></li>
+    </ul>
+  </section>
+
+  <section class="block curator">
+    <p>Utoljára ellenőrizve: <b>okt. 16.</b> ·
+      megbízhatóság: <b>közepes</b></p>
+    <p><small>A szintidőt a kiírás „körönként 2 óra, 10 körre 20 óra” mondata alapján számoltam (a tturak csak az 1 körre ad 2,5 órát); a 9–10 körnél ez ütközik a 23:59-es célzárással. Előregisztráció e-mailben november 5-ig (túra neve, induló neve). A táv kerékpárral is teljesíthető az aszfaltúton, de csak a gyalogos/futó távokat vettem fel. A fejlámpát a kiírás a „sok” kört tervezőknek írja elő; ezt a 6 körtől (42 km) jelöltem, mert novemberben addigra sötétedik.</small></p>
+    <p><small>Az adatokat egy MI-kurátor gyűjti a szervezői kiírásokból. Indulás előtt mindig nézd meg a hivatalos kiírást!</small></p>
+  </section>
+</main>
+
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-kituzo" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="currentColor"/></symbol>
+    <symbol id="i-jelveny" viewBox="0 0 24 24"><path d="M12 2.5 20 6v6c0 4.6-3.3 8.3-8 9.5C7.3 20.3 4 16.6 4 12V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m12 7.5 1.4 2.9 3.1.4-2.3 2.2.6 3.1L12 14.6l-2.8 1.5.6-3.1-2.3-2.2 3.1-.4z" fill="currentColor"/></symbol>
+    <symbol id="i-erem" viewBox="0 0 24 24"><path d="M7 2h4l2 6H9zM13 2h4l-2 6h-4z" fill="currentColor" opacity=".55"/><circle cx="12" cy="15" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="15" r="3" fill="currentColor"/></symbol>
+    <symbol id="i-oklevel" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-egyeb" viewBox="0 0 24 24"><rect x="3.5" y="9" width="17" height="11.5" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M2.5 9h19M12 9v11.5M12 9c-1.5-4-6-4.5-6-1.8C6 9 12 9 12 9zm0 0c1.5-4 6-4.5 6-1.8C18 9 12 9 12 9z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2.8 2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3L2.9 9.5l6.3-.9z" fill="currentColor"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M15 5 8 12l7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </defs>
+</svg>
+
+<script>
+window.EV = {"finishes": [null, null, null, null, null, null, null, null, null, null], "name": "K\u00e9kes 10x \u2013 \u0150szi fordul\u00f3", "routes": ["K\u00e9kes 1x (7 km)", "K\u00e9kes 2x (14 km)", "K\u00e9kes 3x (21 km)", "K\u00e9kes 4x (28 km)", "K\u00e9kes 5x (35 km)", "K\u00e9kes 6x (42 km)", "K\u00e9kes 7x (49 km)", "K\u00e9kes 8x (56 km)", "K\u00e9kes 9x (63 km)", "K\u00e9kes 10x (70 km)"], "slug": "2026-11-07_kekes-10x-oszi-fordulo", "starts": [{"address": "3233 Gy\u00f6ngy\u00f6s-M\u00e1trah\u00e1za", "lat": 47.869984, "lng": 19.978919, "name": "M\u00e1trah\u00e1za, parkol\u00f3"}, {"address": "3233 Gy\u00f6ngy\u00f6s-M\u00e1trah\u00e1za", "lat": 47.869984, "lng": 19.978919, "name": "M\u00e1trah\u00e1za, parkol\u00f3"}, {"address": "3233 Gy\u00f6ngy\u00f6s-M\u00e1trah\u00e1za", "lat": 47.869984, "lng": 19.978919, "name": "M\u00e1trah\u00e1za, parkol\u00f3"}, {"address": "3233 Gy\u00f6ngy\u00f6s-M\u00e1trah\u00e1za", "lat": 47.869984, "lng": 19.978919, "name": "M\u00e1trah\u00e1za, parkol\u00f3"}, {"address": "3233 Gy\u00f6ngy\u00f6s-M\u00e1trah\u00e1za", "lat": 47.869984, "lng": 19.978919, "name": "M\u00e1trah\u00e1za, parkol\u00f3"}, {"address": "3233 Gy\u00f6ngy\u00f6s-M\u00e1trah\u00e1za", "lat": 47.869984, "lng": 19.978919, "name": "M\u00e1trah\u00e1za, parkol\u00f3"}, {"address": "3233 Gy\u00f6ngy\u00f6s-M\u00e1trah\u00e1za", "lat": 47.869984, "lng": 19.978919, "name": "M\u00e1trah\u00e1za, parkol\u00f3"}, {"address": "3233 Gy\u00f6ngy\u00f6s-M\u00e1trah\u00e1za", "lat": 47.869984, "lng": 19.978919, "name": "M\u00e1trah\u00e1za, parkol\u00f3"}, {"address": "3233 Gy\u00f6ngy\u00f6s-M\u00e1trah\u00e1za", "lat": 47.869984, "lng": 19.978919, "name": "M\u00e1trah\u00e1za, parkol\u00f3"}, {"address": "3233 Gy\u00f6ngy\u00f6s-M\u00e1trah\u00e1za", "lat": 47.869984, "lng": 19.978919, "name": "M\u00e1trah\u00e1za, parkol\u00f3"}], "tracks": []};
+</script>
+<script src="/kituzovadasz/static/vendor/leaflet/leaflet.js"></script>
+<script src="/kituzovadasz/static/js/common.js?v=1792167843"></script>
+<script src="/kituzovadasz/static/js/event.js?v=1792167843"></script>
+
+</body>
+</html>
