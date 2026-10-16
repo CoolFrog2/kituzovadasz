@@ -15,8 +15,8 @@
   const me = KV.savedMe();
   if (me) {
     const ds = EV.starts.filter(s => s && s.lat != null).map(s => KV.haversine(me, [s.lat, s.lng]));
-    if (ds.length) {
-      const el = $('#medist');
+    const el = $('#medist');
+    if (ds.length && el) {
       el.innerHTML = `<svg><use href="#i-pin"/></svg>${KV.distTxt(Math.min(...ds))}-re tőled`;
       el.title = 'légvonalban, a legközelebbi rajtig';
       el.hidden = false;
@@ -25,8 +25,10 @@
 
   // kedvenc gomb
   const fb = $('#favBtn');
-  fb.classList.toggle('on', KV.favs().has(EV.slug));
-  fb.addEventListener('click', () => fb.classList.toggle('on', KV.toggleFav(EV.slug)));
+  if (fb) {
+    fb.classList.toggle('on', KV.favs().has(EV.slug));
+    fb.addEventListener('click', () => fb.classList.toggle('on', KV.toggleFav(EV.slug)));
+  }
 
   // megosztás
   $('#shareBtn').addEventListener('click', async () => {

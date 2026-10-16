@@ -4,6 +4,9 @@
 (() => {
   const $ = s => document.querySelector(s);
   const $$ = s => [...document.querySelectorAll(s)];
+  // null-biztos: ha a (gyorsítótárból jött) HTML-ben nincs meg egy elem, csak az a funkció marad ki
+  const on = (sel, ev, fn, opt) => { const el = $(sel); if (el) el.addEventListener(ev, fn, opt); };
+  const setText = (sel, t) => { const el = $(sel); if (el) el.textContent = t; };
 
   const KM_INF = 110, ASC_INF = 3100, PRICE_INF = 16000;
   const DEF = { when: 'all', from: '', to: '', kmMin: 0, kmMax: KM_INF, ascMax: ASC_INF, round: 'all', aw: [],
@@ -52,7 +55,7 @@
     }
     return out;
   }
-  $('#zsoltiInfo').textContent = 'Csak a szabad hétvégék: ' + zsoltiNext(3).join(', ') + ' …';
+  setText('#zsoltiInfo', 'Csak a szabad hétvégék: ' + zsoltiNext(3).join(', ') + ' …');
 
   // --- szűrés ---------------------------------------------------------------
   const norm = s => (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
@@ -276,7 +279,7 @@
     $('#kmRange').style.setProperty('--lo', lo + '%'); $('#kmRange').style.setProperty('--hi', hi + '%');
     $('#ascMax').value = F.ascMax; $('#ascOut').textContent = F.ascMax >= ASC_INF ? 'bármennyi' : `${F.ascMax} m`;
     $('#priceMax').value = F.priceMax; $('#priceOut').textContent = F.priceMax >= PRICE_INF ? 'bármennyi' : KV.ft(F.priceMax);
-    for (const k of ['yearly', 'walkin', 'runok', 'huOnly', 'favOnly', 'showCanceled', 'zsolti']) $('#' + k).checked = F[k];
+    for (const k of ['yearly', 'walkin', 'runok', 'huOnly', 'favOnly', 'showCanceled', 'zsolti']) { const el = $('#' + k); if (el) el.checked = F[k]; }
     $$('[data-preset="km"] button').forEach(b => {
       const [a, c] = b.dataset.v.split('-').map(Number); b.classList.toggle('on', F.kmMin === a && F.kmMax === c);
     });
@@ -299,20 +302,20 @@
     if (F.kmMin === a && F.kmMax === c) { F.kmMin = 0; F.kmMax = KM_INF; } else { F.kmMin = a; F.kmMax = c; }
     refresh();
   }));
-  $('#kmMin').addEventListener('input', ev => { F.kmMin = Math.min(Number(ev.target.value), F.kmMax - 1); refresh(); });
-  $('#kmMax').addEventListener('input', ev => { F.kmMax = Math.max(Number(ev.target.value), F.kmMin + 1); refresh(); });
-  $('#ascMax').addEventListener('input', ev => { F.ascMax = Number(ev.target.value); refresh(); });
-  $('#priceMax').addEventListener('input', ev => { F.priceMax = Number(ev.target.value); refresh(); });
-  $('#dFrom').addEventListener('change', ev => { F.from = ev.target.value; refresh(); });
-  $('#dTo').addEventListener('change', ev => { F.to = ev.target.value; refresh(); });
+  on('#kmMin', 'input', ev => { F.kmMin = Math.min(Number(ev.target.value), F.kmMax - 1); refresh(); });
+  on('#kmMax', 'input', ev => { F.kmMax = Math.max(Number(ev.target.value), F.kmMin + 1); refresh(); });
+  on('#ascMax', 'input', ev => { F.ascMax = Number(ev.target.value); refresh(); });
+  on('#priceMax', 'input', ev => { F.priceMax = Number(ev.target.value); refresh(); });
+  on('#dFrom', 'change', ev => { F.from = ev.target.value; refresh(); });
+  on('#dTo', 'change', ev => { F.to = ev.target.value; refresh(); });
   for (const k of ['yearly', 'walkin', 'runok', 'huOnly', 'favOnly', 'showCanceled', 'zsolti'])
-    $('#' + k).addEventListener('change', ev => { F[k] = ev.target.checked; refresh(); });
-  let qt; $('#q').addEventListener('input', ev => { clearTimeout(qt); qt = setTimeout(() => { F.q = ev.target.value; refresh(); }, 150); });
-  $('#sort').addEventListener('change', ev => { F.sort = ev.target.value; refresh(); });
+    on('#' + k, 'change', ev => { F[k] = ev.target.checked; refresh(); });
+  let qt; on('#q', 'input', ev => { clearTimeout(qt); qt = setTimeout(() => { F.q = ev.target.value; refresh(); }, 150); });
+  on('#sort', 'change', ev => { F.sort = ev.target.value; refresh(); });
 
   function reset() { const keepSort = F.sort; F = { ...DEF, sort: keepSort === 'near' && me ? 'near' : 'date' }; refresh(); }
-  $('#btnReset').addEventListener('click', reset);
-  $('#btnApply').addEventListener('click', () => show('map'));
+  on('#btnReset', 'click', reset);
+  on('#btnApply', 'click', () => show('map'));
 
   // --- helymeghatározás ----------------------------------------------------
   // A helyzet csak a böngészőben marad (localStorage), sehova nem küldjük el.
@@ -349,17 +352,18 @@
   // Lista teteji sáv: „Mutasd, milyen messze vannak” — csak ha még nincs helyzet és nincs tiltva.
   function syncLocBanner() {
     const el = $('#locBanner');
+    if (!el) return;
     el.hidden = !!me || geoState === 'denied' || localStorage.getItem('kv_locDismiss') === '1';
   }
-  $('#locYes').addEventListener('click', () => locate(false, false));
-  $('#locNo').addEventListener('click', () => { localStorage.setItem('kv_locDismiss', '1'); syncLocBanner(); });
+  on('#locYes', 'click', () => locate(false, false));
+  on('#locNo', 'click', () => { localStorage.setItem('kv_locDismiss', '1'); syncLocBanner(); });
   function drawMe() {
     if (!me) return;
     if (meMarker) meMarker.setLatLng(me);
     else meMarker = L.marker(me, { icon: L.divIcon({ className: 'me', html: '<i></i>', iconSize: [18, 18] }), interactive: false }).addTo(map);
   }
-  $('#btnLocate').addEventListener('click', () => { if (me) { map.setView(me, 10); } locate(!me); });
-  $('#btnGeo').addEventListener('click', () => { locate(false); if (!F.radius) F.radius = 100; });
+  on('#btnLocate', 'click', () => { if (me) { map.setView(me, 10); } locate(!me); });
+  on('#btnGeo', 'click', () => { locate(false); if (!F.radius) F.radius = 100; });
 
   // --- nézetek -------------------------------------------------------------
   function show(v, push = true) {
@@ -390,5 +394,5 @@
     if (sy && view === 'list') requestAnimationFrame(() => { $('#view-list').scrollTop = Number(sy); });
   }).catch(() => { $('#count').textContent = 'hiba'; });
 
-  $('#view-list').addEventListener('scroll', ev => sessionStorage.setItem('kv_listScroll', ev.target.scrollTop), { passive: true });
+  on('#view-list', 'scroll', ev => sessionStorage.setItem('kv_listScroll', ev.target.scrollTop), { passive: true });
 })();
