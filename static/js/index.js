@@ -8,7 +8,7 @@
   const KM_INF = 110, ASC_INF = 3100, PRICE_INF = 16000;
   const DEF = { when: 'all', from: '', to: '', kmMin: 0, kmMax: KM_INF, ascMax: ASC_INF, round: 'all', aw: [],
     yearly: false, night: 'all', radius: 0, walkin: false, runok: false, huOnly: false, favOnly: false,
-    showCanceled: false, priceMax: PRICE_INF, q: '', sort: 'date' };
+    showCanceled: false, priceMax: PRICE_INF, q: '', sort: 'date', zsolti: false };
   const EUR = 400; // EUR→HUF durva átváltás az árszűrőhöz
 
   let F = load();
@@ -23,6 +23,36 @@
   function loadMe() {
     try { const m = JSON.parse(localStorage.getItem('kv_me') || 'null'); return m && Date.now() - m.t < 6 * 3600e3 ? m.p : null; } catch { return null; }
   }
+
+  // --- Zsolti kompatibilitás mód ---------------------------------------------
+  // Zsolti minden második hétvégén dolgozik. Viszonyítási pont: 2026-10-17 (szombat)
+  // hétvégéje FOGLALT → az ettől páratlan számú héttel későbbi hétvégék szabadok.
+  // Csak a szombaton/vasárnap INDULÓ túrák számítanak (a péntek esti rajthoz péntek kéne).
+  const ZS_BUSY_SAT = Date.UTC(2026, 9, 17) / 864e5;
+  const dayNum = s => { const [y, m, d] = s.slice(0, 10).split('-').map(Number); return Date.UTC(y, m - 1, d) / 864e5; };
+  function zsoltiOk(s) {
+    const dn = dayNum(s), dow = new Date(dn * 864e5).getUTCDay();
+    if (dow !== 6 && dow !== 0) return false;
+    const k = Math.round(((dow === 6 ? dn : dn - 1) - ZS_BUSY_SAT) / 7);
+    return ((k % 2) + 2) % 2 === 1;
+  }
+  function zsoltiNext(count) {
+    const t = new Date(); const today = Date.UTC(t.getFullYear(), t.getMonth(), t.getDate()) / 864e5;
+    const M = ['jan.', 'febr.', 'márc.', 'ápr.', 'máj.', 'jún.', 'júl.', 'aug.', 'szept.', 'okt.', 'nov.', 'dec.'];
+    const out = [];
+    for (let d = today - 1; out.length < count && d < today + 400; d++) {
+      const sat = new Date(d * 864e5);
+      if (sat.getUTCDay() !== 6 || d + 1 < today) continue;
+      const iso = sat.toISOString().slice(0, 10);
+      if (!zsoltiOk(iso)) continue;
+      const sun = new Date((d + 1) * 864e5);
+      out.push(sat.getUTCMonth() === sun.getUTCMonth()
+        ? `${M[sat.getUTCMonth()]} ${sat.getUTCDate()}–${sun.getUTCDate()}.`
+        : `${M[sat.getUTCMonth()]} ${sat.getUTCDate()}. – ${M[sun.getUTCMonth()]} ${sun.getUTCDate()}.`);
+    }
+    return out;
+  }
+  $('#zsoltiInfo').textContent = 'Csak a szabad hétvégék: ' + zsoltiNext(3).join(', ') + ' …';
 
   // --- szűrés ---------------------------------------------------------------
   const norm = s => (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
@@ -72,6 +102,7 @@
         if (F.from && end < F.from) continue;
         if (F.to && e.date > F.to) continue;
       }
+      if (F.zsolti && !zsoltiOk(e.date)) continue;
       if (F.yearly && !e.yearly) continue;
       if (F.huOnly && e.country !== 'HU') continue;
       if (F.favOnly && !favs.has(e.slug)) continue;
@@ -215,7 +246,7 @@
     save();
     lastRows = filtered();
     const n = lastRows.length;
-    $('#count').innerHTML = `<b>${n}</b> túra`;
+    $('#count').innerHTML = `<b>${n}</b> túra${F.zsolti ? ' <span class="zs-on">Zsolti-mód</span>' : ''}`;
     $('#applyCount').textContent = n;
     const ac = activeCount();
     $('#fbadge').hidden = !ac; $('#fbadge').textContent = ac;
@@ -243,7 +274,7 @@
     $('#kmRange').style.setProperty('--lo', lo + '%'); $('#kmRange').style.setProperty('--hi', hi + '%');
     $('#ascMax').value = F.ascMax; $('#ascOut').textContent = F.ascMax >= ASC_INF ? 'bármennyi' : `${F.ascMax} m`;
     $('#priceMax').value = F.priceMax; $('#priceOut').textContent = F.priceMax >= PRICE_INF ? 'bármennyi' : KV.ft(F.priceMax);
-    for (const k of ['yearly', 'walkin', 'runok', 'huOnly', 'favOnly', 'showCanceled']) $('#' + k).checked = F[k];
+    for (const k of ['yearly', 'walkin', 'runok', 'huOnly', 'favOnly', 'showCanceled', 'zsolti']) $('#' + k).checked = F[k];
     $$('[data-preset="km"] button').forEach(b => {
       const [a, c] = b.dataset.v.split('-').map(Number); b.classList.toggle('on', F.kmMin === a && F.kmMax === c);
     });
@@ -272,7 +303,7 @@
   $('#priceMax').addEventListener('input', ev => { F.priceMax = Number(ev.target.value); refresh(); });
   $('#dFrom').addEventListener('change', ev => { F.from = ev.target.value; refresh(); });
   $('#dTo').addEventListener('change', ev => { F.to = ev.target.value; refresh(); });
-  for (const k of ['yearly', 'walkin', 'runok', 'huOnly', 'favOnly', 'showCanceled'])
+  for (const k of ['yearly', 'walkin', 'runok', 'huOnly', 'favOnly', 'showCanceled', 'zsolti'])
     $('#' + k).addEventListener('change', ev => { F[k] = ev.target.checked; refresh(); });
   let qt; $('#q').addEventListener('input', ev => { clearTimeout(qt); qt = setTimeout(() => { F.q = ev.target.value; refresh(); }, 150); });
   $('#sort').addEventListener('change', ev => { F.sort = ev.target.value; refresh(); });

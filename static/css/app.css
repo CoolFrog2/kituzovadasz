@@ -261,3 +261,7 @@ main.ev, main.doc { max-width: 640px; margin: 0 auto; }
 .common h3 { margin: 10px 0 0; font-size: 15px; color: var(--muted); font-weight: 650; }
 .common dl { display: grid; grid-template-columns: 100px 1fr; gap: 7px 10px; margin: 10px 0 2px; font-size: 14.5px; }
 .common dt { color: var(--muted); } .common dd { margin: 0; } .common dd small { color: var(--muted); }
+
+.f-group.zsolti { padding: 8px 0 6px; }
+.f-group.zsolti .toggle span b { font-size: 15.5px; }
+.zs-on { display: inline-block; margin-left: 6px; padding: 1px 7px; border-radius: 8px; background: var(--accent); color: #fff; font-size: 12px; font-weight: 700; vertical-align: 2px; }
