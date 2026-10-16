@@ -11,7 +11,7 @@
   <link rel="manifest" href="/kituzovadasz/static/manifest.webmanifest">
   <link rel="icon" type="image/svg+xml" href="/kituzovadasz/static/img/icon.svg">
   <link rel="apple-touch-icon" href="/kituzovadasz/static/img/icon-192.png">
-  <link rel="stylesheet" href="/kituzovadasz/static/css/app.css?v=1792168145">
+  <link rel="stylesheet" href="/kituzovadasz/static/css/app.css?v=1792168592">
   <script>window.B = "/kituzovadasz";</script>
   
 <meta property="og:title" content="Budapesti Csillagszóró — 2026. november 15., vasárnap">
@@ -33,7 +33,8 @@
     
     <h1>Budapesti Csillagszóró</h1>
     <p class="when"><b>2026. november 15., vasárnap</b>
-      <span class="cd" id="cd" data-date="2026-11-15" data-end="">4 hét múlva</span></p>
+      <span class="cd" id="cd" data-date="2026-11-15" data-end="">4 hét múlva</span>
+      <span class="me-d" id="medist" hidden></span></p>
     <div class="aw-big">
       <span class="aw aw-kituzo"><svg><use href="#i-kituzo"/></svg>Kitűző</span><span class="aw aw-oklevel"><svg><use href="#i-oklevel"/></svg>Oklevél</span>
       
@@ -643,6 +644,7 @@
     <symbol id="i-erem" viewBox="0 0 24 24"><path d="M7 2h4l2 6H9zM13 2h4l-2 6h-4z" fill="currentColor" opacity=".55"/><circle cx="12" cy="15" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="15" r="3" fill="currentColor"/></symbol>
     <symbol id="i-oklevel" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
     <symbol id="i-egyeb" viewBox="0 0 24 24"><rect x="3.5" y="9" width="17" height="11.5" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M2.5 9h19M12 9v11.5M12 9c-1.5-4-6-4.5-6-1.8C6 9 12 9 12 9zm0 0c1.5-4 6-4.5 6-1.8C18 9 12 9 12 9z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z" fill="currentColor"/><circle cx="12" cy="10" r="2.6" fill="#fff"/></symbol>
     <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2.8 2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3L2.9 9.5l6.3-.9z" fill="currentColor"/></symbol>
     <symbol id="i-back" viewBox="0 0 24 24"><path d="M15 5 8 12l7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
   </defs>
@@ -652,8 +654,8 @@
 window.EV = {"finishes": [null, null, null, null, null, {"address": "1013 Budapest, Hadnagy utca 8\u201310.", "lat": 47.490561, "lng": 19.043327, "name": "Budapest, R\u00e1c-f\u00fcrd\u0151"}, {"address": "1013 Budapest, Hadnagy utca 8\u201310.", "lat": 47.490599, "lng": 19.042968, "name": "Budapest, R\u00e1c-f\u00fcrd\u0151"}, null, {"address": "1037 Budapest, Bokor utca 27.", "lat": 47.531872, "lng": 19.038129, "name": "Budapest, Katonav\u00e1rosi Amfite\u00e1trum"}, null, null, {"address": "1118 Budapest, Szent Gell\u00e9rt rakpart", "lat": 47.484751, "lng": 19.052273, "name": "Budapest, Sziklatemplom"}, null, null, null, null], "name": "Budapesti Csillagsz\u00f3r\u00f3", "routes": ["Szent Iv\u00f3 napi gyaloglat", "Az eml\u00e9kez\u00e9s a lelket er\u0151s\u00edti", "Gell\u00e9rt-hegyi vill\u00e1k", "Budav\u00e1ri Csillagok", "A n\u00e1ndorfeh\u00e9rv\u00e1ri diadal napja", "Tisza Istv\u00e1n eml\u00e9kt\u00fara", "32-es baka vagyok \u00e9n...", "Szent Margit nyom\u00e1ban", "R\u00f3mai-kori eml\u00e9kek nyom\u00e1ban", "P\u00e1los eml\u00e9kek nyom\u00e1ban", "Regnum Marianum", "T\u00f6r\u00f6k-kori eml\u00e9kek nyom\u00e1ban", "Budapesti k\u00e1poln\u00e1k", "Budapesti templomok", "M\u00e1rton \u00c1ron eml\u00e9kt\u00fara", "Szab\u00f3 Dezs\u0151 eml\u00e9kt\u00fara"], "slug": "2026-11-15_budapesti-csillagszoro", "starts": [{"address": "1036 Budapest, Bokor utca 25.", "lat": 47.531791, "lng": 19.03813, "name": "Budapest, Katonav\u00e1rosi Amfite\u00e1trum"}, {"address": "1013 Budapest, Hadnagy utca 8\u201310.", "lat": 47.490561, "lng": 19.043327, "name": "Budapest, R\u00e1c-f\u00fcrd\u0151"}, {"address": "1013 Budapest, Hadnagy utca 8\u201310.", "lat": 47.490561, "lng": 19.043327, "name": "Budapest, R\u00e1c-f\u00fcrd\u0151"}, {"address": "1013 Budapest, Hadnagy utca 8\u201310.", "lat": 47.490599, "lng": 19.042968, "name": "Budapest, R\u00e1c-f\u00fcrd\u0151"}, {"address": "1013 Budapest, Hadnagy utca 8\u201310.", "lat": 47.490599, "lng": 19.042968, "name": "Budapest, R\u00e1c-f\u00fcrd\u0151"}, {"address": null, "lat": 47.51661, "lng": 19.089485, "name": "Budapest, R\u00f3heim-villa"}, {"address": null, "lat": 47.46944, "lng": 19.088791, "name": "Budapest, M\u00e1lenkij robot eml\u00e9km\u0171"}, {"address": "1037 Budapest, Bokor utca 27.", "lat": 47.531872, "lng": 19.038129, "name": "Budapest, Katonav\u00e1rosi Amfite\u00e1trum"}, {"address": "1031 Budapest, Szentendrei \u00fat", "lat": 47.575202, "lng": 19.048456, "name": "Budapest, R\u00f3mai-f\u00fcrd\u0151 H\u00c9V-meg\u00e1ll\u00f3"}, {"address": "1013 Budapest, Hadnagy utca 8\u201310.", "lat": 47.490561, "lng": 19.043327, "name": "Budapest, R\u00e1c-f\u00fcrd\u0151"}, {"address": null, "lat": 47.51661, "lng": 19.089485, "name": "Budapest, R\u00f3heim-villa"}, {"address": "1037 Budapest, Bokor utca 27.", "lat": 47.531872, "lng": 19.038129, "name": "Budapest, Katonav\u00e1rosi Amfite\u00e1trum"}, {"address": null, "lat": 47.54304, "lng": 18.96397, "name": "Budapest, H\u0171v\u00f6sv\u00f6lgy, P+R parkol\u00f3"}, {"address": "1013 Budapest, Hadnagy utca 8\u201310.", "lat": 47.490561, "lng": 19.043327, "name": "Budapest, R\u00e1c-f\u00fcrd\u0151"}, {"address": "1013 Budapest, Hadnagy utca 8\u201310.", "lat": 47.490561, "lng": 19.043327, "name": "Budapest, R\u00e1c-f\u00fcrd\u0151"}, {"address": "1013 Budapest, Hadnagy utca 8\u201310.", "lat": 47.490561, "lng": 19.043327, "name": "Budapest, R\u00e1c-f\u00fcrd\u0151"}], "tracks": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]};
 </script>
 <script src="/kituzovadasz/static/vendor/leaflet/leaflet.js"></script>
-<script src="/kituzovadasz/static/js/common.js?v=1792168145"></script>
-<script src="/kituzovadasz/static/js/event.js?v=1792168145"></script>
+<script src="/kituzovadasz/static/js/common.js?v=1792168592"></script>
+<script src="/kituzovadasz/static/js/event.js?v=1792168592"></script>
 
 </body>
 </html>

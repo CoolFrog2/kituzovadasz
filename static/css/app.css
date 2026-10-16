@@ -265,3 +265,14 @@ main.ev, main.doc { max-width: 640px; margin: 0 auto; }
 .f-group.zsolti { padding: 8px 0 6px; }
 .f-group.zsolti .toggle span b { font-size: 15.5px; }
 .zs-on { display: inline-block; margin-left: 6px; padding: 1px 7px; border-radius: 8px; background: var(--accent); color: #fff; font-size: 12px; font-weight: 700; vertical-align: 2px; }
+
+.me-d { display: inline-flex; align-items: center; gap: 2px; color: var(--brand-2); font-weight: 700; margin-right: 6px; white-space: nowrap; }
+.me-d svg { width: 13px; height: 13px; }
+.when .me-d { margin-left: 8px; font-size: 13.5px; }
+.loc-banner { display: flex; align-items: center; gap: 10px; margin: 10px 10px 0; padding: 12px; border-radius: var(--r);
+  background: var(--card); box-shadow: var(--shadow); border-left: 4px solid var(--brand-2); font-size: 14px; }
+.loc-banner .lb-pin { flex: 0 0 26px; width: 26px; height: 26px; color: var(--brand-2); }
+.loc-banner small { color: var(--muted); }
+.lb-act { display: flex; align-items: center; gap: 2px; margin-left: auto; }
+.btn.sm { height: 36px; padding: 0 14px; font-size: 14px; }
+.lb-x { border: 0; background: none; color: var(--muted); font-size: 22px; width: 32px; height: 36px; }

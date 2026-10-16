@@ -199,13 +199,14 @@
     const dists = e.routes.map((r, i) => `<span class="d${hit[i] ? ' on' : ''}${r.night ? ' nt' : ''}">${KV.km(r.km)}</span>`).join('');
     const aw = new Set(); e.routes.forEach((r, i) => hit[i] && r.aw.forEach(a => aw.add(a)));
     const meta = [e.region.slice(0, 2).join(', '), KV.countdown(e)];
-    if (dist != null) meta.push(`${Math.round(dist)} km-re`);
+    // a távolság a sor ELEJÉRE kerül, hogy hosszú tájnévnél se vágódjon le
+    const dHtml = dist != null ? `<span class="me-d" title="légvonalban a helyzetedtől"><svg><use href="#i-pin"/></svg>${KV.distTxt(dist)}</span>` : '';
     const multi = e.end && e.end !== e.date ? `<i class="multi">+${KV.daysUntil(e.end) - KV.daysUntil(e.date)}</i>` : '';
     return `<a class="card${e.status === 'elmarad' ? ' canceled' : ''}${inPeek ? ' in-peek' : ''}" href="${window.B}/e/${e.slug}">
       <div class="dbox ${KV.soon(e.date)}"><b>${b.d}</b><span>${b.m}</span><i>${b.w}</i>${multi}</div>
       <div class="cbody">
         <h4>${e.status === 'elmarad' ? '<span class="tag-x">ELMARAD</span> ' : ''}${KV.esc(e.name)}</h4>
-        <div class="meta">${KV.esc(meta.filter(Boolean).join(' · '))}</div>
+        <div class="meta">${dHtml}${KV.esc(meta.filter(Boolean).join(' · '))}</div>
         <div class="dists">${dists}<small>km</small></div>
         <div class="awline">${KV.awardIcons([...aw])}<span>${KV.esc(e.aws || '')}</span></div>
       </div>
@@ -253,6 +254,7 @@
     drawMap(lastRows);
     drawList(lastRows);
     syncControls();
+    syncLocBanner();
   }
 
   // --- vezérlők ------------------------------------------------------------
@@ -313,16 +315,44 @@
   $('#btnApply').addEventListener('click', () => show('map'));
 
   // --- helymeghatározás ----------------------------------------------------
-  function locate(thenFit) {
-    if (!navigator.geolocation) { alert('Ez a böngésző nem ad helyadatot.'); return; }
+  // A helyzet csak a böngészőben marad (localStorage), sehova nem küldjük el.
+  function locate(thenFit, silent) {
+    if (!navigator.geolocation) { if (!silent) alert('Ez a böngésző nem ad helyadatot.'); return; }
     navigator.geolocation.getCurrentPosition(pos => {
       me = [pos.coords.latitude, pos.coords.longitude];
       localStorage.setItem('kv_me', JSON.stringify({ p: me, t: Date.now() }));
       drawMe();
       if (thenFit) map.setView(me, 10);
       refresh();
-    }, err => alert('Nem sikerült a helymeghatározás: ' + err.message), { enableHighAccuracy: false, timeout: 10000, maximumAge: 600000 });
+    }, err => {
+      geoState = err.code === 1 ? 'denied' : geoState;
+      syncLocBanner();
+      if (!silent) alert(err.code === 1
+        ? 'A helyadat-hozzáférés le van tiltva. A böngésző beállításaiban engedélyezheted ennek az oldalnak.'
+        : 'Nem sikerült a helymeghatározás: ' + err.message);
+    }, { enableHighAccuracy: false, timeout: 10000, maximumAge: 600000 });
   }
+
+  // Ha a böngésző már kapott engedélyt, kérdezés nélkül frissítjük a helyzetet.
+  let geoState = 'prompt';
+  async function autoLocate() {
+    if (!navigator.geolocation || !navigator.permissions) return;
+    try {
+      const st = await navigator.permissions.query({ name: 'geolocation' });
+      geoState = st.state;
+      if (st.state === 'granted') locate(false, true);
+      st.onchange = () => { geoState = st.state; if (st.state === 'granted') locate(false, true); syncLocBanner(); };
+    } catch { /* régi böngésző: marad a gomb */ }
+    syncLocBanner();
+  }
+
+  // Lista teteji sáv: „Mutasd, milyen messze vannak” — csak ha még nincs helyzet és nincs tiltva.
+  function syncLocBanner() {
+    const el = $('#locBanner');
+    el.hidden = !!me || geoState === 'denied' || localStorage.getItem('kv_locDismiss') === '1';
+  }
+  $('#locYes').addEventListener('click', () => locate(false, false));
+  $('#locNo').addEventListener('click', () => { localStorage.setItem('kv_locDismiss', '1'); syncLocBanner(); });
   function drawMe() {
     if (!me) return;
     if (meMarker) meMarker.setLatLng(me);
@@ -338,7 +368,8 @@
     $$('.tabbar button').forEach(b => b.classList.toggle('active', b.dataset.view === v));
     if (v === 'map') setTimeout(() => map.invalidateSize(), 0);
     if (v !== 'map') closePeek();
-    if (push) history.replaceState(null, '', v === 'map' ? location.pathname : '#' + v);
+    // a hash NEM egyezhet elem-id-vel (#list), különben a böngésző odagörget
+    if (push) history.replaceState(null, '', v === 'map' ? location.pathname : '#' + (v === 'list' ? 'lista' : 'szurok'));
     sessionStorage.setItem('kv_view', v);
   }
   $$('.tabbar button').forEach(b => b.addEventListener('click', () => show(b.dataset.view)));
@@ -350,7 +381,10 @@
     }));
     drawMe();
     refresh();
-    const want = (location.hash || '').slice(1) || sessionStorage.getItem('kv_view');
+    autoLocate();
+    const h = (location.hash || '').slice(1);
+    const want = ({ lista: 'list', list: 'list', szurok: 'filter', filter: 'filter' })[h] || sessionStorage.getItem('kv_view');
+    if (h === 'list' || h === 'filter') history.replaceState(null, '', '#' + (h === 'list' ? 'lista' : 'szurok'));
     if (want === 'list' || want === 'filter') show(want, false);
     const sy = sessionStorage.getItem('kv_listScroll');
     if (sy && view === 'list') requestAnimationFrame(() => { $('#view-list').scrollTop = Number(sy); });

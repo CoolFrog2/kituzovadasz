@@ -11,6 +11,18 @@
   const cd = $('#cd');
   if (cd) cd.textContent = KV.countdown({ date: cd.dataset.date, end: cd.dataset.end || null });
 
+  // távolság tőled (ha a főoldalon már engedélyezted a helyadatot)
+  const me = KV.savedMe();
+  if (me) {
+    const ds = EV.starts.filter(s => s && s.lat != null).map(s => KV.haversine(me, [s.lat, s.lng]));
+    if (ds.length) {
+      const el = $('#medist');
+      el.innerHTML = `<svg><use href="#i-pin"/></svg>${KV.distTxt(Math.min(...ds))}-re tőled`;
+      el.title = 'légvonalban, a legközelebbi rajtig';
+      el.hidden = false;
+    }
+  }
+
   // kedvenc gomb
   const fb = $('#favBtn');
   fb.classList.toggle('on', KV.favs().has(EV.slug));

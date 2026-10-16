@@ -37,6 +37,7 @@ const KV = (() => {
     return 's4';
   }
 
+  const distTxt = d => d < 10 ? `${String(Math.round(d * 10) / 10).replace('.', ',')} km` : `${Math.round(d)} km`;
   const km = x => x == null ? '—' : String(Math.round(x * 10) / 10).replace('.', ',');
   const ft = n => n == null ? '' : n === 0 ? 'ingyenes' : `${String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ' ')} Ft`;
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -82,6 +83,11 @@ const KV = (() => {
     map.on('overlayremove', () => localStorage.setItem('kv_trails', '0'));
   }
 
-  return { parse, daysUntil, dateShort, dateBox, monthTitle, weekday, countdown, soon, km, ft, esc,
+  // a mentett helyzet (6 óráig érvényes) — az index és az adatlap is ezt használja
+  function savedMe() {
+    try { const m = JSON.parse(localStorage.getItem('kv_me') || 'null'); return m && Date.now() - m.t < 6 * 3600e3 ? m.p : null; } catch { return null; }
+  }
+
+  return { distTxt, savedMe, parse, daysUntil, dateShort, dateBox, monthTitle, weekday, countdown, soon, km, ft, esc,
     awardIcons, haversine, favs, toggleFav, baseLayers, AWARD };
 })();
