@@ -317,3 +317,4 @@ main.ev, main.doc { max-width: 640px; margin: 0 auto; }
 .map-chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; padding-bottom: 4px; }
 .map-chips::-webkit-scrollbar { display: none; }
 .map-chips button { flex: 0 0 auto; height: 32px; font-size: 13.5px; }
+
