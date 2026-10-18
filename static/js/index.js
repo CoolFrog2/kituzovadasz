@@ -291,7 +291,7 @@
     const e = EVENTS.find(x => x.slug === b.dataset.slug);
     if (!e) return;
     const pub = window.PUB || `${location.origin}${window.B}/`;
-    KV.share({ title: e.name, text: e.sh || e.name, url: `${pub}e/${e.slug}` });
+    KV.share({ title: e.name, text: e.sh || e.name, url: `${pub}e/${e.slug}${e.v ? `?v=${e.v}` : ''}` });
   });
 
   // --- gyorsgombok (térkép + lista) és ★-határidő riasztások -----------------
