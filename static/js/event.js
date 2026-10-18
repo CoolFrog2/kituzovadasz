@@ -30,12 +30,10 @@
     fb.addEventListener('click', () => fb.classList.toggle('on', KV.toggleFav(EV.slug)));
   }
 
-  // megosztás
-  $('#shareBtn').addEventListener('click', async () => {
-    const data = { title: EV.name, url: location.href };
-    if (navigator.share) { try { await navigator.share(data); } catch { /* mégse */ } }
-    else { await navigator.clipboard?.writeText(location.href); $('#shareBtn').textContent = 'Link másolva ✓'; }
-  });
+  // megosztás: név + lényeg + a publikus link (helyi böngészésből is)
+  const sb = $('#shareBtn');
+  if (sb) sb.addEventListener('click', () => KV.share({
+    title: sb.dataset.title || EV.name, text: sb.dataset.text || EV.name, url: sb.dataset.url || location.href }));
 
   // térkép
   const map = L.map('emap', { zoomControl: false, scrollWheelZoom: false });

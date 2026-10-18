@@ -253,6 +253,7 @@
         ${extra}
       </div>
       <button class="star${fav ? ' on' : ''}" data-slug="${e.slug}" aria-label="Csillagozás"><svg><use href="#i-star"/></svg></button>
+      <button class="share" data-slug="${e.slug}" aria-label="Megosztás"><svg><use href="#i-share"/></svg></button>
     </a>`;
   }
 
@@ -281,6 +282,16 @@
     const on = KV.toggleFav(s.dataset.slug);
     $$(`.star[data-slug="${s.dataset.slug}"]`).forEach(x => x.classList.toggle('on', on));
     if (F.favOnly) refresh(); else drawMap(lastRows);
+  });
+
+  document.addEventListener('click', ev => {
+    const b = ev.target.closest('.card .share');
+    if (!b) return;
+    ev.preventDefault(); ev.stopPropagation();
+    const e = EVENTS.find(x => x.slug === b.dataset.slug);
+    if (!e) return;
+    const pub = window.PUB || `${location.origin}${window.B}/`;
+    KV.share({ title: e.name, text: e.sh || e.name, url: `${pub}e/${e.slug}` });
   });
 
   // --- gyorsgombok (térkép + lista) és ★-határidő riasztások -----------------

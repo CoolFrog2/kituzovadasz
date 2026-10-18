@@ -83,11 +83,35 @@ const KV = (() => {
     map.on('overlayremove', () => localStorage.setItem('kv_trails', '0'));
   }
 
+  // rövid visszajelzés a képernyő alján
+  function toast(msg) {
+    const el = document.createElement('div');
+    el.className = 'toast'; el.textContent = msg;
+    document.body.appendChild(el);
+    setTimeout(() => el.classList.add('out'), 1600);
+    setTimeout(() => el.remove(), 2000);
+  }
+
+  // megosztás: a telefon saját megosztó menüje (csak https-en van, pl. a publikus oldalon);
+  // máshol vágólap, végső esetben kimásolható link. A link mindig a publikus oldalra mutat.
+  async function share({ title, text, url }) {
+    if (navigator.share) {
+      try { await navigator.share({ title, text, url }); } catch { /* mégse */ }
+      return;
+    }
+    try {
+      await navigator.clipboard.writeText(text ? `${text}\n${url}` : url);
+      toast('Link másolva ✓');
+    } catch {
+      window.prompt('Másold ki a linket:', url);
+    }
+  }
+
   // a mentett helyzet (6 óráig érvényes) — az index és az adatlap is ezt használja
   function savedMe() {
     try { const m = JSON.parse(localStorage.getItem('kv_me') || 'null'); return m && Date.now() - m.t < 6 * 3600e3 ? m.p : null; } catch { return null; }
   }
 
   return { distTxt, savedMe, parse, daysUntil, dateShort, dateBox, monthTitle, weekday, countdown, soon, km, ft, esc,
-    awardIcons, haversine, favs, toggleFav, baseLayers, AWARD };
+    awardIcons, haversine, favs, toggleFav, baseLayers, share, toast, AWARD };
 })();
